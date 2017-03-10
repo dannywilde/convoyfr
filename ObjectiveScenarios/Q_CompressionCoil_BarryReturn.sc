@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objectiveNumber>0</objectiveNumber>
+  <scenarioType>Ambush</scenarioType>
+  <FilePath>C:/Program Files (x86)/Unity/Convoy/Assets/StreamingAssets/ObjectiveScenarios/Q_CompressionCoil_BarryReturn.sc</FilePath>
+  <BiomeType>Road</BiomeType>
+  <CombatEndDialog>1</CombatEndDialog>
+  <StartDialog>0</StartDialog>
+  <CurrentDialog>0</CurrentDialog>
+  <ShowGUI>false</ShowGUI>
+  <Dialogs>
+    <Dialog>
+      <GraphRect>
+        <x>159</x>
+        <y>237</y>
+        <position>
+          <x>159</x>
+          <y>237</y>
+        </position>
+        <center>
+          <x>234.5</x>
+          <y>288.5</y>
+        </center>
+        <min>
+          <x>159</x>
+          <y>237</y>
+        </min>
+        <max>
+          <x>310</x>
+          <y>340</y>
+        </max>
+        <width>151</width>
+        <height>103</height>
+        <size>
+          <x>151</x>
+          <y>103</y>
+        </size>
+        <xMin>159</xMin>
+        <yMin>237</yMin>
+        <xMax>310</xMax>
+        <yMax>340</yMax>
+      </GraphRect>
+      <Name>Start dialog</Name>
+      <Text>You arrive at Shanty Sands and return Barry to his home.
+
+"Thanks ever so much!
+
+Wait here, I'll check if I have the parts required to build you that Compression Coil."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>4</Chance>
+              <ToDialog>2</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>83</y>
+                <position>
+                  <x>139</x>
+                  <y>83</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>88</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>83</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>93</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>83</yMin>
+                <xMax>149</xMax>
+                <yMax>93</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>3</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Wait...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>179</x>
+        <y>641</y>
+        <position>
+          <x>179</x>
+          <y>641</y>
+        </position>
+        <center>
+          <x>254</x>
+          <y>691</y>
+        </center>
+        <min>
+          <x>179</x>
+          <y>641</y>
+        </min>
+        <max>
+          <x>329</x>
+          <y>741</y>
+        </max>
+        <width>150</width>
+        <height>100</height>
+        <size>
+          <x>150</x>
+          <y>100</y>
+        </size>
+        <xMin>179</xMin>
+        <yMin>641</yMin>
+        <xMax>329</xMax>
+        <yMax>741</yMax>
+      </GraphRect>
+      <Name>Loot dialog</Name>
+      <Text>[0loot]</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddLoot">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Take loot</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>401</x>
+        <y>166</y>
+        <position>
+          <x>401</x>
+          <y>166</y>
+        </position>
+        <center>
+          <x>478.5</x>
+          <y>216</y>
+        </center>
+        <min>
+          <x>401</x>
+          <y>166</y>
+        </min>
+        <max>
+          <x>556</x>
+          <y>266</y>
+        </max>
+        <width>155</width>
+        <height>100</height>
+        <size>
+          <x>155</x>
+          <y>100</y>
+        </size>
+        <xMin>401</xMin>
+        <yMin>166</yMin>
+        <xMax>556</xMax>
+        <yMax>266</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>Barry returns and exclaims:
+
+"Yeah, I should be able to make you one in no time!
+
+Come in, come in. Make yourself comfortable. I'll get to work immediately."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>143</x>
+                <y>65</y>
+                <position>
+                  <x>143</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>148</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>143</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>153</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>143</xMin>
+                <yMin>65</yMin>
+                <xMax>153</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>4</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Wait some more...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>406</x>
+        <y>366</y>
+        <position>
+          <x>406</x>
+          <y>366</y>
+        </position>
+        <center>
+          <x>507</x>
+          <y>416</y>
+        </center>
+        <min>
+          <x>406</x>
+          <y>366</y>
+        </min>
+        <max>
+          <x>608</x>
+          <y>466</y>
+        </max>
+        <width>202</width>
+        <height>100</height>
+        <size>
+          <x>202</x>
+          <y>100</y>
+        </size>
+        <xMin>406</xMin>
+        <yMin>366</yMin>
+        <xMax>608</xMax>
+        <yMax>466</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>Barry returns and says:
+
+"I'm afraid I don't have the materials I need.
+
+You'll have to assault a Compression Coil facility to get what you need.
+
+Either they'll have a functioning one there, or you'll have to retrieve the parts for me to build one there.
+
+If they don't have a functioning Compression Coil, look for crates with an orange and black helix-shaped symbol."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>190</x>
+                <y>65</y>
+                <position>
+                  <x>190</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>195</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>190</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>200</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>190</xMin>
+                <yMin>65</yMin>
+                <xMax>200</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>5</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Where can I find a facility?</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>658</x>
+        <y>218</y>
+        <position>
+          <x>658</x>
+          <y>218</y>
+        </position>
+        <center>
+          <x>733</x>
+          <y>268</y>
+        </center>
+        <min>
+          <x>658</x>
+          <y>218</y>
+        </min>
+        <max>
+          <x>808</x>
+          <y>318</y>
+        </max>
+        <width>150</width>
+        <height>100</height>
+        <size>
+          <x>150</x>
+          <y>100</y>
+        </size>
+        <xMin>658</xMin>
+        <yMin>218</yMin>
+        <xMax>808</xMax>
+        <yMax>318</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>It doesn't take long for Barry to construct you a fully functioning Compression Coil!
+
+He thanks you again for all your troubles and wishes you good luck in your endeavors.
+
+You return to your convoy and safely stash the Compression Coil in your cargo hold.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>138</x>
+                <y>65</y>
+                <position>
+                  <x>138</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>143</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>138</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>148</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>138</xMin>
+                <yMin>65</yMin>
+                <xMax>148</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Onwards!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>698</x>
+        <y>443</y>
+        <position>
+          <x>698</x>
+          <y>443</y>
+        </position>
+        <center>
+          <x>795</x>
+          <y>493</y>
+        </center>
+        <min>
+          <x>698</x>
+          <y>443</y>
+        </min>
+        <max>
+          <x>892</x>
+          <y>543</y>
+        </max>
+        <width>194</width>
+        <height>100</height>
+        <size>
+          <x>194</x>
+          <y>100</y>
+        </size>
+        <xMin>698</xMin>
+        <yMin>443</yMin>
+        <xMax>892</xMax>
+        <yMax>543</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"I'll add the coordinates of one to your scanner.
+
+Good luck!"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>65</y>
+                <position>
+                  <x>182</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>65</yMin>
+                <xMax>192</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_CompressionCoil_BarryHome</nodeName>
+              <nodeDiscription>Barry was unable to construct a Compression Coil for you, so he has pointed you to the location of a Compression Coil facility.
+
+If you assault it, you'll either find a Compression Coil or the parts required for Barry to make one.</nodeDiscription>
+              <pos>Random</pos>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Thanks.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+  </Dialogs>
+  <Name>Q_CompressionCoil_BarryReturn</Name>
+</Scenario>

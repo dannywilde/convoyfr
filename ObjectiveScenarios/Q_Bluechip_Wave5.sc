@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objectiveNumber>0</objectiveNumber>
+  <scenarioType>Ambush</scenarioType>
+  <FilePath>C:/Users/Ryanne/Desktop/Convoy/Assets/StreamingAssets/ObjectiveScenarios/Q_Bluechip_Wave5.sc</FilePath>
+  <BiomeType>Road</BiomeType>
+  <CombatEndDialog>1</CombatEndDialog>
+  <StartDialog>0</StartDialog>
+  <CurrentDialog>0</CurrentDialog>
+  <ShowGUI>false</ShowGUI>
+  <Dialogs>
+    <Dialog>
+      <GraphRect>
+        <x>168</x>
+        <y>170</y>
+        <position>
+          <x>168</x>
+          <y>170</y>
+        </position>
+        <center>
+          <x>269</x>
+          <y>220.5</y>
+        </center>
+        <min>
+          <x>168</x>
+          <y>170</y>
+        </min>
+        <max>
+          <x>370</x>
+          <y>271</y>
+        </max>
+        <width>202</width>
+        <height>101</height>
+        <size>
+          <x>202</x>
+          <y>101</y>
+        </size>
+        <xMin>168</xMin>
+        <yMin>170</yMin>
+        <xMax>370</xMax>
+        <yMax>271</yMax>
+      </GraphRect>
+      <Name>Start dialog</Name>
+      <Text>It looks as if this is the last of the smaller vehicles... or so you hope.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="StartBattle">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <enemyType>Raiders</enemyType>
+              <difficulty>-5</difficulty>
+            </ButtonAction>
+          </Actions>
+          <Name>Today is a good day to die.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>174</x>
+        <y>456</y>
+        <position>
+          <x>174</x>
+          <y>456</y>
+        </position>
+        <center>
+          <x>271</x>
+          <y>506.5</y>
+        </center>
+        <min>
+          <x>174</x>
+          <y>456</y>
+        </min>
+        <max>
+          <x>368</x>
+          <y>557</y>
+        </max>
+        <width>194</width>
+        <height>101</height>
+        <size>
+          <x>194</x>
+          <y>101</y>
+        </size>
+        <xMin>174</xMin>
+        <yMin>456</yMin>
+        <xMax>368</xMax>
+        <yMax>557</yMax>
+      </GraphRect>
+      <Name>Loot dialog</Name>
+      <Text>It appears as if most of the smaller vehicles have been defeated.
+
+All that is left is James Faye himself.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>83</y>
+                <position>
+                  <x>182</x>
+                  <y>83</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>88</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>83</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>93</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>83</yMin>
+                <xMax>192</xMax>
+                <yMax>93</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_Bluechip_Miniboss</nodeName>
+              <nodeDiscription>According to your intel, the only Blue R998X Chip on all of Omek Prime is in the hands of James Faye, a notorious raider warchief known to command legions of grunts.
+
+It looks like you've attracted the attention of James Faye himself, get ready for the final battle!</nodeDiscription>
+              <pos>SameAs</pos>
+              <posSameAs>Q_M_S_Bluechip</posSameAs>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Once more, with feeling!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+  </Dialogs>
+  <Name>Q_Bluechip_Wave5</Name>
+</Scenario>

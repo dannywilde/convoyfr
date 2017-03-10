@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <scenarioType>Ambush</scenarioType>
+  <FilePath>D:/Convoy/Assets/Scenarios/W_D_A_Warzone.sc</FilePath>
+  <BiomeType>DesertRoad</BiomeType>
+  <CombatEndDialog>1</CombatEndDialog>
+  <StartDialog>0</StartDialog>
+  <CurrentDialog>0</CurrentDialog>
+  <ShowGUI>false</ShowGUI>
+  <Dialogs>
+    <Dialog>
+      <GraphRect>
+        <x>115</x>
+        <y>253</y>
+        <center>
+          <x>251.5</x>
+          <y>328.699219</y>
+        </center>
+        <width>273</width>
+        <height>151.398438</height>
+        <xMin>115</xMin>
+        <yMin>253</yMin>
+        <xMax>388</xMax>
+        <yMax>404.398438</yMax>
+      </GraphRect>
+      <Name>Start dialog</Name>
+      <Text>This area is littered with vehicle wrecks, you realize this is a popular raider ambush site.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="EnableWarZone">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <width>0</width>
+                <height>0</height>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Let them come.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>261</x>
+                <y>109</y>
+                <center>
+                  <x>266</x>
+                  <y>114</y>
+                </center>
+                <width>10</width>
+                <height>10</height>
+                <xMin>261</xMin>
+                <yMin>109</yMin>
+                <xMax>271</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>2</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>261</x>
+                <y>127</y>
+                <center>
+                  <x>266</x>
+                  <y>132</y>
+                </center>
+                <width>10</width>
+                <height>10</height>
+                <xMin>261</xMin>
+                <yMin>127</yMin>
+                <xMax>271</xMax>
+                <yMax>137</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>3</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Best get out of here!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>118</x>
+        <y>510</y>
+        <center>
+          <x>193</x>
+          <y>560</y>
+        </center>
+        <width>150</width>
+        <height>100</height>
+        <xMin>118</xMin>
+        <yMin>510</yMin>
+        <xMax>268</xMax>
+        <yMax>610</yMax>
+      </GraphRect>
+      <Name>Loot dialog</Name>
+      <Text>[0loot]</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddLoot">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <width>0</width>
+                <height>0</height>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Take loot</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>525</x>
+        <y>190</y>
+        <center>
+          <x>620</x>
+          <y>240</y>
+        </center>
+        <width>190</width>
+        <height>100</height>
+        <xMin>525</xMin>
+        <yMin>190</yMin>
+        <xMax>715</xMax>
+        <yMax>290</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>As you spot several gruesome vehicles racing towards your convoy, you realize it's too late to escape.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="EnableWarZone">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <width>0</width>
+                <height>0</height>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Prepare to fight!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>487</x>
+        <y>367</y>
+        <center>
+          <x>568.5</x>
+          <y>417</y>
+        </center>
+        <width>163</width>
+        <height>100</height>
+        <xMin>487</xMin>
+        <yMin>367</yMin>
+        <xMax>650</xMax>
+        <yMax>467</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You leave the warzone far behind you.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="CloseDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <width>0</width>
+                <height>0</height>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Onwards!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+  </Dialogs>
+  <Name>W_D_A_Warzone</Name>
+</Scenario>

@@ -1,0 +1,4417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objectiveName>Self-sealing Stem bolts</objectiveName>
+  <objectiveDiscription>Eiffels Inc. has the monopoly on Self-sealing stem bolts.
+
+You could try striking a deal with them, but unless you have an exceptional number of parts, buying them seems out of the question.</objectiveDiscription>
+  <objectiveMainDiscription>When stemming things with a bolt is important, but you lack the time for sealing them yourself self-sealing stem bolts are the way to go!
+
+While it might be argued that simply hiring better engineers to do the sealing as well would be a better option, sadly spaceship Mercury does not currently have that luxury.
+
+A local corporation, called Eiffels Incorporated, has the Self-sealing stem bolts monopoly on planet Omek Prime. They are led by two entrepeneurs, you should try striking a deal with these two.
+</objectiveMainDiscription>
+  <objectiveNumber>0</objectiveNumber>
+  <scenarioType>Ambush</scenarioType>
+  <FilePath>C:/Program Files (x86)/Unity/Convoy/Assets/StreamingAssets/ObjectiveScenarios/Q_M_S_Stembolts.sc</FilePath>
+  <BiomeType>DesertRoad</BiomeType>
+  <CombatEndDialog>1</CombatEndDialog>
+  <StartDialog>0</StartDialog>
+  <CurrentDialog>0</CurrentDialog>
+  <ShowGUI>false</ShowGUI>
+  <Dialogs>
+    <Dialog>
+      <GraphRect>
+        <x>-1114</x>
+        <y>-133</y>
+        <position>
+          <x>-1114</x>
+          <y>-133</y>
+        </position>
+        <center>
+          <x>-1026</x>
+          <y>-68.5</y>
+        </center>
+        <min>
+          <x>-1114</x>
+          <y>-133</y>
+        </min>
+        <max>
+          <x>-938</x>
+          <y>-4</y>
+        </max>
+        <width>176</width>
+        <height>129</height>
+        <size>
+          <x>176</x>
+          <y>129</y>
+        </size>
+        <xMin>-1114</xMin>
+        <yMin>-133</yMin>
+        <xMax>-938</xMax>
+        <yMax>-4</yMax>
+      </GraphRect>
+      <Name>Start dialog</Name>
+      <Text>You arrive at the office of Eiffels Incorporated. A large building, which probably also houses the actual production facility, surrounded by an electric fence.
+
+It looks exceptionally well defended, the fence has auto-turrets positioned along its circumference, you see signs indicating a minefield and heavy vehicles patrol the perimiter.
+
+Before you can approach any further, someone attempts to radio you.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>164</x>
+                <y>65</y>
+                <position>
+                  <x>164</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>169</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>164</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>174</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>164</xMin>
+                <yMin>65</yMin>
+                <xMax>174</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>2</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Open communications.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>164</x>
+                <y>109</y>
+                <position>
+                  <x>164</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>169</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>164</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>174</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>164</xMin>
+                <yMin>109</yMin>
+                <xMax>174</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>3</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Attack the office.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-1139</x>
+        <y>408</y>
+        <position>
+          <x>-1139</x>
+          <y>408</y>
+        </position>
+        <center>
+          <x>-1050.5</x>
+          <y>459.5</y>
+        </center>
+        <min>
+          <x>-1139</x>
+          <y>408</y>
+        </min>
+        <max>
+          <x>-962</x>
+          <y>511</y>
+        </max>
+        <width>177</width>
+        <height>103</height>
+        <size>
+          <x>177</x>
+          <y>103</y>
+        </size>
+        <xMin>-1139</xMin>
+        <yMin>408</yMin>
+        <xMax>-962</xMax>
+        <yMax>511</yMax>
+      </GraphRect>
+      <Name>Loot dialog</Name>
+      <Text>You've managed to destroy the defenses of the facility.
+
+[0loot]
+
+You're not quite sure what kind of vehicles Eiffels Inc. was using, but that is of no concern anymore.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddLoot">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>165</x>
+                <y>65</y>
+                <position>
+                  <x>165</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>170</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>165</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>175</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>165</xMin>
+                <yMin>65</yMin>
+                <xMax>175</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>7</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+            <ButtonAction xsi:type="AddLoot">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>165</x>
+                <y>83</y>
+                <position>
+                  <x>165</x>
+                  <y>83</y>
+                </position>
+                <center>
+                  <x>170</x>
+                  <y>88</y>
+                </center>
+                <min>
+                  <x>165</x>
+                  <y>83</y>
+                </min>
+                <max>
+                  <x>175</x>
+                  <y>93</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>165</xMin>
+                <yMin>83</yMin>
+                <xMax>175</xMax>
+                <yMax>93</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>12</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Investigate the facility.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-615</x>
+        <y>-257</y>
+        <position>
+          <x>-615</x>
+          <y>-257</y>
+        </position>
+        <center>
+          <x>-492</x>
+          <y>-183.5</y>
+        </center>
+        <min>
+          <x>-615</x>
+          <y>-257</y>
+        </min>
+        <max>
+          <x>-369</x>
+          <y>-110</y>
+        </max>
+        <width>246</width>
+        <height>147</height>
+        <size>
+          <x>246</x>
+          <y>147</y>
+        </size>
+        <xMin>-615</xMin>
+        <yMin>-257</yMin>
+        <xMax>-369</xMax>
+        <yMax>-110</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Welcome to Eiffels Incorporated.
+
+You have been cleared for a meeting with our Chief Executive Officers.
+
+Please approach our facility on foot. We shall provide transportation at the gate.
+
+We wish you a pleasant stay."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>234</x>
+                <y>65</y>
+                <position>
+                  <x>234</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>239</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>234</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>244</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>234</xMin>
+                <yMin>65</yMin>
+                <xMax>244</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>17</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Approach the office.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>234</x>
+                <y>109</y>
+                <position>
+                  <x>234</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>239</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>234</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>244</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>234</xMin>
+                <yMin>109</yMin>
+                <xMax>244</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>16</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Sounds like a trap. Attack instead!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-969</x>
+        <y>111</y>
+        <position>
+          <x>-969</x>
+          <y>111</y>
+        </position>
+        <center>
+          <x>-862</x>
+          <y>193.5</y>
+        </center>
+        <min>
+          <x>-969</x>
+          <y>111</y>
+        </min>
+        <max>
+          <x>-755</x>
+          <y>276</y>
+        </max>
+        <width>214</width>
+        <height>165</height>
+        <size>
+          <x>214</x>
+          <y>165</y>
+        </size>
+        <xMin>-969</xMin>
+        <yMin>111</yMin>
+        <xMax>-755</xMax>
+        <yMax>276</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You look at the auto-turrets, minefield and heavy vehicles.
+
+Attacking the facility would be exceptionally difficult, are you sure you want to do this?</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>65</y>
+                <position>
+                  <x>202</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>65</yMin>
+                <xMax>212</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>4</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>9999</AmountAP>
+              <AmountHP>9999</AmountHP>
+            </ButtonAction>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>83</y>
+                <position>
+                  <x>202</x>
+                  <y>83</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>88</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>83</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>93</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>83</yMin>
+                <xMax>212</xMax>
+                <yMax>93</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>5</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>1000</AmountAP>
+              <AmountHP>1000</AmountHP>
+            </ButtonAction>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>101</y>
+                <position>
+                  <x>202</x>
+                  <y>101</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>106</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>101</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>111</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>101</yMin>
+                <xMax>212</xMax>
+                <yMax>111</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>6</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>0</AmountAP>
+              <AmountHP>0</AmountHP>
+            </ButtonAction>
+          </Actions>
+          <Name>ATTACK!</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>145</y>
+                <position>
+                  <x>202</x>
+                  <y>145</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>150</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>145</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>155</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>145</yMin>
+                <xMax>212</xMax>
+                <yMax>155</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>2</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Right... communications it is.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-185</x>
+        <y>-75</y>
+        <position>
+          <x>-185</x>
+          <y>-75</y>
+        </position>
+        <center>
+          <x>-95.5</x>
+          <y>-25</y>
+        </center>
+        <min>
+          <x>-185</x>
+          <y>-75</y>
+        </min>
+        <max>
+          <x>-6</x>
+          <y>25</y>
+        </max>
+        <width>179</width>
+        <height>100</height>
+        <size>
+          <x>179</x>
+          <y>100</y>
+        </size>
+        <xMin>-185</xMin>
+        <yMin>-75</yMin>
+        <xMax>-6</xMax>
+        <yMax>25</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>As you approach the facility in offensive formation, the auto-turrets open fire on your convoy.
+
+They manage to blast away one of your vehicles completely.
+
+You prepare to engage the heavy vehicles.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="EnableMineField">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <enemyType>Keepers</enemyType>
+              <difficulty>3</difficulty>
+            </ButtonAction>
+          </Actions>
+          <Name>Ready weapons!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-206</x>
+        <y>67</y>
+        <position>
+          <x>-206</x>
+          <y>67</y>
+        </position>
+        <center>
+          <x>-116.5</x>
+          <y>117</y>
+        </center>
+        <min>
+          <x>-206</x>
+          <y>67</y>
+        </min>
+        <max>
+          <x>-27</x>
+          <y>167</y>
+        </max>
+        <width>179</width>
+        <height>100</height>
+        <size>
+          <x>179</x>
+          <y>100</y>
+        </size>
+        <xMin>-206</xMin>
+        <yMin>67</yMin>
+        <xMax>-27</xMax>
+        <yMax>167</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>As you approach the facility in offensive formation, the auto-turrets open fire on your convoy.
+
+One of your vehicles receives the brunt of the damage, despite deft manouevres.
+
+You prepare to engage the heavy vehicles.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="EnableMineField">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <enemyType>Keepers</enemyType>
+              <difficulty>2</difficulty>
+            </ButtonAction>
+          </Actions>
+          <Name>Ready weapons!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-239</x>
+        <y>183</y>
+        <position>
+          <x>-239</x>
+          <y>183</y>
+        </position>
+        <center>
+          <x>-149.5</x>
+          <y>233</y>
+        </center>
+        <min>
+          <x>-239</x>
+          <y>183</y>
+        </min>
+        <max>
+          <x>-60</x>
+          <y>283</y>
+        </max>
+        <width>179</width>
+        <height>100</height>
+        <size>
+          <x>179</x>
+          <y>100</y>
+        </size>
+        <xMin>-239</xMin>
+        <yMin>183</yMin>
+        <xMax>-60</xMax>
+        <yMax>283</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>As you approach the facility in offensive formation, the auto-turrets open fire on your convoy.
+
+Amazingly, you've managed to outmanouevre all of their shots. None of your vehicles have been damaged!
+
+You prepare to engage the heavy vehicles.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="EnableMineField">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <enemyType>Keepers</enemyType>
+              <difficulty>2</difficulty>
+            </ButtonAction>
+          </Actions>
+          <Name>Ready weapons!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-862</x>
+        <y>486</y>
+        <position>
+          <x>-862</x>
+          <y>486</y>
+        </position>
+        <center>
+          <x>-736.5</x>
+          <y>572.5</y>
+        </center>
+        <min>
+          <x>-862</x>
+          <y>486</y>
+        </min>
+        <max>
+          <x>-611</x>
+          <y>659</y>
+        </max>
+        <width>251</width>
+        <height>173</height>
+        <size>
+          <x>251</x>
+          <y>173</y>
+        </size>
+        <xMin>-862</xMin>
+        <yMin>486</yMin>
+        <xMax>-611</xMax>
+        <yMax>659</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>The employees of the facility are cowering in a corner, hoping you won't notice them, when you are approached by two slick looking businessmen.
+
+"Greetings, sir. My name is Samuel Eiffels, and this is my brother, Maxwell Eiffels."
+
+"We would be happy to supply you with whatever it is you're looking for, in order for you to stop demonstrating your obvious might."
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>239</x>
+                <y>65</y>
+                <position>
+                  <x>239</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>244</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>239</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>249</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>239</xMin>
+                <yMin>65</yMin>
+                <xMax>249</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>9</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>We want Self-sealing stem bolts.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>239</x>
+                <y>109</y>
+                <position>
+                  <x>239</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>244</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>239</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>249</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>239</xMin>
+                <yMin>109</yMin>
+                <xMax>249</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>10</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>We demand all your parts!</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>239</x>
+                <y>153</y>
+                <position>
+                  <x>239</x>
+                  <y>153</y>
+                </position>
+                <center>
+                  <x>244</x>
+                  <y>158</y>
+                </center>
+                <min>
+                  <x>239</x>
+                  <y>153</y>
+                </min>
+                <max>
+                  <x>249</x>
+                  <y>163</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>239</xMin>
+                <yMin>153</yMin>
+                <xMax>249</xMax>
+                <yMax>163</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>8</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>What were those vehicles you had?</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-525</x>
+        <y>619</y>
+        <position>
+          <x>-525</x>
+          <y>619</y>
+        </position>
+        <center>
+          <x>-409</x>
+          <y>683.5</y>
+        </center>
+        <min>
+          <x>-525</x>
+          <y>619</y>
+        </min>
+        <max>
+          <x>-293</x>
+          <y>748</y>
+        </max>
+        <width>232</width>
+        <height>129</height>
+        <size>
+          <x>232</x>
+          <y>129</y>
+        </size>
+        <xMin>-525</xMin>
+        <yMin>619</yMin>
+        <xMax>-293</xMax>
+        <yMax>748</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"They were supposed to keep us protected, cost us quite a bit too.
+
+Quite a mysterious bunch, always going on about keeping the balance in check.
+
+Well, things certainly seem off-balance now.
+
+Was that it? Will you be leaving now?"
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>220</x>
+                <y>65</y>
+                <position>
+                  <x>220</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>225</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>220</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>230</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>220</xMin>
+                <yMin>65</yMin>
+                <xMax>230</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>9</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Demand Self-sealing stem bolts.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>220</x>
+                <y>109</y>
+                <position>
+                  <x>220</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>225</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>220</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>230</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>220</xMin>
+                <yMin>109</yMin>
+                <xMax>230</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>10</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Give us all your parts!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-233</x>
+        <y>347</y>
+        <position>
+          <x>-233</x>
+          <y>347</y>
+        </position>
+        <center>
+          <x>-142</x>
+          <y>411.5</y>
+        </center>
+        <min>
+          <x>-233</x>
+          <y>347</y>
+        </min>
+        <max>
+          <x>-51</x>
+          <y>476</y>
+        </max>
+        <width>182</width>
+        <height>129</height>
+        <size>
+          <x>182</x>
+          <y>129</y>
+        </size>
+        <xMin>-233</xMin>
+        <yMin>347</yMin>
+        <xMax>-51</xMax>
+        <yMax>476</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"All that carnage for our Stem bolts, Maxwell? Remarkable.
+
+I suppose we could use it as a new marketing campaign, Samuel. They are to die for...
+
+Naturally, you shall receive a set of Stem bolts. We will have them transported to your convoy right away.
+
+Please, leave us be now."
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>170</x>
+                <y>65</y>
+                <position>
+                  <x>170</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>175</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>170</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>180</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>170</xMin>
+                <yMin>65</yMin>
+                <xMax>180</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>11</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Thanks, goodbye.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>170</x>
+                <y>109</y>
+                <position>
+                  <x>170</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>175</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>170</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>180</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>170</xMin>
+                <yMin>109</yMin>
+                <xMax>180</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>15</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>How about I KILL you?!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-175</x>
+        <y>540</y>
+        <position>
+          <x>-175</x>
+          <y>540</y>
+        </position>
+        <center>
+          <x>-68</x>
+          <y>604.5</y>
+        </center>
+        <min>
+          <x>-175</x>
+          <y>540</y>
+        </min>
+        <max>
+          <x>39</x>
+          <y>669</y>
+        </max>
+        <width>214</width>
+        <height>129</height>
+        <size>
+          <x>214</x>
+          <y>129</y>
+        </size>
+        <xMin>-175</xMin>
+        <yMin>540</yMin>
+        <xMax>39</xMax>
+        <yMax>669</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Parts? All this destruction for a simple robbery?
+
+I'd hate to disappoint you, but we do not have a large stash of parts lying around.
+
+Perhaps you'd be more interested in robbing a bank?"
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>65</y>
+                <position>
+                  <x>202</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>65</yMin>
+                <xMax>212</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>13</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Give me the Stem bolts then!</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>202</x>
+                <y>109</y>
+                <position>
+                  <x>202</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>207</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>202</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>212</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>202</xMin>
+                <yMin>109</yMin>
+                <xMax>212</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>14</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Are you mocking me?!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>403</x>
+        <y>338</y>
+        <position>
+          <x>403</x>
+          <y>338</y>
+        </position>
+        <center>
+          <x>481.5</x>
+          <y>388</y>
+        </center>
+        <min>
+          <x>403</x>
+          <y>338</y>
+        </min>
+        <max>
+          <x>560</x>
+          <y>438</y>
+        </max>
+        <width>157</width>
+        <height>100</height>
+        <size>
+          <x>157</x>
+          <y>100</y>
+        </size>
+        <xMin>403</xMin>
+        <yMin>338</yMin>
+        <xMax>560</xMax>
+        <yMax>438</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You return to your convoy and safely stash the Stem bolts in your cargo hold.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="CloseDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Move out!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-839</x>
+        <y>839</y>
+        <position>
+          <x>-839</x>
+          <y>839</y>
+        </position>
+        <center>
+          <x>-764</x>
+          <y>889</y>
+        </center>
+        <min>
+          <x>-839</x>
+          <y>839</y>
+        </min>
+        <max>
+          <x>-689</x>
+          <y>939</y>
+        </max>
+        <width>150</width>
+        <height>100</height>
+        <size>
+          <x>150</x>
+          <y>100</y>
+        </size>
+        <xMin>-839</xMin>
+        <yMin>839</yMin>
+        <xMax>-689</xMax>
+        <yMax>939</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>The facility lies in ruins due to the onslaught.
+
+Upon inspection, you manage to find a large shipments of Self-sealing stem bolts. They should prove more than adequate for your spaceship.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>138</x>
+                <y>65</y>
+                <position>
+                  <x>138</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>143</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>138</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>148</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>138</xMin>
+                <yMin>65</yMin>
+                <xMax>148</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>11</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Excellent!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>116</x>
+        <y>504</y>
+        <position>
+          <x>116</x>
+          <y>504</y>
+        </position>
+        <center>
+          <x>214</x>
+          <y>568.5</y>
+        </center>
+        <min>
+          <x>116</x>
+          <y>504</y>
+        </min>
+        <max>
+          <x>312</x>
+          <y>633</y>
+        </max>
+        <width>196</width>
+        <height>129</height>
+        <size>
+          <x>196</x>
+          <y>129</y>
+        </size>
+        <xMin>116</xMin>
+        <yMin>504</yMin>
+        <xMax>312</xMax>
+        <yMax>633</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"We've already had a shipment prepared to deliver to your convoy.
+
+It seemed likely that you came here for the stem bolts.
+
+They will be delivered shortly.
+
+Please, leave us be now."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>184</x>
+                <y>65</y>
+                <position>
+                  <x>184</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>189</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>184</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>194</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>184</xMin>
+                <yMin>65</yMin>
+                <xMax>194</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>11</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Thanks, goodbye!</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>184</x>
+                <y>109</y>
+                <position>
+                  <x>184</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>189</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>184</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>194</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>184</xMin>
+                <yMin>109</yMin>
+                <xMax>194</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>15</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>How about you DIE now?!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-87</x>
+        <y>750</y>
+        <position>
+          <x>-87</x>
+          <y>750</y>
+        </position>
+        <center>
+          <x>-11.5</x>
+          <y>800</y>
+        </center>
+        <min>
+          <x>-87</x>
+          <y>750</y>
+        </min>
+        <max>
+          <x>64</x>
+          <y>850</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>-87</xMin>
+        <yMin>750</yMin>
+        <xMax>64</xMax>
+        <yMax>850</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"We would not dare.
+
+Please excuse our mannerisms.
+
+Would you perhaps be interested in our very fine stem bolts?"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>13</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Hand 'em over!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>215</x>
+        <y>746</y>
+        <position>
+          <x>215</x>
+          <y>746</y>
+        </position>
+        <center>
+          <x>290.5</x>
+          <y>796</y>
+        </center>
+        <min>
+          <x>215</x>
+          <y>746</y>
+        </min>
+        <max>
+          <x>366</x>
+          <y>846</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>215</xMin>
+        <yMin>746</yMin>
+        <xMax>366</xMax>
+        <yMax>846</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"We suppose you could do that.
+
+Sadly, that would activate our self-destruction sequence.
+
+So, no. We do not intend on dying.
+
+Take your stem bolts and leave, sir."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>11</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Leave...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-593</x>
+        <y>-12</y>
+        <position>
+          <x>-593</x>
+          <y>-12</y>
+        </position>
+        <center>
+          <x>-467</x>
+          <y>70.5</y>
+        </center>
+        <min>
+          <x>-593</x>
+          <y>-12</y>
+        </min>
+        <max>
+          <x>-341</x>
+          <y>153</y>
+        </max>
+        <width>252</width>
+        <height>165</height>
+        <size>
+          <x>252</x>
+          <y>165</y>
+        </size>
+        <xMin>-593</xMin>
+        <yMin>-12</yMin>
+        <xMax>-341</xMax>
+        <yMax>153</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You look at the auto-turrets, minefield and heavy vehicles.
+
+Attacking the facility would be exceptionally difficult, are you sure you want to do this?</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>240</x>
+                <y>65</y>
+                <position>
+                  <x>240</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>245</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>240</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>250</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>240</xMin>
+                <yMin>65</yMin>
+                <xMax>250</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>4</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>9999</AmountAP>
+              <AmountHP>9999</AmountHP>
+            </ButtonAction>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>240</x>
+                <y>83</y>
+                <position>
+                  <x>240</x>
+                  <y>83</y>
+                </position>
+                <center>
+                  <x>245</x>
+                  <y>88</y>
+                </center>
+                <min>
+                  <x>240</x>
+                  <y>83</y>
+                </min>
+                <max>
+                  <x>250</x>
+                  <y>93</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>240</xMin>
+                <yMin>83</yMin>
+                <xMax>250</xMax>
+                <yMax>93</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>5</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>1000</AmountAP>
+              <AmountHP>1000</AmountHP>
+            </ButtonAction>
+            <ButtonAction xsi:type="DamageRandomCar">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>240</x>
+                <y>101</y>
+                <position>
+                  <x>240</x>
+                  <y>101</y>
+                </position>
+                <center>
+                  <x>245</x>
+                  <y>106</y>
+                </center>
+                <min>
+                  <x>240</x>
+                  <y>101</y>
+                </min>
+                <max>
+                  <x>250</x>
+                  <y>111</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>240</xMin>
+                <yMin>101</yMin>
+                <xMax>250</xMax>
+                <yMax>111</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>6</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <amount>1</amount>
+              <random>false</random>
+              <AmountAP>0</AmountAP>
+              <AmountHP>0</AmountHP>
+            </ButtonAction>
+          </Actions>
+          <Name>ATTACK!</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>240</x>
+                <y>145</y>
+                <position>
+                  <x>240</x>
+                  <y>145</y>
+                </position>
+                <center>
+                  <x>245</x>
+                  <y>150</y>
+                </center>
+                <min>
+                  <x>240</x>
+                  <y>145</y>
+                </min>
+                <max>
+                  <x>250</x>
+                  <y>155</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>240</xMin>
+                <yMin>145</yMin>
+                <xMax>250</xMax>
+                <yMax>155</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>17</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Right... let's go to the meeting then.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>-235</x>
+        <y>-288</y>
+        <position>
+          <x>-235</x>
+          <y>-288</y>
+        </position>
+        <center>
+          <x>-159.5</x>
+          <y>-214.5</y>
+        </center>
+        <min>
+          <x>-235</x>
+          <y>-288</y>
+        </min>
+        <max>
+          <x>-84</x>
+          <y>-141</y>
+        </max>
+        <width>151</width>
+        <height>147</height>
+        <size>
+          <x>151</x>
+          <y>147</y>
+        </size>
+        <xMin>-235</xMin>
+        <yMin>-288</yMin>
+        <xMax>-84</xMax>
+        <yMax>-141</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You are taken inside the building, brought to a conference room and told to wait.
+
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>18</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Wait...</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>109</y>
+                <position>
+                  <x>139</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>109</yMin>
+                <xMax>149</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>19</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>127</y>
+                <position>
+                  <x>139</x>
+                  <y>127</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>132</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>127</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>137</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>127</yMin>
+                <xMax>149</xMax>
+                <yMax>137</yMax>
+              </ButtonRect>
+              <Chance>3</Chance>
+              <ToDialog>20</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Look around.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>345</x>
+        <y>-515</y>
+        <position>
+          <x>345</x>
+          <y>-515</y>
+        </position>
+        <center>
+          <x>420.5</x>
+          <y>-465</y>
+        </center>
+        <min>
+          <x>345</x>
+          <y>-515</y>
+        </min>
+        <max>
+          <x>496</x>
+          <y>-415</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>345</xMin>
+        <yMin>-515</yMin>
+        <xMax>496</xMax>
+        <yMax>-415</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>After some time, two slick looking businessmen enter the room.
+
+"Greetings, sir. My name is Samuel Eiffels, and this is my brother, Maxwell Eiffels."
+
+"We welcome you to our fine establishment!"
+
+"Is it safe to assume you are here to acquire some of our stem bolts?"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>22</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>That's right.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>43</x>
+        <y>-358</y>
+        <position>
+          <x>43</x>
+          <y>-358</y>
+        </position>
+        <center>
+          <x>118.5</x>
+          <y>-308</y>
+        </center>
+        <min>
+          <x>43</x>
+          <y>-358</y>
+        </min>
+        <max>
+          <x>194</x>
+          <y>-258</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>43</xMin>
+        <yMin>-358</yMin>
+        <xMax>194</xMax>
+        <yMax>-258</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You look around the room and spot several graphs, pie-charts and figures depicting the current financial state of Eiffels Incorporated.
+
+Since they have the monopoly on Self-sealing stem bolts, they are doing quite well and have a projected profit of around 12 million parts per month.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>18</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Not bad...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>51</x>
+        <y>-235</y>
+        <position>
+          <x>51</x>
+          <y>-235</y>
+        </position>
+        <center>
+          <x>143.5</x>
+          <y>-170.5</y>
+        </center>
+        <min>
+          <x>51</x>
+          <y>-235</y>
+        </min>
+        <max>
+          <x>236</x>
+          <y>-106</y>
+        </max>
+        <width>185</width>
+        <height>129</height>
+        <size>
+          <x>185</x>
+          <y>129</y>
+        </size>
+        <xMin>51</xMin>
+        <yMin>-235</yMin>
+        <xMax>236</xMax>
+        <yMax>-106</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You look around the room and spot several graphs, pie-charts and figures depicting the current financial state of Eiffels Incorporated.
+
+Since they have the monopoly on Self-sealing stem bolts, they are doing quite well and have a projected profit of around 12 million parts per month.
+
+Additionally, you find a shipment list that states when and where deliveries of stem bolts will be made on Omek Prime.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>173</x>
+                <y>65</y>
+                <position>
+                  <x>173</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>178</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>173</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>183</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>173</xMin>
+                <yMin>65</yMin>
+                <xMax>183</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>18</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Leave it and wait...</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>173</x>
+                <y>109</y>
+                <position>
+                  <x>173</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>178</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>173</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>183</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>173</xMin>
+                <yMin>109</yMin>
+                <xMax>183</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>21</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Swipe the shipment list.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>328</x>
+        <y>-120</y>
+        <position>
+          <x>328</x>
+          <y>-120</y>
+        </position>
+        <center>
+          <x>403.5</x>
+          <y>-70</y>
+        </center>
+        <min>
+          <x>328</x>
+          <y>-120</y>
+        </min>
+        <max>
+          <x>479</x>
+          <y>-20</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>328</xMin>
+        <yMin>-120</yMin>
+        <xMax>479</xMax>
+        <yMax>-20</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You swipe the shipment list and proceed to wait. Eventually, two slick looking businessmen enter the room.
+
+"Greetings, sir. My name is Samuel Eiffels, and this is my brother, Maxwell Eiffels."
+
+"We welcome you to our fine establishment!"
+
+"Is it safe to assume you are here to acquire some of our stem bolts?"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>23</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>That's right.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>613</x>
+        <y>-465</y>
+        <position>
+          <x>613</x>
+          <y>-465</y>
+        </position>
+        <center>
+          <x>691</x>
+          <y>-400.5</y>
+        </center>
+        <min>
+          <x>613</x>
+          <y>-465</y>
+        </min>
+        <max>
+          <x>769</x>
+          <y>-336</y>
+        </max>
+        <width>156</width>
+        <height>129</height>
+        <size>
+          <x>156</x>
+          <y>129</y>
+        </size>
+        <xMin>613</xMin>
+        <yMin>-465</yMin>
+        <xMax>769</xMax>
+        <yMax>-336</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Naturally, we have many customers for our esteemed stem bolts."
+
+"Of course, we may be able to strike a deal if you are willing to pay more than our other customers."
+
+"We think that $500 sounds like a fair price."
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="ModifyJunk">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>144</x>
+                <y>65</y>
+                <position>
+                  <x>144</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>149</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>144</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>154</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>144</xMin>
+                <yMin>65</yMin>
+                <xMax>154</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>24</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>-500</Amount>
+              <fuelAmount>0</fuelAmount>
+            </ButtonAction>
+          </Actions>
+          <Name>Sounds good.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>144</x>
+                <y>109</y>
+                <position>
+                  <x>144</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>149</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>144</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>154</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>144</xMin>
+                <yMin>109</yMin>
+                <xMax>154</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>26</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>That's too much.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>578</x>
+        <y>-163</y>
+        <position>
+          <x>578</x>
+          <y>-163</y>
+        </position>
+        <center>
+          <x>654</x>
+          <y>-98.5</y>
+        </center>
+        <min>
+          <x>578</x>
+          <y>-163</y>
+        </min>
+        <max>
+          <x>730</x>
+          <y>-34</y>
+        </max>
+        <width>152</width>
+        <height>129</height>
+        <size>
+          <x>152</x>
+          <y>129</y>
+        </size>
+        <xMin>578</xMin>
+        <yMin>-163</yMin>
+        <xMax>730</xMax>
+        <yMax>-34</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Naturally, we have many customers for our esteemed stem bolts."
+
+"Of course, we may be able to strike a deal if you are willing to pay more than our other customers."
+
+"We think that 1500 parts sounds like a fair price."
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="ModifyJunk">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>140</x>
+                <y>65</y>
+                <position>
+                  <x>140</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>145</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>140</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>150</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>140</xMin>
+                <yMin>65</yMin>
+                <xMax>150</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>24</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>-1500</Amount>
+              <fuelAmount>0</fuelAmount>
+            </ButtonAction>
+          </Actions>
+          <Name>Sounds good.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>140</x>
+                <y>109</y>
+                <position>
+                  <x>140</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>145</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>140</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>150</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>140</xMin>
+                <yMin>109</yMin>
+                <xMax>150</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>27</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>That's too much.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>923</x>
+        <y>-610</y>
+        <position>
+          <x>923</x>
+          <y>-610</y>
+        </position>
+        <center>
+          <x>998.5</x>
+          <y>-560</y>
+        </center>
+        <min>
+          <x>923</x>
+          <y>-610</y>
+        </min>
+        <max>
+          <x>1074</x>
+          <y>-510</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>923</xMin>
+        <yMin>-610</yMin>
+        <xMax>1074</xMax>
+        <yMax>-510</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Well, aren't you quite the wealthy individual."
+
+"We shall arrange for the stem bolts to be delivered to your convoy right away."
+
+"It's been quite a pleasure doing business with you, sir."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddCargo">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>25</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+              <Amount>0</Amount>
+            </ButtonAction>
+          </Actions>
+          <Name>Likewise...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1171</x>
+        <y>-638</y>
+        <position>
+          <x>1171</x>
+          <y>-638</y>
+        </position>
+        <center>
+          <x>1249.5</x>
+          <y>-588</y>
+        </center>
+        <min>
+          <x>1171</x>
+          <y>-638</y>
+        </min>
+        <max>
+          <x>1328</x>
+          <y>-538</y>
+        </max>
+        <width>157</width>
+        <height>100</height>
+        <size>
+          <x>157</x>
+          <y>100</y>
+        </size>
+        <xMin>1171</xMin>
+        <yMin>-638</yMin>
+        <xMax>1328</xMax>
+        <yMax>-538</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You leave Samuel and Maxwell behind, wait for the stem bolts to be delivered to your convoy, and prepare to hit the road.
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="CloseDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>0</x>
+                <y>0</y>
+                <position>
+                  <x>0</x>
+                  <y>0</y>
+                </position>
+                <center>
+                  <x>0</x>
+                  <y>0</y>
+                </center>
+                <min>
+                  <x>0</x>
+                  <y>0</y>
+                </min>
+                <max>
+                  <x>0</x>
+                  <y>0</y>
+                </max>
+                <width>0</width>
+                <height>0</height>
+                <size>
+                  <x>0</x>
+                  <y>0</y>
+                </size>
+                <xMin>0</xMin>
+                <yMin>0</yMin>
+                <xMax>0</xMax>
+                <yMax>0</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Onwards!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>964</x>
+        <y>-447</y>
+        <position>
+          <x>964</x>
+          <y>-447</y>
+        </position>
+        <center>
+          <x>1091.5</x>
+          <y>-397</y>
+        </center>
+        <min>
+          <x>964</x>
+          <y>-447</y>
+        </min>
+        <max>
+          <x>1219</x>
+          <y>-347</y>
+        </max>
+        <width>255</width>
+        <height>100</height>
+        <size>
+          <x>255</x>
+          <y>100</y>
+        </size>
+        <xMin>964</xMin>
+        <yMin>-447</yMin>
+        <xMax>1219</xMax>
+        <yMax>-347</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"How unfortunate!"
+
+"I'm afraid we won't be able to lower our price, that would hardly be fair to our other customers."
+
+"I'm afraid you'll have to look elsewhere for your stem bolts, then."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>243</x>
+                <y>65</y>
+                <position>
+                  <x>243</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>248</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>243</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>253</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>243</xMin>
+                <yMin>65</yMin>
+                <xMax>253</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>28</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>You know you have the monopoly...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>929</x>
+        <y>-127</y>
+        <position>
+          <x>929</x>
+          <y>-127</y>
+        </position>
+        <center>
+          <x>1056.5</x>
+          <y>-62.5</y>
+        </center>
+        <min>
+          <x>929</x>
+          <y>-127</y>
+        </min>
+        <max>
+          <x>1184</x>
+          <y>2</y>
+        </max>
+        <width>255</width>
+        <height>129</height>
+        <size>
+          <x>255</x>
+          <y>129</y>
+        </size>
+        <xMin>929</xMin>
+        <yMin>-127</yMin>
+        <xMax>1184</xMax>
+        <yMax>2</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"How unfortunate!"
+
+"I'm afraid we won't be able to lower our price, that would hardly be fair to our other customers."
+
+"I'm afraid you'll have to look elsewhere for your stem bolts, then."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>243</x>
+                <y>65</y>
+                <position>
+                  <x>243</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>248</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>243</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>253</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>243</xMin>
+                <yMin>65</yMin>
+                <xMax>253</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>29</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>You know you have the monopoly...</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>243</x>
+                <y>109</y>
+                <position>
+                  <x>243</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>248</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>243</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>253</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>243</xMin>
+                <yMin>109</yMin>
+                <xMax>253</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>30</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Will do, goodbye sirs.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1360</x>
+        <y>-471</y>
+        <position>
+          <x>1360</x>
+          <y>-471</y>
+        </position>
+        <center>
+          <x>1435.5</x>
+          <y>-421</y>
+        </center>
+        <min>
+          <x>1360</x>
+          <y>-471</y>
+        </min>
+        <max>
+          <x>1511</x>
+          <y>-371</y>
+        </max>
+        <width>151</width>
+        <height>100</height>
+        <size>
+          <x>151</x>
+          <y>100</y>
+        </size>
+        <xMin>1360</xMin>
+        <yMin>-471</yMin>
+        <xMax>1511</xMax>
+        <yMax>-371</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Quite right, I suppose we do."
+
+"We realize your desperation, considering the state of your spaceship, and we are not unkind men."
+
+"So we have a little... endeavor for you to accomplish. In return, we shall provide you with the stem bolts."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>139</x>
+                <y>65</y>
+                <position>
+                  <x>139</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>144</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>139</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>149</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>139</xMin>
+                <yMin>65</yMin>
+                <xMax>149</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>32</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>What is it?</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1343</x>
+        <y>-197</y>
+        <position>
+          <x>1343</x>
+          <y>-197</y>
+        </position>
+        <center>
+          <x>1439</x>
+          <y>-132.5</y>
+        </center>
+        <min>
+          <x>1343</x>
+          <y>-197</y>
+        </min>
+        <max>
+          <x>1535</x>
+          <y>-68</y>
+        </max>
+        <width>192</width>
+        <height>129</height>
+        <size>
+          <x>192</x>
+          <y>129</y>
+        </size>
+        <xMin>1343</xMin>
+        <yMin>-197</yMin>
+        <xMax>1535</xMax>
+        <yMax>-68</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Quite right, I suppose we do."
+
+"We realize your desperation, considering the state of your spaceship, and we are not unkind men."
+
+"So we have a little... endeavor for you to accomplish. In return, we shall provide you with the stem bolts."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>180</x>
+                <y>65</y>
+                <position>
+                  <x>180</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>185</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>180</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>190</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>180</xMin>
+                <yMin>65</yMin>
+                <xMax>190</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>33</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>What is it?</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>180</x>
+                <y>109</y>
+                <position>
+                  <x>180</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>185</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>180</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>190</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>180</xMin>
+                <yMin>109</yMin>
+                <xMax>190</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>31</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Not interested. Goodbye.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1338</x>
+        <y>-3</y>
+        <position>
+          <x>1338</x>
+          <y>-3</y>
+        </position>
+        <center>
+          <x>1438</x>
+          <y>61.5</y>
+        </center>
+        <min>
+          <x>1338</x>
+          <y>-3</y>
+        </min>
+        <max>
+          <x>1538</x>
+          <y>126</y>
+        </max>
+        <width>200</width>
+        <height>129</height>
+        <size>
+          <x>200</x>
+          <y>129</y>
+        </size>
+        <xMin>1338</xMin>
+        <yMin>-3</yMin>
+        <xMax>1538</xMax>
+        <yMax>126</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>Samuel and Maxwell look puzzled, before continuing:
+
+"You realize, of course, that we have the monopoly on Self-sealing stem bolts?"
+
+"There is no other place to acquire them, but you knew this of course and were simply joking."
+
+"Ha ha, jolly good."
+
+"Shall we get back to business? We have a little... endeavor for you."</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>188</x>
+                <y>65</y>
+                <position>
+                  <x>188</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>193</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>188</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>198</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>188</xMin>
+                <yMin>65</yMin>
+                <xMax>198</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>33</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>What is it?</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>188</x>
+                <y>109</y>
+                <position>
+                  <x>188</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>193</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>188</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>198</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>188</xMin>
+                <yMin>109</yMin>
+                <xMax>198</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>31</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Nope, I'm good. Goodbye!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1768</x>
+        <y>177</y>
+        <position>
+          <x>1768</x>
+          <y>177</y>
+        </position>
+        <center>
+          <x>1865</x>
+          <y>227</y>
+        </center>
+        <min>
+          <x>1768</x>
+          <y>177</y>
+        </min>
+        <max>
+          <x>1962</x>
+          <y>277</y>
+        </max>
+        <width>194</width>
+        <height>100</height>
+        <size>
+          <x>194</x>
+          <y>100</y>
+        </size>
+        <xMin>1768</xMin>
+        <yMin>177</yMin>
+        <xMax>1962</xMax>
+        <yMax>277</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>You leave those two pompous guys behind and return to your convoy.
+
+As soon as you've left the area surrounding the office, you take a look at the shipment list you've swiped earlier.
+
+A large transport of Self-sealing stem bolts will be travelling through the area not long from now. You should be able to ambush it!
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>65</y>
+                <position>
+                  <x>182</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>65</yMin>
+                <xMax>192</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_Stembolts_AmbushTransport</nodeName>
+              <nodeDiscription>Whilst visiting Eiffels Inc., you stole a shipment list which told you of an upcoming transport. 
+
+One particular transport should have enough stem bolts for your spaceship, you should head over and intercept the transport to obtain them.</nodeDiscription>
+              <pos>Random</pos>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Excellent!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1665</x>
+        <y>-492</y>
+        <position>
+          <x>1665</x>
+          <y>-492</y>
+        </position>
+        <center>
+          <x>1773.5</x>
+          <y>-442</y>
+        </center>
+        <min>
+          <x>1665</x>
+          <y>-492</y>
+        </min>
+        <max>
+          <x>1882</x>
+          <y>-392</y>
+        </max>
+        <width>217</width>
+        <height>100</height>
+        <size>
+          <x>217</x>
+          <y>100</y>
+        </size>
+        <xMin>1665</xMin>
+        <yMin>-492</yMin>
+        <xMax>1882</xMax>
+        <yMax>-392</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Eiffels Incorporated is always looking to expand, such is the corporate life... you understand?"
+
+"There is one particularly problematic individual standing in the way of progress, however."
+
+"We would like you to head over to this individual and... persuade him to part with the deed of his land one way or another."
+
+"Your methods are none of our concern."
+
+"Are we in agreement?"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>205</x>
+                <y>65</y>
+                <position>
+                  <x>205</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>210</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>205</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>215</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>205</xMin>
+                <yMin>65</yMin>
+                <xMax>215</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>34</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Not much of a choice...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1682</x>
+        <y>-130</y>
+        <position>
+          <x>1682</x>
+          <y>-130</y>
+        </position>
+        <center>
+          <x>1805.5</x>
+          <y>-65.5</y>
+        </center>
+        <min>
+          <x>1682</x>
+          <y>-130</y>
+        </min>
+        <max>
+          <x>1929</x>
+          <y>-1</y>
+        </max>
+        <width>247</width>
+        <height>129</height>
+        <size>
+          <x>247</x>
+          <y>129</y>
+        </size>
+        <xMin>1682</xMin>
+        <yMin>-130</yMin>
+        <xMax>1929</xMax>
+        <yMax>-1</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Eiffels Incorporated is always looking to expand, such is the corporate life... you understand?"
+
+"There is one particularly problematic individual standing in the way of progress, however."
+
+"We would like you to head over to this individual and... persuade him to part with the deed of his land one way or another."
+
+"Your methods are none of our concern."
+
+"Are we in agreement?"</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>235</x>
+                <y>65</y>
+                <position>
+                  <x>235</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>240</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>235</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>245</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>235</xMin>
+                <yMin>65</yMin>
+                <xMax>245</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>35</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Very well.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>235</x>
+                <y>109</y>
+                <position>
+                  <x>235</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>240</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>235</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>245</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>235</xMin>
+                <yMin>109</yMin>
+                <xMax>245</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>31</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>I won't do your dirty work for you!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>1992</x>
+        <y>-446</y>
+        <position>
+          <x>1992</x>
+          <y>-446</y>
+        </position>
+        <center>
+          <x>2089</x>
+          <y>-396</y>
+        </center>
+        <min>
+          <x>1992</x>
+          <y>-446</y>
+        </min>
+        <max>
+          <x>2186</x>
+          <y>-346</y>
+        </max>
+        <width>194</width>
+        <height>100</height>
+        <size>
+          <x>194</x>
+          <y>100</y>
+        </size>
+        <xMin>1992</xMin>
+        <yMin>-446</yMin>
+        <xMax>2186</xMax>
+        <yMax>-346</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Wonderful. We shall supply you with the coordinates of this particular individual."
+
+"Please return to us once you have acquired the deed to his land, we shall have your stem bolts ready."
+
+"Good day sir, best of luck!"
+
+You are led out of the Eiffels Inc. building and returned to your convoy.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>65</y>
+                <position>
+                  <x>182</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>65</yMin>
+                <xMax>192</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_Stembolts_MissionAccept</nodeName>
+              <nodeDiscription>You have visited the Eiffels Inc. office, but lacked the funds to purchase the stem bolts.
+
+They've sent you to acquire the deed to a plot of land, and will give you the stem bolts if you succeed.</nodeDiscription>
+              <pos>Random</pos>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Move out!</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>2041</x>
+        <y>-172</y>
+        <position>
+          <x>2041</x>
+          <y>-172</y>
+        </position>
+        <center>
+          <x>2119</x>
+          <y>-122</y>
+        </center>
+        <min>
+          <x>2041</x>
+          <y>-172</y>
+        </min>
+        <max>
+          <x>2197</x>
+          <y>-72</y>
+        </max>
+        <width>156</width>
+        <height>100</height>
+        <size>
+          <x>156</x>
+          <y>100</y>
+        </size>
+        <xMin>2041</xMin>
+        <yMin>-172</yMin>
+        <xMax>2197</xMax>
+        <yMax>-72</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>"Wonderful. We shall supply you with the coordinates of this particular individual."
+
+"Please return to us once you have acquired the deed to his land, we shall have your stem bolts ready."
+
+"Good day sir, best of luck!"
+
+You are led out of the Eiffels Inc. building and returned to your convoy.</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="NextDialog">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>144</x>
+                <y>65</y>
+                <position>
+                  <x>144</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>149</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>144</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>154</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>144</xMin>
+                <yMin>65</yMin>
+                <xMax>154</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>36</ToDialog>
+              <Close>true</Close>
+              <Enabled>true</Enabled>
+            </ButtonAction>
+          </Actions>
+          <Name>Time to consider...</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+    <Dialog>
+      <GraphRect>
+        <x>2287</x>
+        <y>-213</y>
+        <position>
+          <x>2287</x>
+          <y>-213</y>
+        </position>
+        <center>
+          <x>2384</x>
+          <y>-148.5</y>
+        </center>
+        <min>
+          <x>2287</x>
+          <y>-213</y>
+        </min>
+        <max>
+          <x>2481</x>
+          <y>-84</y>
+        </max>
+        <width>194</width>
+        <height>129</height>
+        <size>
+          <x>194</x>
+          <y>129</y>
+        </size>
+        <xMin>2287</xMin>
+        <yMin>-213</yMin>
+        <xMax>2481</xMax>
+        <yMax>-84</yMax>
+      </GraphRect>
+      <Name>New dialog</Name>
+      <Text>As soon as you've left the area surrounding the office, you take a look at the shipment list you've swiped earlier.
+
+A large transport of Self-sealing stem bolts will be travelling through the area not long from now. 
+
+You should be able to ambush it, but it is likely to be defended.
+
+Alternatively, you could get the deed to that land.
+
+
+</Text>
+      <DialogButtons>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>65</y>
+                <position>
+                  <x>182</x>
+                  <y>65</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>70</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>65</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>75</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>65</yMin>
+                <xMax>192</xMax>
+                <yMax>75</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_Stembolts_AmbushTransport</nodeName>
+              <nodeDiscription>Whilst visiting Eiffels Inc., you stole a shipment list which told you of an upcoming transport.
+
+One particular transport should have enough stem bolts for your spaceship, you should head over and intercept the transport to obtain them.</nodeDiscription>
+              <pos>Random</pos>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Ambush the transport.</Name>
+        </DialogButton>
+        <DialogButton>
+          <Actions>
+            <ButtonAction xsi:type="AddObjectiveNode">
+              <ActionLoot>
+                <Items />
+                <Fuel>0</Fuel>
+                <Junk>0</Junk>
+              </ActionLoot>
+              <ButtonRect>
+                <x>182</x>
+                <y>109</y>
+                <position>
+                  <x>182</x>
+                  <y>109</y>
+                </position>
+                <center>
+                  <x>187</x>
+                  <y>114</y>
+                </center>
+                <min>
+                  <x>182</x>
+                  <y>109</y>
+                </min>
+                <max>
+                  <x>192</x>
+                  <y>119</y>
+                </max>
+                <width>10</width>
+                <height>10</height>
+                <size>
+                  <x>10</x>
+                  <y>10</y>
+                </size>
+                <xMin>182</xMin>
+                <yMin>109</yMin>
+                <xMax>192</xMax>
+                <yMax>119</yMax>
+              </ButtonRect>
+              <Chance>1</Chance>
+              <ToDialog>100</ToDialog>
+              <Close>false</Close>
+              <Enabled>true</Enabled>
+              <nodeName>Q_Stembolts_MissionAccept</nodeName>
+              <nodeDiscription>You have visited the Eiffels Inc. office, and decided to work for the brothers Samuel and Maxwell.
+
+They've sent you to acquire the deed to a plot of land, and will give you the stem bolts if you succeed.</nodeDiscription>
+              <pos>Random</pos>
+              <distance>0</distance>
+            </ButtonAction>
+          </Actions>
+          <Name>Acquire the deed.</Name>
+        </DialogButton>
+      </DialogButtons>
+    </Dialog>
+  </Dialogs>
+  <Name>Q_M_S_Stembolts</Name>
+</Scenario>
