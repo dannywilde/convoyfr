@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -25,7 +25,7 @@
         <yMax>694</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You're in hot pursuit of the privateer vehicles.</Text>
+      <Text>Vous êtes à la poursuite des véhicules des privateers.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -180,7 +180,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Next...</Name>
+          <Name>Suivant...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -200,11 +200,11 @@
         <yMax>1206</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>With the final privateer vehicle destroyed, it is an easy matter to flatten the base itself.
+      <Text>Avec le dernier véhicule privatter détruit, il est facile d'aplatir la base elle-même..
 
 [0loot]
 
-Andy applauds your efforts wholeheartedly.
+Andy applaudit sincèrement vos efforts.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -236,7 +236,7 @@ Andy applauds your efforts wholeheartedly.
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Are we done?</Name>
+          <Name>Sommes-nous faits ?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -256,9 +256,9 @@ Andy applauds your efforts wholeheartedly.
         <yMax>882</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy stays your hand as you reach for the radio.
+      <Text>Andy bloque votre main alors que vous atteignez la radio.
 
-"They must be eliminated. There is to be no diplomacy."</Text>
+"Ils doivent être éliminés. Il n'y a pas de diplomatie.."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -340,7 +340,7 @@ Andy applauds your efforts wholeheartedly.
               <AmountHP>110</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Attack!</Name>
+          <Name>Attaquez!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -395,7 +395,7 @@ Andy applauds your efforts wholeheartedly.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Ambush them.</Name>
+          <Name>Embustez-les.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -415,7 +415,7 @@ Andy applauds your efforts wholeheartedly.
         <yMax>256</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You catch the raider base by surprise, giving you a significant advantage in the following fight.
+      <Text>Vous attraquez la base des raiders par surprise, vous donnant un avantage significatif dans le combat suivant.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -468,9 +468,9 @@ Andy applauds your efforts wholeheartedly.
         <yMax>397</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You rush into the privateer base and start shooting.
+      <Text>Vous vous précipitez dans la base des privateers et commencer à tirer..
 
-Whilst brave, and certainly worthy of Andy's respect, it doesn't give you an advantage in the following fight.</Text>
+Bien que courageux, et certainement digne du respect d'Andy, cela ne vous donne pas un avantage pour le combat suivant..</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -502,7 +502,7 @@ Whilst brave, and certainly worthy of Andy's respect, it doesn't give you an adv
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Don't need it, FIRE WEAPONS!</Name>
+          <Name>On a pas besoin de ça, FEUUUUUU !</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -522,11 +522,11 @@ Whilst brave, and certainly worthy of Andy's respect, it doesn't give you an adv
         <yMax>664</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You lurk in ambush and send a single vehicle out to lure the privateers towards you.
+      <Text>Vous vous cachez en embuscade et envoyez un seul véhicule pour attirer les privateers vers vous.
 
-They fall for it exactly as planned, which results in you blasting a lot of their offensive vehicles without them having a chance to fight back.
+Ils tombent dans le panneau exactement comme prévu, ce qui se traduit par vous dynamitant beaucoup de leurs véhicules offensifs avant qu'il aient une chance de se battre.
 
-This should make assaulting the base considerably easier.
+Cela devrait faciliter l'assaut de la base.
 
 [0loot]</Text>
       <DialogButtons>
@@ -559,7 +559,7 @@ This should make assaulting the base considerably easier.
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -579,11 +579,11 @@ This should make assaulting the base considerably easier.
         <yMax>846</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You lurk in ambush and send a single vehicle out to lure the privateers towards you.
+      <Text>Vous vous cachez en embuscade et envoyez un seul véhicule pour attirer les privateers vers vous.
 
-They must have detected your presence already, as they don't seem to fall for it.
+Ils doivent déjà avoir détecté votre présence, comme ils ne semblent pas tomber dans le piège.
 
-You'll have to assault the base head on.
+Vous devrez attaquer la base..
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -616,7 +616,7 @@ You'll have to assault the base head on.
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Let's do it!</Name>
+          <Name>Faisons le!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -636,9 +636,9 @@ You'll have to assault the base head on.
         <yMax>435</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You rush into the privateer base and start shooting.
+      <Text>Vous vous précipitez dans la base des privateers et commencer à tirer.
 
-Whilst brave, and certainly worthy of Andy's respect, it left you quite vulnerable for enemy fire, resulting in one of your vehicles being hit.</Text>
+Bien que courageux, et certainement digne du respect d'Andy, il vous a laissé assez vulnérable pour le feu ennemi, résultat, un de vos véhicules à été endommagé..</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -670,7 +670,7 @@ Whilst brave, and certainly worthy of Andy's respect, it left you quite vulnerab
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Attack!</Name>
+          <Name>Attaque!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -690,7 +690,7 @@ Whilst brave, and certainly worthy of Andy's respect, it left you quite vulnerab
         <yMax>634</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You get ready to wipe out the remaining privateer vehicles.
+      <Text>Vous être prêt pour éliminer les véhicules privateers restants.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -723,7 +723,7 @@ Whilst brave, and certainly worthy of Andy's respect, it left you quite vulnerab
               <difficulty>-1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Born ready!</Name>
+          <Name>Vous êtes plus que prêt!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -743,9 +743,9 @@ Whilst brave, and certainly worthy of Andy's respect, it left you quite vulnerab
         <yMax>1224</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That we are, O my brother. 
+      <Text>"C'est ce que nous sommes, ô mon frère.
 
-Let us return to the Sasiak milkbar, I'll get you your Hyperdrive Stabilizer then."
+Revenons au bar à lait Sasiak, je vais vous obtenir votre stabilisateur Hyperdrive."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -775,15 +775,15 @@ Let us return to the Sasiak milkbar, I'll get you your Hyperdrive Stabilizer the
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>Andy's lust for violence has been satisfied. 
+              <nodeDiscription>La soif de violence d'Andy a été satisfaite.. 
 
-He asked you to return him to the Sasiak milkbar so you can obtain the Hyperdrive Stabilizers.</nodeDiscription>
+Il vous a demandé de le ramener au bar à lait de Sasiak afin que vous puissiez obtenir le Stabilisateur Hyperdrive.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -803,11 +803,11 @@ He asked you to return him to the Sasiak milkbar so you can obtain the Hyperdriv
         <yMax>682</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>As you keep tailing the privateers, your scanners eventually pick up increased activity in the area.
+      <Text>Pendant que vous poursuivez les privateers, vos scanners finissent par détecter une activité accrue dans la région.
 
-It looks like you've found the privateer base!
+On dirait que vous avez trouvé la base des corsaires!
 
-Andy looks pleased, then turns and asks what the plan is.</Text>
+Andy semble content, puis se retourne et demande quel est le plan.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -889,7 +889,7 @@ Andy looks pleased, then turns and asks what the plan is.</Text>
               <AmountHP>210</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Attack them!</Name>
+          <Name>Attaquez les!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -944,7 +944,7 @@ Andy looks pleased, then turns and asks what the plan is.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Lure them into an ambush.</Name>
+          <Name>Les attirer dans une embuscade.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -974,7 +974,7 @@ Andy looks pleased, then turns and asks what the plan is.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio them.</Name>
+          <Name>Les contacter par Radio.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -994,9 +994,9 @@ Andy looks pleased, then turns and asks what the plan is.</Text>
         <yMax>479</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Your scanners don't indicate a base anywhere in the vicinity.
+      <Text>Vos scanners ne détectent pas de base dans le voisinage.
 
-Surely it can't be much longer.</Text>
+Cela ne peut pas durer bien longtemps.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1025,12 +1025,12 @@ Surely it can't be much longer.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>You are in hot pursuit of the privateers, keep following them to find their base.</nodeDiscription>
+              <nodeDiscription>Vous êtes à la poursuite des privateers, continuez à les suivre pour trouver leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Surely...</Name>
+          <Name>Sûrement...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1050,9 +1050,9 @@ Surely it can't be much longer.</Text>
         <yMax>949</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The privateer vehicles suddenly speed up.
+      <Text>Les véhicules privateers accélèrent soudainement.
 
-You're not quite sure what that indicates.</Text>
+Vous n'êtes pas sûr de ce que cela indique.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1081,12 +1081,12 @@ You're not quite sure what that indicates.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>You are in hot pursuit of the privateers, keep following them to find their base.</nodeDiscription>
+              <nodeDiscription>Vous êtes à la poursuite des privateers, continuez à les suivre pour trouver leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Keep chasing!</Name>
+          <Name>Continuez la poursuite!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1106,11 +1106,11 @@ You're not quite sure what that indicates.</Text>
         <yMax>802</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>For a brief moment, you lose sight of the privateer vehicles.
+      <Text>Pour un bref instant, vous perdez de vue les véhicules des privateers.
 
-Andy points out their presumed position on the scanner, which turns out to be correct.
+Andy souligne leur position présumée sur le scanner, ce qui s'avère être correct.
 
-The chase is back on.</Text>
+La poursuite continue.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1139,12 +1139,12 @@ The chase is back on.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>You are in hot pursuit of the privateers, keep following them to find their base.</nodeDiscription>
+              <nodeDiscription>Vous êtes à la poursuite des privateers, continuez à les suivre pour trouver leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1164,11 +1164,11 @@ The chase is back on.</Text>
         <yMax>668</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The privateer vehicles come to a sudden halt!
+      <Text>Les véhicules privateers s'arrêtent brusquement!
 
-You panic slightly, but it turns out one of the privateers needed to heed nature's call.
+Vous paniquez légèrement, mais il s'avère l'un des privateers devait faire un arrêt nécessaire pour tenir compte de l'appel de la nature.
 
-Afterwards, they prepare to move out once again.</Text>
+APrès quoi, ils se préparent à repartir une fois de plus.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1197,12 +1197,12 @@ Afterwards, they prepare to move out once again.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>You are in hot pursuit of the privateers, keep following them to find their base.</nodeDiscription>
+              <nodeDiscription>Vous êtes à la poursuite des privateers, continuez à les suivre pour trouver leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Keep chasing!</Name>
+          <Name>La poursuite continue !</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1222,9 +1222,9 @@ Afterwards, they prepare to move out once again.</Text>
         <yMax>1091</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy looks pensive.
+      <Text>Andy semble pensif.
 
-"Surely, it can't be much longer now..."</Text>
+"Cela ne prendra sûrement plus beaucoup de temps maintenant ..."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1253,12 +1253,12 @@ Afterwards, they prepare to move out once again.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>You are in hot pursuit of the privateers, keep following them to find their base.</nodeDiscription>
+              <nodeDiscription>Vous êtes à la poursuite des privateers, continuez à les suivre pour trouver leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's hope so...</Name>
+          <Name>Esperons-le...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

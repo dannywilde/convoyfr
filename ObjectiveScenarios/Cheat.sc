@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,9 +41,9 @@
         <yMax>618</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>Hello filthy cheater.
+      <Text>Bonjour sale tricheur.
 
-What would you like?</Text>
+Que désirez-vous?</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -621,7 +621,7 @@ What would you like?</Text>
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Give me an OP vehicle.</Name>
+          <Name>Donnez-moi un véhicule OP.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -743,7 +743,7 @@ What would you like?</Text>
               <fuelAmount>500</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Give me loads of fuel!</Name>
+          <Name>Donnez moi beaucoup de carburant!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -2070,7 +2070,7 @@ What would you like?</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Take loot</Name>
+          <Name>Prendre le butin</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3059,9 +3059,9 @@ What would you like?</Text>
 | $ | $ | $ |
 -------------
 
-YOU ARE A WINNER!!!
+ON A UN GAGNANT!!!
 
-You've won the jackpot! You won [0$]</Text>
+Vous avez gagné le jackpot! Vous avez gagné [0$]</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3307,5 +3307,5 @@ You've won the jackpot! You won [0$]</Text>
       </DialogButtons>
     </Dialog>
   </Dialogs>
-  <Name>Cheat</Name>
+  <Name>Triche</Name>
 </Scenario>

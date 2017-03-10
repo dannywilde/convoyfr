@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -25,9 +25,9 @@
         <yMax>220</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the coordinates Andy supplied, when he starts saying:
+      <Text>Vous arrivez aux coordonnées fournies par Andy, quand il commence à dire:
 
-"Just trees and dark, my brother, with real country dark! Just the spot for some of the old ultra-violence!"
+"Il n'y a que des arbres et l'obscurité, mon frère, Un pays vraiment obscur! Juste le lieu de la bonne vieille ultra-violence!"
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -78,11 +78,11 @@
         <yMax>546</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>Andy chortles with joy after the carnage you've wrought.
+      <Text>Andy rit de bonheur après le carnage que vous avez fait.
 
-"Victims of the modern age, O my brother!"
+"Victimes de l'âge moderne, ô mon frère!"
 
-You drag a survivor from the wrecks.
+Vous sortez un survivant des épaves.
 
 [0loot]</Text>
       <DialogButtons>
@@ -115,7 +115,7 @@ You drag a survivor from the wrecks.
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Interrogate the survivor.</Name>
+          <Name>Interroger le survivant.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -135,15 +135,15 @@ You drag a survivor from the wrecks.
         <yMax>210</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Viddy well, you can see the wretched privateers and their scummy ways just now."
+      <Text>"Viddy well, vous pouvez voir les Privateers misérables et leurs méthodes de salauds à présent."
 
-Andy points towards a distant dust-cloud. You discern several vehicles.
+Andy vous montre un lointain nuage de poussière. Vous dicernez plusieurs véhicules.
 
-"A privateer raiding party, preying on the weak for sport and gain. They deserve to perish.
+"Un raid de Privateers, qui se précipite sur les plus faibles pour le sport et l'appat du gain. Ils méritent la mort.
 
-Killing this group won't solve the infection, however. We need to find the source... and THEN kill all of them!
+Tuer ce groupe ne résoudra pas l'infection. Nous devons trouver la source... puis les tuer TOUS!
 
-You tell me, what is wisdom?"</Text>
+Vous me demander ce qu'est la sagesse ?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -198,7 +198,7 @@ You tell me, what is wisdom?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Blast them, ask questions later.</Name>
+          <Name>Détruisez les, vous poserez des question ensuite.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -228,7 +228,7 @@ You tell me, what is wisdom?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Track them to their base.</Name>
+          <Name>Suivez les jusqu'à leur base.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -258,7 +258,7 @@ You tell me, what is wisdom?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio them.</Name>
+          <Name>Contactez les par Radio.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -278,11 +278,11 @@ You tell me, what is wisdom?"</Text>
         <yMax>-364</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy smiles broadly.
+      <Text>Andy sourit largement.
 
-"Itching to fight, eh? Wonderful!
+"Une furieuse envie de se battre, hein? Merveilleux!
 
-Sounds good to me, just make sure you don't kill all of them before we get a chance to talk!"
+ça me semble bien, assurez vous juste de ne pas tous les tuer avant d'avoir l'occasion de leur parler!"
 
 </Text>
       <DialogButtons>
@@ -370,7 +370,7 @@ Sounds good to me, just make sure you don't kill all of them before we get a cha
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Start shooting.</Name>
+          <Name>Faire feu.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -390,9 +390,9 @@ Sounds good to me, just make sure you don't kill all of them before we get a cha
         <yMax>-200</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Not so hasty, little brother. Lest you end up like the wrecks of their previous victims.
+      <Text>"Ne soit pas si pressé, petit frère. Vous ne voulez pas finir en épaves comme leurs victimes précédentes
 
-You can see them there, evidence of your own glazzies! Much more exciting to fight them amidst their previous prey. The hunter becoming the prey like, real horrorshow." </Text>
+à présent vous les comprennez, preuve de votre faible santée mentale! C'est bien plus excitant de les combattre au milieu de leur proie précédente. Le chasseur devient la proie, une véritable vision d'horreur." </Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -424,7 +424,7 @@ You can see them there, evidence of your own glazzies! Much more exciting to fig
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight them amidst the wrecks.</Name>
+          <Name>Combattez-les au milieu des épaves.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -456,7 +456,7 @@ You can see them there, evidence of your own glazzies! Much more exciting to fig
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Wait for a more favourable moment to attack them.</Name>
+          <Name>Attendez un moment plus favorable pour les attaquer.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -476,11 +476,11 @@ You can see them there, evidence of your own glazzies! Much more exciting to fig
         <yMax>623</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The privateer is quickly persuaded to reveal the location of the privateer base.
+      <Text>Le Privateer est rapidement persuadé de révéler l'emplacement de leur base.
 
-Andy nods approvingly.
+Andy acquiesce.
 
-"We got what we need. So, shall we kill this blubbering fool?"</Text>
+"Nous avons ce dont nous avions besoin. Alors, devons-nous tuer cet imbécile qui chiale ?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -510,7 +510,7 @@ Andy nods approvingly.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Do the honours, Andy.</Name>
+          <Name>Fait nous les honneurs, Andy.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -540,7 +540,7 @@ Andy nods approvingly.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave him be.</Name>
+          <Name>Abandonnons le ici.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -560,9 +560,9 @@ Andy nods approvingly.
         <yMax>512</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy produces a knife from his sleeve and swiftly slashes the throat of the privateer.
+      <Text>Andy tire un couteau de sa manche et tranche d'un coup sec la gorge du Privateer.
 
-"Onwards to the base... there is more killing to be done."
+"En route pour la base... Il y a quelques meurtres de plus à perpétrer."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -592,9 +592,8 @@ Andy nods approvingly.
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You learned the location of the privateer base after interrogating a survivor.
-
-Head over to the base and wipe them out.</nodeDiscription>
+              <nodeDiscription>Vous avez appris l'emplacement de la base des Privateers de la route après avoir interrogé le survivant.
+              Vous fondez sur la base prêt à en découdre.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
@@ -619,11 +618,11 @@ Head over to the base and wipe them out.</nodeDiscription>
         <yMax>709</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy looks disappointed, but subjects to your decision regardless.
+      <Text>Andy semble déçu, mais vos décisions vous regardent.
 
-"Let us make haste to the privateer base. I trust you won't let that filth live!"
+"Hâtons-nous d'aller à la base des Privateers. Je sais que vous le laisserez pas ces salauds vivre!"
 
-The privateer runs off, you doubt he'll survive long without a working vehicle.</Text>
+Le Privateer s'enfuit, vous doutez de sa survie sans véhicule.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -652,14 +651,14 @@ The privateer runs off, you doubt he'll survive long without a working vehicle.<
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You learned the location of the privateer base after interrogating a survivor.
+              <nodeDiscription>Vous avez appris l'emplacement de la base des Privateers après avoir interrogé le survivant.
 
-Head over to the base and wipe them out.</nodeDiscription>
+Vous fondez sur la base prêt à en découdre.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Onwards!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -679,11 +678,11 @@ Head over to the base and wipe them out.</nodeDiscription>
         <yMax>-57</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy smiles.
+      <Text>Andy sourit.
 
-"A wise choice, although a bit less exciting than simply killing them.
+"Un choix judicieux, bien qu'un peu moins excitant que simplement les tuer.
 
-Onwards we go, then. Towards their filthy nest!"</Text>
+Ensuite, nous irons. Vers leur saleté de nid!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -712,14 +711,14 @@ Onwards we go, then. Towards their filthy nest!"</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Tracking2</nodeName>
-              <nodeDiscription>Andy pointed you towards some privateers.
+              <nodeDiscription>Andy vous montre quelques Privateers.
 
-You decided to try tracking them to their base.</nodeDiscription>
+Vous avez décidé d'essayer de les suivre à leur base.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -739,11 +738,11 @@ You decided to try tracking them to their base.</nodeDiscription>
         <yMax>86</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy looks slightly puzzled.
+      <Text>Andy semble un peu perplexe.
 
-"Speaking with the filth as if they were proper folks? A strange choice, but I am interested to see how it pans out.
+"Parler avec ces salauds comme si c'était des gens honnêtes ? UN choix étrange, mais je suis curieux de voir le résultat.
 
-Show me your diplomacy, friend!"</Text>
+Montrez-moi vos talents de diplomate l'ami!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -798,7 +797,7 @@ Show me your diplomacy, friend!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Hail the privateers.</Name>
+          <Name>Parlementer avec les Privateers.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -817,10 +816,10 @@ Show me your diplomacy, friend!"</Text>
         <xMax>1648</xMax>
         <yMax>-99</yMax>
       </GraphRect>
-      <Name>New dialog</Name>
-      <Text>The privateers don't seem interested in conversation, as they ignore your hails.
+      <Name>New dialogs</Name>
+      <Text>Les Privateers ne semblent pas intéressés à la conversation, car ils ignorent vos demandes..
 
-They do appear interested in fighting, their vehicles approach your convoy with weapons armed.</Text>
+Ils semblent intéressés à se battre, leurs véhicules s'approchent de votre convoi avec des armes chargées.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -852,7 +851,7 @@ They do appear interested in fighting, their vehicles approach your convoy with 
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Préparez-vous à combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -872,11 +871,11 @@ They do appear interested in fighting, their vehicles approach your convoy with 
         <yMax>157</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The privateers respond to your hails.
+      <Text>Les Privateers répondent à vos demandes.
 
-"You got some nerve talkin' to us! But thanks for letting us know of your position.
+«Vous avez un certain culot de tenter de vouloir parlementer avec nous! Mais merci de nous avoir fait part de votre position.
 
-Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
+Parlez vite, avant que nous pillons votre convoi!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -931,7 +930,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Threaten them.</Name>
+          <Name>Les menacer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -986,7 +985,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Offer to trade.</Name>
+          <Name>Offre de commerce.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1016,7 +1015,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Screw it, just attack them.</Name>
+          <Name>Changement de plan, Attaquez les.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1036,7 +1035,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
         <yMax>216</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Hrrm.... you have our attention, what is it you're offering and what is it you want?"
+      <Text>"Hrrm.... vous avez toute notre attention, qu'offrez-vous et qu'est ce que vous voulez?"
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1092,7 +1091,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Parts for their base location.</Name>
+          <Name>Des indices sur l'emplacement de leur base.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1147,7 +1146,7 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Lure them into an ambush.</Name>
+          <Name>Les attirer dans une embuscade.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1167,11 +1166,11 @@ Speak quick, before we plunder and loot that fancy convoy of yours!"</Text>
         <yMax>209</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Are you accusing us of being mere merchants? 
+      <Text>"Vous pensez que nous somme juste des simples marchands? 
 
-We are no such thing, we are mighty privateers! Prepare to be boarded for your insolence!"
+Nous en somme loin, nous sommes les puissants Privateers! Préparez-vous à être punis pour votre insolence!"
 
-Andy chortles quietly.
+Andy grogne tranquillement.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1204,7 +1203,7 @@ Andy chortles quietly.
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Ready weapons!</Name>
+          <Name>Armes prêtes!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1224,11 +1223,11 @@ Andy chortles quietly.
         <yMax>81</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"You're threatening us? Is this some kind of joke?
+      <Text>"Vous nous menacez ? C'est une plaisanterie ?
 
-Prepare to be boarded!"
+Preparez-vous à en découdre!"
 
-Andy chortles quietly.</Text>
+Andy grogne tranquillement.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1260,7 +1259,7 @@ Andy chortles quietly.</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Ready weapons!</Name>
+          <Name>Armes prêtes!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1280,11 +1279,11 @@ Andy chortles quietly.</Text>
         <yMax>-290</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Woahhh, that convoy of yours is a lot more armed than we're comfortable with.
+      <Text>"Woahhh, voter convoi est bien plus armé que nous le somme.
 
-We surrender, we'll leave you alone! Leave us be!"
+Nous nous rendons, nous vous laisserons tranquilles désormais! Laissez-nous vivre!"
 
-Andy snickers quietly.
+Andy ricanement tranquillement.
 
 </Text>
       <DialogButtons>
@@ -1316,7 +1315,7 @@ Andy snickers quietly.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Where is your base?</Name>
+          <Name>Où est votre base ?</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1346,7 +1345,7 @@ Andy snickers quietly.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Cowards, prepare to die!</Name>
+          <Name>Lâches, préparez-vous à mourir!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1366,13 +1365,13 @@ Andy snickers quietly.
         <yMax>-50</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Whut? That is... remarkably forward.
+      <Text>"Quoi? C'est... bien amené.
 
 To be honest, we've had out share of looting and plundering. If you pay us [0$] we'll be able to start a new life.
 
-In return, we'll happily tell you where the base is."
+En échange nous serons ravis de vous dire où se trouve notre base."
 
-Andy nods approvingly.</Text>
+Andy acquiesce.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1458,7 +1457,7 @@ Andy nods approvingly.</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Pay them.</Name>
+          <Name>Les payer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1488,7 +1487,7 @@ Andy nods approvingly.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>We'll just kill you instead.</Name>
+          <Name>On va plutôt vous tuer.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1508,11 +1507,11 @@ Andy nods approvingly.</Text>
         <yMax>117</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Whut? Why would we give you the location of our base of operations?
+      <Text>"Quoi? Pourquoi vous donner l'emplacement de notre base d'opérations?
 
-Enough of this nonsense, prepare to be boarded!"
+J'en ai assez de ces sornettes, préparez-vous à en découdre!
 
-Andy grins widely.</Text>
+Andy sourit largement.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1544,7 +1543,7 @@ Andy grins widely.</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1564,11 +1563,11 @@ Andy grins widely.</Text>
         <yMax>306</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You spew some lies about trading cargo to the privateers, who take the bait and drive right into your ambush.
+      <Text>Vous vomissez des mensonges au sujet du commerce de fret pour les Privateers, qui mordent à l'appât et conduisent droit dans votre embuscade.
 
-This should make combat considerably easier.
+Cela devrait rendre le combat considérablement plus facile.
 
-Andy nods approvingly.</Text>
+Andy hoche la tête.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1600,7 +1599,7 @@ Andy nods approvingly.</Text>
               <difficulty>-1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1620,9 +1619,9 @@ Andy nods approvingly.</Text>
         <yMax>432</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You spew some lies about trading cargo to the privateers, who seem eager to approach, but are wise enough to keep their weapons primed expecting the worst.
+      <Text>Vous vomissez des mensonges au sujet du commerce de fret pour les corsaires, qui semblent intéressés, mais sont assez sages pour garder leurs armes chargées en s'attendant au pire.
 
-No advantage was gained.</Text>
+Aucun avantage n'a été obtenu.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1654,7 +1653,7 @@ No advantage was gained.</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1674,13 +1673,13 @@ No advantage was gained.</Text>
         <yMax>-91</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You pay the privateers, who give you the coordinates of their former base.
+      <Text>Vous payez les corsaires qui vous donnent les coordonnées de leur ancienne base.
 
-Andy raises an eyebrow.
+Andy lève un sourcil.
 
-"Paying the scum? And letting them live? How disappointing.
+"Payer les salauds et les laisser vivre? Quelle déception.
 
-I suppose your diplomacy was impressive, though. Let us head to the privateer base and kill 'em all! No more diplomacy!"</Text>
+Je suppose que votre diplomatie a été impressionnante, cependant. Allons à la base des Privateers et tuons-les tous! Plus de diplomatie!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1709,14 +1708,14 @@ I suppose your diplomacy was impressive, though. Let us head to the privateer ba
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You obtained the privateer base location by giving some of them enough parts to start a new life.
+              <nodeDiscription>Vous avez obtenu l'emplacement de base des Privateers en donnant à certains d'entre eux suffisamment de pièces pour commencer une nouvelle vie.
 
-Head over to the base and kill them all.</nodeDiscription>
+Vous fondez sur la base pour tous les tuer.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Onwards!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1736,11 +1735,11 @@ Head over to the base and kill them all.</nodeDiscription>
         <yMax>-336</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We'll tell you, we'll tell you. Just leave us be!"
+      <Text>"Nous parlerons, nous parlerons. Laissez-nous vivre!"
 
-The raiders give you the location of your base.
+Les Privateers vous donnent l'emplacement de leur base.
 
-Andy nods approvingly, then asks: "Surely, we'll kill them anyway?"
+Andy acquiesce, pusi demande: "De toute façon on allait les tuer, non ?"
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1801,7 +1800,7 @@ Andy nods approvingly, then asks: "Surely, we'll kill them anyway?"
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave them be.</Name>
+          <Name>Laissez les vivre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1821,7 +1820,7 @@ Andy nods approvingly, then asks: "Surely, we'll kill them anyway?"
         <yMax>-494</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You manage to catch up to the fleeing privateers and easily dispatch them.
+      <Text>Vous parvenez à rattraper les Privateers en fuite et les expédier facilement dans l'autre monde.
 
 [0loot]</Text>
       <DialogButtons>
@@ -1874,9 +1873,9 @@ Andy nods approvingly, then asks: "Surely, we'll kill them anyway?"
         <yMax>-522</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy applauds your efforts.
+      <Text>Andy applaudit vos efforts..
 
-"Onwards to the privateer base, O my brother!"</Text>
+"En route vers la bade des Privateers, O mon frère!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1905,9 +1904,9 @@ Andy nods approvingly, then asks: "Surely, we'll kill them anyway?"
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You bullied some privateers into revealing the location of their base, before promptly executing them.
+              <nodeDiscription>Vous avez forcé certains Privateers à révéler l'emplacement de leur base, avant de les excécuter proprement.
 
-Head over to the base and wipe out the rest of them.</nodeDiscription>
+En route pour leur base pour détruire le reste d'entre eux.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
@@ -1932,9 +1931,9 @@ Head over to the base and wipe out the rest of them.</nodeDiscription>
         <yMax>-353</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy looks disappointed.
+      <Text>Andy semble déçu.
 
-You enter the coordinates of the raider base to your map.</Text>
+Vous saisissez les coordonnées de la base des Privateers sur votre carte.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1963,14 +1962,14 @@ You enter the coordinates of the raider base to your map.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You bullied some privateers into revealing the location of their base, then decided to let them live.
+              <nodeDiscription>Vous avez forcé certains Privateers à révéler l'emplacement de leur base et les avez laissé vivre.
 
-Head over to the privateer base and wipe it out.</nodeDiscription>
+En route pour leur base pour détruire les autres.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Onwards!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

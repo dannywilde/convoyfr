@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,11 +41,11 @@
         <yMax>549</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the hill that was described by Audrey. It is littered with debris, wrecks and toxic sludge.
+      <Text>Vous arrivez à la colline qui a été décrite par Audrey. Elle est jonchée de débris, d'épaves et de boues toxiques.
 
-Atop the hill is a raider base, emitting vile black smoke and spilling toxic goo from its drainage pipes.
+Au sommet de la colline est installée une base de raider, émettant de la fumée noire vile et déversement un boue toxique de ses tuyaux de drainage.
 
-It is no surprise you were asked to clear them out.</Text>
+Il n'est pas surprenant qu'on vous demande de les éliminer.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -91,7 +91,7 @@ It is no surprise you were asked to clear them out.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Attack the raiders!</Name>
+          <Name>Attaque les raiders!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -137,7 +137,7 @@ It is no surprise you were asked to clear them out.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Actually, never mind.</Name>
+          <Name>En fait, peut importe.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -173,9 +173,9 @@ It is no surprise you were asked to clear them out.</Text>
         <yMax>810</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>With all the raider vehicles defeated, you get to looting and acquire: [0lootn].
+      <Text>Avec tous les véhicules raider vaincus, vous obtenez comme butin: [0lootn].
 
-As you eye the raider base spilling its vile filth on the hill, a flower-decorated vehicle approaches your convoy.</Text>
+Comme vous regardez la base de raider déversant sa vile saleté sur la colline, un véhicule fleur-décoré s'approche de votre convoi.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -222,7 +222,7 @@ As you eye the raider base spilling its vile filth on the hill, a flower-decorat
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Continue.</Name>
+          <Name>Continuer.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -258,7 +258,7 @@ As you eye the raider base spilling its vile filth on the hill, a flower-decorat
         <yMax>365</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The raiders saw you coming and move in to engage you head on!</Text>
+      <Text>Les raiders vous ont vu venir et se déplacer dans votre direction à vive allure!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -306,7 +306,7 @@ As you eye the raider base spilling its vile filth on the hill, a flower-decorat
               <difficulty>12</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Ready weapons!</Name>
+          <Name>Armes prètes!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -342,13 +342,13 @@ As you eye the raider base spilling its vile filth on the hill, a flower-decorat
         <yMax>689</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>From within the vehicle a young woman wearing an old-fashioned white dress appears. Her dandelion-coloured hair dances in the wind, while her dress swirls around her long and elegant legs.
+      <Text>De l'intérieur du véhicule apparaît une jeune femme vêtue d'une robe blanche qui semble ancienne. Ses cheveux de pissenlit dansent au vent, tandis que sa robe tourbillonne autour de ses jambes longues et élégantes.
 
-She smiles brightly and says: "I knew you would find me, and I knew you would help me.
+Elle sourit et dit: «Je savais que tu me trouverais, et je savais que tu m'aiderais.
 
-Sadly, the hill will never quite recover from its desecration, but with the raiders dead at least it won't get any worse.
+Malheureusement, la colline ne sera jamais remise de sa profanation, mais avec les raiders morts au moins, cela ne sera pourra pas être pire.
 
-And now we must go, we have a thousand things to do."</Text>
+Et maintenant nous devons partir, nous avons mille choses à faire."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -584,7 +584,7 @@ And now we must go, we have a thousand things to do."</Text>
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Let's go!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,9 +41,9 @@
         <yMax>275</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>As you arrive in the area where the Bearded Bunny Raiders operate, it seems they've found you first.
+      <Text>Alors que vous arrivez dans la région où les Bearded Bunny Raiders opèrent, il semble qu'ils vous aient trouvé en premier.
 
-Several vehicles, sporting the bearded rabbit logo, approach your convoy agressively.</Text>
+Plusieurs véhicules, portant le logo de lapin barbu, s'approchent agressivement de votre convoi.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -91,7 +91,7 @@ Several vehicles, sporting the bearded rabbit logo, approach your convoy agressi
               <difficulty>-3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Defend yourself!</Name>
+          <Name>Défendez-vous!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -127,9 +127,9 @@ Several vehicles, sporting the bearded rabbit logo, approach your convoy agressi
         <yMax>531</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>Just as you're trying to recover from the fight, you spot more vehicles approaching from the distance.
+      <Text>Au moment où vous essayez de récupérer du combat, vous repérer plusieurs autres véhicules à bonne distance approchant de votre convoi à grande vitesse.
 
-"Come see how far down this rabbit hole goes!"</Text>
+"Venez voir à quelle profondeur va ce terrier!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -174,13 +174,13 @@ Several vehicles, sporting the bearded rabbit logo, approach your convoy agressi
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>G_BeardedBunnies2</nodeName>
-              <nodeDiscription>You've survived the attacking Bearded Bunnies, but more are inbound!</nodeDiscription>
+              <nodeDiscription>Vous avez survécu à l'attaque de lapins à la barbe, mais il y en à encore plus à l'intérieur!</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>G_BeardedBunnies</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Attack formations!</Name>
+          <Name>Formations d'attaque!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

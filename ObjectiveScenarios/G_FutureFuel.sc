@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>425</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>According to the calculations of your engineer, this should be the area from which you sent yourself future fuel.</Text>
+      <Text>Selon les calculs de votre ingénieur, ce devrait être la zone à partir de laquelle vous enverrez votre futur carburant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -210,7 +210,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Investigate.</Name>
+          <Name>Enquêter.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -246,11 +246,11 @@
         <yMax>655</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>All the privateer vehicles have been defeated. 
+      <Text>Tous les véhicules privateers ont été battus.
 
-After searching the wrecks you manage to recover [0$] and some quantities of fuel.
+Après avoir fouillé les épaves, vous parvenez à récupérer [0$] et certaines quantités de carburant.
 
-Your engineer gets to work to send the appropriate amount to the past.</Text>
+Votre ingénieur se met au travail pour envoyer le montant approprié au passé.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -384,7 +384,7 @@ Your engineer gets to work to send the appropriate amount to the past.</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Go for it.</Name>
+          <Name>Fonce.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -420,11 +420,11 @@ Your engineer gets to work to send the appropriate amount to the past.</Text>
         <yMax>81</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Upon inspection of the area you find a hidden cache of fuel cannisters. It adds up to the exact amount you retrieved in the past.
+      <Text>Lors de l'inspection de la zone, vous trouverez une cache de jerricans de carburant. Il est ajouté à la quantité exacte que vous avez récupéré dans le passé.
 
-There's no clue to who left these cannisters here, but you've found them thanks to your time shenanigens.
+Il n'y a aucun indice de qui a laissé ces jerricans ici, mais vous les avez trouvés grâce à votre temps shenanigens.
 
-To avoid time paradoxes, you have your engineer send the fuel to the past.</Text>
+Pour éviter les paradoxes temporels, vous avez laissé votre ingénieur envoyer le carburant au passé.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -470,7 +470,7 @@ To avoid time paradoxes, you have your engineer send the fuel to the past.</Text
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Better safe than sorry.</Name>
+          <Name>Mieux vaut prévenir que guérir.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -506,11 +506,11 @@ To avoid time paradoxes, you have your engineer send the fuel to the past.</Text
         <yMax>220</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Upon inspection of the area you find a hidden cache of fuel cannisters and to avoid time paradoxes, you have your engineer send the fuel to the past.
+      <Text>Lors de l'inspection de la zone, vous trouverez une cache de jerricans de carburant et pour éviter les paradoxes temporels, vous laissez votre ingénieur envoyer le carburant au passé.
 
-Turns out there is more fuel here than you originally received. So you're left with an additional [0#].
+Il s'avère qu'il y a plus de carburant ici que vous en avez reçu à l'origine. Vous avez donc droit à un [0#] supplémentaire.
 
-It makes sense, as you know you managed to get here with the fuel you sent back, only to have additional fuel here. Although you could have sent it all back in the first place and it wouldn't have made much of a difference. Then aga... your head hurts.</Text>
+Il est logique, comme vous le savez, vous avez réussi à obtenir ici le carburant que vous avez renvoyé, seulement pour avoir du carburant supplémentaire ici. Bien que vous pourriez avoir tout renvoyé dans le premier lieu et cela n'aurait pas fait beaucoup de différence. Alors aga ... vous avez un mal de tête.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -680,9 +680,9 @@ It makes sense, as you know you managed to get here with the fuel you sent back,
         <yMax>374</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Upon inspection of the area you find an abandoned vehicle, filled with the exact amount of fuel you received earlier.
+      <Text>Lors de l'inspection de la zone, vous trouverez un véhicule abandonné, rempli avec la quantité exacte de carburant que vous avez reçu plus tôt.
 
-You have your engineer send the fuel to the past, whilst you check out the vehicle. It's fully functional, making its presence here all more inexplicable.</Text>
+Votre ingénieur a envoyé le carburant dans le passé, alors que vous vérifiez le véhicule. Il est entièrement fonctionnel, rendant sa présence ici encore plus inexplicable.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -786,9 +786,9 @@ You have your engineer send the fuel to the past, whilst you check out the vehic
         <yMax>519</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The area is brimming with privateer vehicles.
+      <Text>La région regorge de véhicules privateers.
 
-You must have defeated them and retrieved the fuel from their vehicles to send back, which means you'll have to do it again. Or something...</Text>
+Vous devez les avoir vaincus et récupéré le carburant de leurs véhicules pour les renvoyer, ce qui signifie que vous devrez le faire à nouveau. Ou quelque chose dans ce style...</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -836,7 +836,7 @@ You must have defeated them and retrieved the fuel from their vehicles to send b
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -872,7 +872,7 @@ You must have defeated them and retrieved the fuel from their vehicles to send b
         <yMax>744</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After the fuel has been sent back, there is still [0#] left.</Text>
+      <Text>Après que le carburant ai été renvoyé, il en reste encore [0#].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1006,7 +1006,7 @@ You must have defeated them and retrieved the fuel from their vehicles to send b
               <fuelAmount>31</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

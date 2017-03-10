@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>722</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You've arrived at the location of the abandoned workshop.</Text>
+      <Text>Vous êtes arrivé à l'emplacement de l'atelier abandonné.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -210,7 +210,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue.</Name>
+          <Name>Continuer.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -246,7 +246,7 @@
         <yMax>286</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>All the attacking vehicles have been destroyed.
+      <Text>Tous les véhicules attaquants ont été détruits.
 
 [0loot]</Text>
       <DialogButtons>
@@ -295,7 +295,7 @@
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Check the workshop.</Name>
+          <Name>Vérifier l'atelier.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -331,9 +331,9 @@
         <yMax>278</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The workshop turns out to still be functional.
+      <Text>L'atelier se révèle encore fonctionnel.
 
-Your engineers get to work and manage to repair the MCV Shield Generator with no complications.</Text>
+Vos ingénieurs se mettent au travail et réussissent à réparer le MCV Shield Generator sans problème.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -380,7 +380,7 @@ Your engineers get to work and manage to repair the MCV Shield Generator with no
               <ItemNumber>31</ItemNumber>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -416,11 +416,11 @@ Your engineers get to work and manage to repair the MCV Shield Generator with no
         <yMax>508</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The workshop turns out to still be functional.
+      <Text>L'atelier se révèle encore fonctionnel.
 
-Your engineers get to work, but tell you they require an additional [0$] to finalize the repairs.
+Vos ingénieurs se mettent au travail, mais vous disent qu'ils ont besoin d'un supplément de [0$] pour finaliser les réparations.
 
-Alternatively, they could scrap it for [1$].</Text>
+Sinon, ils pourraient le démonter pour [1$].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -554,7 +554,7 @@ Alternatively, they could scrap it for [1$].</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Do it. [$]</Name>
+          <Name>Le réparer pour [$]</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -688,7 +688,7 @@ Alternatively, they could scrap it for [1$].</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Scrap it. [$]</Name>
+          <Name>Le démonter en [$]</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -724,7 +724,7 @@ Alternatively, they could scrap it for [1$].</Text>
         <yMax>646.9551</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Upon nearing the workshop, enemy vehicles already present approach you!</Text>
+      <Text>En approchant de l'atelier, les véhicules ennemis déjà présents se dirigent vers vous!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -772,7 +772,7 @@ Alternatively, they could scrap it for [1$].</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight them!</Name>
+          <Name>Les combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -808,9 +808,9 @@ Alternatively, they could scrap it for [1$].</Text>
         <yMax>798</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Sadly, it looks like the abandoned workshop has been completely stripped bare.
+      <Text>Malheureusement, il semble que l'atelier abandonné ai été complètement dépouillé.
 
-With no other option to repair the MCV Shield Generator, you decide to scrap it for [0$].</Text>
+Sans autre option pour réparer le MCV Shield Generator, vous décidez de le démonter en [0$].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -944,7 +944,7 @@ With no other option to repair the MCV Shield Generator, you decide to scrap it 
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Damn!</Name>
+          <Name>Mince!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -980,7 +980,7 @@ With no other option to repair the MCV Shield Generator, you decide to scrap it 
         <yMax>436</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The engineers repaired the MCV Shield Generator succesfully!</Text>
+      <Text>Les ingénieurs ont réparé le MCV Shield Generator avec succès!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1027,7 +1027,7 @@ With no other option to repair the MCV Shield Generator, you decide to scrap it 
               <ItemNumber>31</ItemNumber>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>481.955078</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>Surrounded by myriad flowers and plants, amazingly thriving in the burning desert heat, you arrive at the Little Flower Shop of Marvels.</Text>
+      <Text>Entouré d'une myriade de fleurs et de plantes, étonnamment prospère dans la chaleur brûlante du désert, vous arrivez à l'échoppe ma Petite Fleur de Marvels.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -87,7 +87,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Head inside.</Name>
+          <Name>Enter.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -170,7 +170,7 @@
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Take loot</Name>
+          <Name>Prendre le butin</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -206,9 +206,9 @@
         <yMax>426</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Upon heading inside, the fragrance of dozens of flowers envelop you.
+      <Text>En entrant, le parfum de dizaines de fleurs vous enveloppe.
 
-A friendly looking girl is stood behind the counter, she is wearing a badge with: "Hi, my name is Audrey!" written on it.</Text>
+Une fille sympathique est debout derrière le comptoir, elle porte un badge où il est inscrit: "Salut, mon nom est Audrey!".</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -254,7 +254,7 @@ A friendly looking girl is stood behind the counter, she is wearing a badge with
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Hello Audrey!"</Name>
+          <Name>"Bonjour Audrey!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -300,7 +300,7 @@ A friendly looking girl is stood behind the counter, she is wearing a badge with
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"I'm here about a dandelion"</Name>
+          <Name>"Je suis ici pour un pissenlit"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -346,7 +346,7 @@ A friendly looking girl is stood behind the counter, she is wearing a badge with
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Your finest roses please!"</Name>
+          <Name>"Vos plus belle roses s'il vous plaît!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -392,7 +392,7 @@ A friendly looking girl is stood behind the counter, she is wearing a badge with
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"How does a flower shop thrive on a planet like Omek Prime?"</Name>
+          <Name>"Comment un fleuriste arrive à prospèrer sur une planète comme Omek Prime?"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -428,11 +428,11 @@ A friendly looking girl is stood behind the counter, she is wearing a badge with
         <yMax>455</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Audrey smiles happily, as her arm extends to indicate the wide selection of roses.
+      <Text>Audrey sourit joyeusement, tandis que son bras s'étend pour indiquer le large choix de roses.
 
-"Wonderful. We've just had a shipment arrive from planet Black Lagoon.
+Nous venons de recevoir un envoi de la planète Black Lagoon.
 
-To whom would you like to send the flowers?"</Text>
+A qui voulez-vous envoyer les fleurs?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -478,7 +478,7 @@ To whom would you like to send the flowers?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"They're for me."</Name>
+          <Name>"C'est pour moi même."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -524,7 +524,7 @@ To whom would you like to send the flowers?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Spaceship Mercury's captain!"</Name>
+          <Name>"Le capitaine du vaisseau Mercury!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -570,7 +570,7 @@ To whom would you like to send the flowers?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"On second thought, never mind."</Name>
+          <Name>"A la réflexion, laissez tomber."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -606,11 +606,11 @@ To whom would you like to send the flowers?"</Text>
         <yMax>634</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"No problem!
+      <Text>"Pas de problème!
 
-Is there anything else I can help you with?"
+Y-a-t-il autre chose que je puisse faire pour vous ?"
 
-Audrey's face radiates patience.</Text>
+Le visage d'Audrey rayonne de patience.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -656,7 +656,7 @@ Audrey's face radiates patience.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Know anything about a dandelion?"</Name>
+          <Name>"Savez-vous quoi que ce soit au sujet d'un pissenlit?"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -702,7 +702,7 @@ Audrey's face radiates patience.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Actually, tell me more about the roses!"</Name>
+          <Name>"En fait, dites-moi en plus sur les roses!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -748,7 +748,7 @@ Audrey's face radiates patience.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Tell me about your flower shop."</Name>
+          <Name>"Parlez-moi de votre magasin de fleurs."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -784,9 +784,9 @@ Audrey's face radiates patience.</Text>
         <yMax>850</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"I'm afraid I have to admit I import a lot of my stock, although I do grow a fair few myself.
+      <Text>"Je crains de devoir admettre que j'importe une grosse partie de mon stock, bien que je je fasse pousser quelques fleurs moi-même.
 
-As for business, you'd be surprised how a little colour on this bleak planet goes a long way.".
+Quant à l'entreprise, vous seriez surpris de voir comment un peu de couleur sur cette planète sombre parcours un long chemin.".
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -833,7 +833,7 @@ As for business, you'd be surprised how a little colour on this bleak planet goe
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"So why are there no competitors?"</Name>
+          <Name>"Alors, pourquoi n'y at-il pas de concurrents ?"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -879,7 +879,7 @@ As for business, you'd be surprised how a little colour on this bleak planet goe
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Thank you."</Name>
+          <Name>"Merci."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -915,11 +915,11 @@ As for business, you'd be surprised how a little colour on this bleak planet goe
         <yMax>147</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Audrey curtsies prettily.
+      <Text>Audrey fait un jolie révérence.
 
-"Good day. Welcome to my Little Flower Shop of Marvels.
+"Bonne journée. Bienvenue dans ma Petite Fleur de Marvels.
 
-How may I help you?"</Text>
+Comment puis-je vous aider?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -965,7 +965,7 @@ How may I help you?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Tell me more about dandelions."</Name>
+          <Name>"Parlez-moi de pissenlits."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1011,7 +1011,7 @@ How may I help you?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"A bouquet of your finest roses!"</Name>
+          <Name>Un bouquet de vos plus belles roses!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1057,7 +1057,7 @@ How may I help you?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"How can you run a flower shop here?"</Name>
+          <Name>"Comment pouvez-vous rentabiliser une boutique de fleurs ici?"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1093,17 +1093,17 @@ How may I help you?"</Text>
         <yMax>110</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Audrey raises her hands in front of her mouth and titters:
+      <Text>Audrey mets ses mains devant sa bouche et titule:
 
-"Oh, she said you would come. Tee-hee! So romantic!
+"Oh, elle a dit que vous viendriez. C'est tellement romantique!
 
-She asked me to tell you to visit the nasty men who have soiled her favourite hill on the whole of Omek Prime. The one that was covered in dandelions two hundred and forty years ago.
+Elle m'a demandé de vous dire de rendre visite aux hommes méchants qui ont souillé sa colline favorite sur tout d'Omek Prime. Celle qui était couverte de pissenlits il y a deux cent quarante ans.
 
-My, how I wish I could have seen that.
+Mon Dieu, comme je voudrais pouvoir avoir vu cela.
 
-When you've finished with them, she'll come and meet you. She said you'd recognize her by the white dress, or was it blue? I'm not sure...
+Quand vous en aurez fini, elle vous rejoindra. Elle a dit que vous alliez la reconnaître par la robe blanche, ou était-elle bleue? Je ne suis pas sûr...
 
-Anyway! The dandelion hill!"</Text>
+Peut importe! La colline aux pissenlits!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1149,7 +1149,7 @@ Anyway! The dandelion hill!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Thanks."</Name>
+          <Name>"Merci."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1195,7 +1195,7 @@ Anyway! The dandelion hill!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"She wants me to kill raiders?"</Name>
+          <Name>"Elle veut que je tue les raiders?"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1241,7 +1241,7 @@ Anyway! The dandelion hill!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Flowers used to grow here?"</Name>
+          <Name>"Des fleurs poussent ici?"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1277,11 +1277,11 @@ Anyway! The dandelion hill!"</Text>
         <yMax>466</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"How delightful.
+      <Text>"Comme c'est délicieux.
 
-Well, our going rate for a bouquet of roses is $100.
+Eh bien, notre tarif pour un bouquet de roses est de 100 $.
 
-Let me just arrange a marvellous selection for you."</Text>
+Permettez-moi de faire une charmante sélection pour vous."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1329,7 +1329,7 @@ Let me just arrange a marvellous selection for you."</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Sure thing! [$]</Name>
+          <Name>Je vous en pris! [$]</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1375,7 +1375,7 @@ Let me just arrange a marvellous selection for you."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Ehrm... I changed my mind."</Name>
+          <Name>"Ehrm... J'ai changé d'avis."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1411,11 +1411,11 @@ Let me just arrange a marvellous selection for you."</Text>
         <yMax>309</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"How delightful.
+      <Text>"Comme c'est délicieux.
 
-Well, our going rate for a bouquet of roses is $100.
+Eh bien, notre tarif pour un bouquet de roses est de $100.
 
-Let me just arrange a marvellous selection for you."</Text>
+Permettez-moi de faire une charmante sélection pour vous."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1463,7 +1463,7 @@ Let me just arrange a marvellous selection for you."</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Sure thing! [$]</Name>
+          <Name>Je vous en pris! [$]</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1509,7 +1509,7 @@ Let me just arrange a marvellous selection for you."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Ehrm... I changed my mind."</Name>
+          <Name>"Ehrm... J'ai changé d'avis."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1545,9 +1545,9 @@ Let me just arrange a marvellous selection for you."</Text>
         <yMax>259</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That's just peachy.
+      <Text>"Une odeur légèrement poivrée.
 
-I'll have those flowers ready for you when you leave, was there anything else you wanted?"</Text>
+Ce fleurs seront prêtes quand vous voudrez partir, y avait-il autre chose que vous vouliez?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1593,7 +1593,7 @@ I'll have those flowers ready for you when you leave, was there anything else yo
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Tell me about dandelions."</Name>
+          <Name>"Parlez-moi de pissenlits."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1629,11 +1629,12 @@ I'll have those flowers ready for you when you leave, was there anything else yo
         <yMax>414</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That's just peachy.
+      <Text>"Une odeur légèrement poivrée.
 
-I'll have those flowers sent to that big spaceship of yours as soon as possible, I'm sure the captain will be ever so happy.
+156/5000
+Je vais envoyer ces fleurs au plus vite à au vaisseau Mercury, je suis sûr que le capitaine en sera très heureux.
 
-Was that everything you wanted?"</Text>
+Est-ce que tout ce que vous vouliez?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1679,7 +1680,7 @@ Was that everything you wanted?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Tell me about dandelions."</Name>
+          <Name>"Parlez-moi de pissenlits."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1715,11 +1716,11 @@ Was that everything you wanted?"</Text>
         <yMax>732</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Gosh, who knows?
+      <Text>"Mon Dieu, qui sait?
 
-I can never stock enough white lilies though."
+Je n'ai jamais assez de stock de lys blancs. "
 
-Audrey winks and taps her nose knowingly.</Text>
+Audrey cligne de l'œil et touche son nez en connaissance de cause.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1765,7 +1766,7 @@ Audrey winks and taps her nose knowingly.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Thanks..."</Name>
+          <Name>"Merci..."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1801,11 +1802,11 @@ Audrey winks and taps her nose knowingly.</Text>
         <yMax>198</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Well sure!
+      <Text>"Bien sûr!
 
-It wasn't always a horrible wasteland, things used to be quite lovely here.
+Ce n'a pas pas toujours été une terre horrible, les choses tout à fait charmantes ici.
 
-According to her, everything changed for the worse when the "Keepers" came. Before that, those clever chaps at T.O.R.V.A.K. were making all sorts of progress to better the planet. Nobody had to resort to raiding or cannibalism, and Omek Prime was the leading planet in the Intergalactic Curling League."
+Selon elle, tout a changé pour le pire quand les «Gardiens» sont venus. Avant cela, ces trucs intelligents, les T.O.R.V.A.K. innovaient en permanence pour améliorer la planète. Personne n'avait à recourir à des raids ou au cannibalisme et Omek Prime était la première planète de la Ligue intergalactique de curling."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1852,7 +1853,7 @@ According to her, everything changed for the worse when the "Keepers" came. Befo
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Okay... thanks."</Name>
+          <Name>"D'accord... merci."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1888,9 +1889,9 @@ According to her, everything changed for the worse when the "Keepers" came. Befo
         <yMax>-4</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"No problem, best of luck!"
+      <Text>"Pas de problème, bonne chance! "
 
-Audrey smiles brightly and waves at you happily as you exit the door.</Text>
+Audrey fait un grand et brillant sourire dans votre direction tandis que vous quittez le magasin.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1935,14 +1936,14 @@ Audrey smiles brightly and waves at you happily as you exit the door.</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>G_Dandelion2</nodeName>
-              <nodeDiscription>The Dandelion Girl wants you to rid her favourite hill from a group of "nasty men", which you can only assume means raiders.
+              <nodeDiscription>La Fille aux Pissenlit veut que vous débarrassiez sa colline préférée d'un groupe de "méchants hommes", que vous ne pouvez supposer être que des raiders.
 
-She will meet you afterwards.</nodeDiscription>
+Elle vous rencontrera ensuite.</nodeDiscription>
               <pos>Random</pos>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1978,12 +1979,12 @@ She will meet you afterwards.</nodeDiscription>
         <yMax>-144</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Audrey makes an enthusiastic pirouette on the spot whilst singing:
+      <Text>udrey fait une pirouette enthousiaste sur place en chantant:
 
-"If you wanna be profound
-If you really gotta justify
-Take a breath and look around
-A lot of folks deserve to die!"</Text>
+"Si vous voulez être profond
+Si vous devez vraiment vous justifier
+Prenez un souffle et regardez autour de vous
+Beaucoup de gens méritent de mourir!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2029,7 +2030,7 @@ A lot of folks deserve to die!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Okay... thanks."</Name>
+          <Name>"D'accord... merci."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

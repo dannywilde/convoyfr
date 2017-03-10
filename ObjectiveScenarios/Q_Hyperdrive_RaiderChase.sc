@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,9 +41,9 @@
         <yMax>390</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You've caught up to the raiders responsible for the destruction of Whiteborough!
+      <Text>Vous avez rattrapé les raiders responsables de la destruction de Whiteborough!
 
-Andy's eyes light up. "Slaughter them!"</Text>
+Les yeux d'Andy s'illuminent. - Abattez-les!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -91,7 +91,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Attack!</Name>
+          <Name>Attaquez!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -127,7 +127,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
         <yMax>736</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>With the last raider vehicle destroyed, you hope this will bring peace to the deceased citizens of Whiteborough.
+      <Text>Avec le dernier véhicule raider détruit, vous espérez que les corps des citoyens décédés de Whiteborough reposerons en paix.
 
 [0loot]</Text>
       <DialogButtons>
@@ -260,7 +260,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Are we done, Andy?</Name>
+          <Name>On a fini, Andy?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -296,9 +296,9 @@ Andy's eyes light up. "Slaughter them!"</Text>
         <yMax>605</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That we are, O my brother.
+      <Text>"Nous y voila, Ô mon frère.
 
-Return me to the Sasiak milkbar, and I shall supply you with your precious Hyperdrive Stabilizers."</Text>
+Ramenez moi au bar à lait Sasiak, je vous fournirai votre précieux Hyperdrive Stabilizers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -343,15 +343,15 @@ Return me to the Sasiak milkbar, and I shall supply you with your precious Hyper
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You have brought the raiders responsible for the carnage at Whiteborough to justice.
+              <nodeDiscription>Vous avez trainé les raiders responsables du massacre de Whiteborough devant la justice..
 
-Andy has promised to give you the Hyperdrive Stabilizers after you've returned him to the Sasiak milkbar.</nodeDiscription>
+Andy a promis de vous donner le Hyperdrive Stabilizers dès que vous l'aurez ramené au bar à lait Sasiak.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>To the milkbar!</Name>
+          <Name>Direction le bar à lait!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -387,11 +387,11 @@ Andy has promised to give you the Hyperdrive Stabilizers after you've returned h
         <yMax>737</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-There is a privateer base that operates in this area, which has eluded me thusfar.
+Il ya une base privateers qui est dans le coin, elle m'a échappé jusqu'ici.
 
-However, I now know of its location. So naturally, we are heading over and are destroying it."</Text>
+A présent que nous connaissons son emplacement. Naturellement, il nous faut nous diriger vers elle et la détruire."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -436,14 +436,14 @@ However, I now know of its location. So naturally, we are heading over and are d
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerBase2</nodeName>
-              <nodeDiscription>You have brought the raiders responsible for the carnage at Whiteborough to justice.
+              <nodeDiscription>Vous avez trainé les raiders responsables du massacre de Whiteborough devant la justice.
 
-Andy now wants you to destroy a nearby privateer base.</nodeDiscription>
+Andy veut maintenant que vous détruisiez une base de privateers à proximité.</nodeDiscription>
               <pos>Distance</pos>
               <distance>7</distance>
             </ButtonAction>
           </Actions>
-          <Name>Very well.</Name>
+          <Name>Très bien.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -479,13 +479,13 @@ Andy now wants you to destroy a nearby privateer base.</nodeDiscription>
         <yMax>876</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-There is a T.O.R.V.A.K. Checkpoint nearby that is rumoured to perform experiments on the local population.
+Il y a un point de contrôle T.O.R.V.A.K. à proximité qui a pour réputation d'effectuer des expériences sur la population locale.
 
-Whilst that isn't surprising in its own right, considering this is T.O.R.V.A.K. we are talking about, they've made a vital mistake.
+Bien que ça ne soit pas surprenant, étant donné que c'est des T.O.R.V.A.K. dont nous parlons, ils ont fait une erreur fatale..
 
-The last person they kidnapped was a personal relation of mine... so naturally, we are going to get him back."</Text>
+La dernière personne qu'ils ont kidnappée était une relation à moi ... si naturellement, nous allons le récupérer.."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -530,14 +530,14 @@ The last person they kidnapped was a personal relation of mine... so naturally, 
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_TorvakStart2</nodeName>
-              <nodeDiscription>You have brought the raiders responsible for the carnage at Whiteborough to justice.
+              <nodeDiscription>Vous avez trainé les raiders responsables du massacre de Whiteborough devant la justice.
 
-Andy now wants you to investigate a T.O.R.V.A.K. Checkpoint which has kidnapped a personal relation.</nodeDiscription>
+Andy veut maintenant que vous étudiez un point de contrôle T.O.R.V.A.K. où à été enlevé une relation personnelle à lui.</nodeDiscription>
               <pos>Distance</pos>
               <distance>8</distance>
             </ButtonAction>
           </Actions>
-          <Name>Roll out!</Name>
+          <Name>Sortir!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

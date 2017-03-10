@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>269</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>More Bearded Bunnies are upon you!</Text>
+      <Text>Encore plus de lapins barbus vous attaquent!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -89,7 +89,7 @@
               <difficulty>-1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight them off!</Name>
+          <Name>Combattez-les!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -125,7 +125,7 @@
         <yMax>548</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>You scour the horizon for any signs of more Bearded Bunnies.</Text>
+      <Text>Vous scruttez l'horizon pour trouver des signes de vie d'autres lapins à barbe.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -211,15 +211,15 @@
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>G_BeardedBunnies3</nodeName>
-              <nodeDiscription>Yet another group of Bearded Bunnies is attacking you!
+              <nodeDiscription>Encore un autre groupe de lapins à la barbe vous attaque!!
 
-This should be the last of them.</nodeDiscription>
+Ce devrait être le dernier d'entre eux.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_BeardedBunnies2</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -255,11 +255,11 @@ This should be the last of them.</nodeDiscription>
         <yMax>466</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>There doesn't seem to be any more activity, you've defeated all the Bearded Bunny Raiders.
+      <Text>Il ne semble plys y avoir de signe de vie, vous avez battu tous les lapin à barbe.
 
-Hopefully this'll bring some peace to their many victims.
+Espérons que cela apportera un peu de paix à leurs nombreuses victimes.
 
-Searching the many wrecks, you've managed to recover [0$] and [0#].</Text>
+En cherchant parmis les nombreuses épaves, vous avez réussi à récupérer [0$] et [0#].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -393,7 +393,7 @@ Searching the many wrecks, you've managed to recover [0$] and [0#].</Text>
               <fuelAmount>19</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>391</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the Sasiak Milkbar, where Andy hops out of your convoy and instructs some of his droogs to retrieve your promised Hyperdrive Stabilizer.</Text>
+      <Text>Vous arrivez au bar à lait Sasiak, où Andy saute hors de votre convoi et donne des instructions à certains de ses compères pour récupérer votre Hyperdrive Stabilizer promis.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -172,7 +172,7 @@
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -255,7 +255,7 @@
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Take loot</Name>
+          <Name>Regarder</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -291,13 +291,13 @@
         <yMax>263</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"It's been a blast, O my brother!
+      <Text>"Ça a été une explosion, Ô mon frère!
 
-Now what's flashed into my gulliver is that I'd like some of the old in-out, real savage."
+Ces belles aventures font partit de mes souvenirs, je vais à présent retourner à l'état sauvage."
 
-Andy heads into the Sasiak Milkbar, and you find yourself worrying how long it'll take before he sharpens himself up once again.
+Andy se dirige vers le bar à lait Sasiak, vous vous inquiétez du temps qu'Andy va mettre pour revenir, c'est alors que vous le voyez reparaitre.
 
-You safely stash the Hyperdrive Stabilizers in your cargo hold.
+Vous placez en toute sécurité l'Hyperdrive Stabilizers dans vos bagages.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -344,7 +344,7 @@ You safely stash the Hyperdrive Stabilizers in your cargo hold.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave.</Name>
+          <Name>Quitter.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -380,13 +380,13 @@ You safely stash the Hyperdrive Stabilizers in your cargo hold.
         <yMax>652</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You safely stash the Hyperdrive Stabilizers in your cargo hold.
+      <Text>Vous placez en toute sécurité l'Hyperdrive Stabilizers dans votre soute.
 
-Andy approaches you and exclaims:
+Andy s'approche de vous et s'écrie::
 
-"It's been a blast, O my brother!
+"Ça a été une explosion, Ô mon frère!
 
-In fact, I've been inspired by our little experience! If you'll have me, I would like to join you on your adventures!"
+En fait, j'ai été inspiré par notre petite expérience! Si vous le souhaitez, je voudrais vous rejoindre sur vos aventures!"
 
 
 </Text>
@@ -519,7 +519,7 @@ In fact, I've been inspired by our little experience! If you'll have me, I would
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Welcome aboard!</Name>
+          <Name>Bienvenue à bord!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -565,7 +565,7 @@ In fact, I've been inspired by our little experience! If you'll have me, I would
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>No.</Name>
+          <Name>Non.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -601,13 +601,13 @@ In fact, I've been inspired by our little experience! If you'll have me, I would
         <yMax>418</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"It's been a blast, O my brother!
+      <Text>"Ça a été une explosion, Ô mon frère!
 
-One would almost hope for more evildoers so we could head out once, eh?"
+On aurait pus espérer plus de scélérats chatiés, hein?"
 
-Andy laughs loudly, then heads into the Sasiak Milkbar.
+Andy rit tout haut, puis se dirige vers le bar à lait Sasiak.
 
-You safely stash the Hyperdrive Stabilizers in your cargo hold.
+Vous placez en toute sécurité l'Hyperdrive Stabilizers dans votre cale.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -654,7 +654,7 @@ You safely stash the Hyperdrive Stabilizers in your cargo hold.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave.</Name>
+          <Name>Quitter.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

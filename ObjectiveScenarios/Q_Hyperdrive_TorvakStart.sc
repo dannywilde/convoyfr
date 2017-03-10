@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,11 +41,11 @@
         <yMax>1310</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the T.O.R.V.A.K. Checkpoint.
+      <Text>Vous arrivez au point de contrôle T.O.R.V.A.K.
 
-Andy approaches you, and says: 
+Andy s'approche de vous et dit: 
 
-"These cyborg freaks can't be trusted... but we can't just rush in and wipe them out. They've kidnapped a woman called Elizabeth, her safety is of the utmost importance."</Text>
+"On ne peut pas faire confiance à ces fanatiques de cyborgs ... mais nous ne pouvons pas nous précipiter et les détruire. Ils ont enlevé une femme appelée Elizabeth, sa sécurité est de la plus haute importance."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -91,7 +91,7 @@ Andy approaches you, and says:
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>What's the plan?</Name>
+          <Name>Quel est le plan?</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -178,7 +178,7 @@ Andy approaches you, and says:
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio the checkpoint.</Name>
+          <Name>Contactez par radio le point de contrôle.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -265,7 +265,7 @@ Andy approaches you, and says:
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Approach the checkpoint.</Name>
+          <Name>Approchez du point de contrôle.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -301,15 +301,15 @@ Andy approaches you, and says:
         <yMax>1652</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>You manage to defeat the final T.O.R.V.A.K. vehicle!
+      <Text>Vous parvenez à vaincre le dernier véhicule T.O.R.V.A.K. !
 
 [0loot]
 
-Andy looks pleased and states:
+Andy semble satisfait et déclare:
 
-"They won't have any security to protect their prisoners now. Retrieving Elizabeth will be a walk in the park."
+"Ils n'auront à présent plus aucun rempart pour protéger leurs prisonniers. Récupérer Elizabeth sera une promenade de santé.
 
-He leaves towards the checkpoint and soon returns with a woman, who identifies herself as Elizabeth, thanking you for your troubles.</Text>
+Il part vers le point de contrôle et revient bientôt avec une femme, qui s'identifie comme Elizabeth, vous remerciant pour vos problèmes.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -440,7 +440,7 @@ He leaves towards the checkpoint and soon returns with a woman, who identifies h
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Are we done?</Name>
+          <Name>On a fini ?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -476,7 +476,7 @@ He leaves towards the checkpoint and soon returns with a woman, who identifies h
         <yMax>686</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Our options are either to radio them and negotiate her release... or to feign ignorance and get them to attack us to weaken their forces without making it apparent we're here for Elizabeth."
+      <Text>"Nos options sont soit de les contacter par radio et de négocier sa libération ... soit de feindre l'ignorance et de les amener à nous attaquer pour affaiblir leurs forces sans montrer que nous sommes ici pour Elizabeth."
 
 
 </Text>
@@ -566,7 +566,7 @@ He leaves towards the checkpoint and soon returns with a woman, who identifies h
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio them.</Name>
+          <Name>Les contacter par radio.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -653,7 +653,7 @@ He leaves towards the checkpoint and soon returns with a woman, who identifies h
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Approach the checkpoint.</Name>
+          <Name>Avancer ver le point de contrôle.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -689,11 +689,11 @@ He leaves towards the checkpoint and soon returns with a woman, who identifies h
         <yMax>664</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Greetings, we are T.O.R.V.A.K.
+      <Text>"Salutation, nous sommes les T.O.R.V.A.K.
 
-We regret to inform you that this checkpoint does not welcome visitors.
+Nous regrettons de vous informer que ce point de contrôle n'accueille pas les visiteurs..
 
-We suggest you leave."</Text>
+Nous vous suggérons de partir."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -739,7 +739,7 @@ We suggest you leave."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Explain you're here for Elizabeth.</Name>
+          <Name>Expliquer que vous êtes ici pour Elizabeth.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -826,7 +826,7 @@ We suggest you leave."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Threaten them.</Name>
+          <Name>Les menacer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -872,7 +872,7 @@ We suggest you leave."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Offer to trade</Name>
+          <Name>Proposer un échange</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -908,15 +908,15 @@ We suggest you leave."</Text>
         <yMax>937</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We are T.O.R.V.A.K.!
+      <Text>"Nous sommes les T.O.R.V.A.K.!
 
-We desire additional test subjects.
+Nous souhaitons des sujets d'essai supplémentaires.
 
-We suggest you surrender, as you have no chance of beating our forces."
+Nous vous proposons de vous rendre, car vous n'avez aucune chance de battre nos forces."
 
-Andy scowls, then claims: "If they attack us, they'll have no reason to endanger their prisoners. That'll suit us fine.
+Andy fronce les sourcils, puis dit: "S'ils nous attaquent, ils n'auront aucune raison de mettre en danger leurs prisonniers. Ça nous arrange bien.
 
-Surrendering would be a horrible idea, we'll be defenseless without your convoy."
+Se rendre serait une mauvaise idée, nous serons sans défense sans votre convoi."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -963,7 +963,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Have them attack you.</Name>
+          <Name>Les laisser vous attaquer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1009,7 +1009,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Surrender.</Name>
+          <Name>Se rendre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1045,7 +1045,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
         <yMax>888</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Several T.O.R.V.A.K. vehicles appear from within the checkpoint and approach your convoy, weapons armed.</Text>
+      <Text>Plusieurs véhicules T.O.R.V.A.K. sortent du point de contrôle et s'approchent de votre convoi, les armes chargées.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1093,7 +1093,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Blast 'em!</Name>
+          <Name>Les détruire!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1129,15 +1129,15 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
         <yMax>1132</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You approach the checkpoint, when you suddenly hear a commanding voice boom from speakers surrounding the facility.
+      <Text>Vous approchez du point de contrôle, lorsque vous entendez soudainement une une voix autoritaire sortir des haut-parleurs entourant l'installation..
 
-"HALT! We are T.O.R.V.A.K.!
+"Arrêtez vous! Nous sommes les T.O.R.V.A.K.!
 
-You are trespassing.
+Vous êtes des intrus.
 
-Leave this area, and you shall be spared!"
+Quittez cette zone, et vous serez épargné!"
 
-Andy scowls and says: "If they attack us, they won't feel the need to hurt the prisoners, which suits us just fine."</Text>
+Andy fronce les sourcils et dit: "S'ils nous attaquent, ils n'impliquerons pas les prisonniers, ce qui nous va très bien."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1224,7 +1224,7 @@ Andy scowls and says: "If they attack us, they won't feel the need to hurt the p
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Negotiate.</Name>
+          <Name>Négocier.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1270,7 +1270,7 @@ Andy scowls and says: "If they attack us, they won't feel the need to hurt the p
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Wait to be attacked.</Name>
+          <Name>Attendre d'être attaqué.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1306,17 +1306,17 @@ Andy scowls and says: "If they attack us, they won't feel the need to hurt the p
         <yMax>1265</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You approach the checkpoint, when you suddenly hear a commanding voice boom from speakers surrounding the facility.
+      <Text>Vous approchez du point de contrôle, lorsque vous entendez soudainement une voix autoritaire sortant des haut-parleurs entourant l'installation..
 
-"HALT! We are T.O.R.V.A.K.!
+"Arrêtez-vous! Nous sommes les T.O.R.V.A.K.!
 
-You are trespassing.
+Vous êtes des intrus.
 
-Prepare to be annihilated!"
+Préparez-vous à être anéanti!"
 
-A large number of vehicles appear from within the checkpoint and approach your convoy.
+Un grand nombre de véhicules sortent du point de contrôle et s'approchent de votre convoi.
 
-Andy scowls and says: "Good, they're attacking us. That means they won't feel the need to harm their prisoners."</Text>
+Andy grogne et dit: "Bien, ils nous attaquent, ce qui signifie qu'ils ne s'occupent plus de leurs prisonniers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1364,7 +1364,7 @@ Andy scowls and says: "Good, they're attacking us. That means they won't feel th
               <difficulty>1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight.</Name>
+          <Name>Se préparer au combat.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1400,11 +1400,10 @@ Andy scowls and says: "Good, they're attacking us. That means they won't feel th
         <yMax>393</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Negotation?
+      <Text>"Négociation?
 
-We are intrigued what you believe you could offer us.
-
-We are listening."</Text>
+Nous sommes intrigués ce que vous croyez pouvoir nous offrir.
+Nous écoutons."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1450,7 +1449,7 @@ We are listening."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Explain you're here for Elizabeth.</Name>
+          <Name>Expliquez que vous êtes ici pour Elizabeth.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1537,7 +1536,7 @@ We are listening."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Threaten them.</Name>
+          <Name>Les menacer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1583,7 +1582,7 @@ We are listening."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Offer to trade.</Name>
+          <Name>Offre d'échange.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1619,13 +1618,13 @@ We are listening."</Text>
         <yMax>1129</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"You are not in a position to negotiate.
+      <Text>"Vous n'êtes pas en mesure de négocier.
 
-Surrender now, or prepare to be annihilated."
+Rendez-vous maintenant, ou préparez-vous à être anéanti."
 
-Andy scowls, then claims: "If they attack us, they'll have no reason to endanger their prisoners. That'll suit us fine.
+Andy grogne et dit: "S'ils nous attaquent, ils n'auront aucune raison de mettre en danger leurs prisonniers.. C'est parfait pour nous.
 
-Surrendering would be a horrible idea, we'll be defenseless without your convoy."
+Se rendre serait une mauvaise idée, nous serons sans défense sans votre convoi.."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1672,7 +1671,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Have them attack you.</Name>
+          <Name>Les laisser vous attaquer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1718,7 +1717,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Surrender.</Name>
+          <Name>Se rendre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1754,11 +1753,11 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
         <yMax>1008</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy does not look happy, but submits to your decision.
+      <Text>Andy n'a pas l'air heureux, mais se soumet à votre décision.
 
-A large number of T.O.R.V.A.K. vehicles appear from within the checkpoint and approach your convoy.
+Un grand nombre de véhicules T.O.R.V.A.K. sortent du point de contrôle et approchent de votre convoi.
 
-They intend to escort your vehicles inside the checkpoint itself.</Text>
+Ils ont l'intention d'escorter vos véhicules à l'intérieur du point de contrôle.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1805,7 +1804,7 @@ They intend to escort your vehicles inside the checkpoint itself.</Text>
               <amount>4</amount>
             </ButtonAction>
           </Actions>
-          <Name>Go peacefully.</Name>
+          <Name>Aller en paix.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1900,7 +1899,7 @@ They intend to escort your vehicles inside the checkpoint itself.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Blast them when they least suspect it.</Name>
+          <Name>Les exploser quand ils s'y attendent le moins.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1936,9 +1935,9 @@ They intend to escort your vehicles inside the checkpoint itself.</Text>
         <yMax>1018</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Your subterfuge worked out pretty well, you manage to wipe out a fair few of the T.O.R.V.A.K. vehicles before they have a chance to retalliate.
+      <Text>Votre subterfuge a assez bien fonctionné, vous parvenez à détruire quelques-uns des véhicules T.O.R.V.A.K. avant qu'ils aient une chance de battre en retraite.
 
-This should give you an advantage in the following combat.</Text>
+Cela devrait vous donner un avantage dans le combat suivant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2022,9 +2021,9 @@ This should give you an advantage in the following combat.</Text>
         <yMax>1130</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Your subterfuge worked better than expected, you manage to wipe out most of the T.O.R.V.A.K. vehicles before they have a chance to retalliate.
+      <Text>Votre subterfuge a fonctionné mieux que prévu, vous parvenez à effacer la plupart des véhicules T.O.R.V.A.K. avant qu'ils aient une chance de battre en retraite.
 
-This should give you a significant advantage in the following combat.</Text>
+Cela devrait vous donner un avantage significatif dans le combat suivant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2108,13 +2107,13 @@ This should give you a significant advantage in the following combat.</Text>
         <yMax>965</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You are taken inside the checkpoint, where your vehicles are seperated from you.
+      <Text>Vous êtes pris à l'intérieur du point de contrôle, où vos véhicules sont séparés de vous.
 
-Eventually, you come to a halt and a large number of ground troops surround your convoy. They look like some sort of combination between man and machine.
+Finalement, vous vous arrêtez et un grand nombre des troupes au sol entourent votre convoi. Ils ressemblent à une sorte de combinaison entre l'homme et la machine.
 
-"Depart your vehicles now. We will escort you to your holding cells.
+- Débarrassez-vous maintenant de vos véhicules.
 
-We have a special destination for the leader, please let them step forward!"
+Nous avons une destination spéciale pour le leader, s'il vous plaît laissez-les faire un pas en avant!"
 
 </Text>
       <DialogButtons>
@@ -2162,7 +2161,7 @@ We have a special destination for the leader, please let them step forward!"
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Go yourself.</Name>
+          <Name>Avancer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -2208,7 +2207,7 @@ We have a special destination for the leader, please let them step forward!"
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Nominate Andy.</Name>
+          <Name>Désigner Andy.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2244,11 +2243,11 @@ We have a special destination for the leader, please let them step forward!"
         <yMax>865</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Before you step out of the Convoy, Andy says:
+      <Text>Avant de quitter le convoi, Andy dit:
 
-"Hold tight. Don't mention Elizabeth. I'll try to think of something to bust us out.
+- Tais-toi, ne parles pas d'Elizabeth, je vais essayer de penser à quelque chose pour nous en sortir.
 
-Good luck!"
+Bonne chance!"
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -2295,7 +2294,7 @@ Good luck!"
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Go with the troops.</Name>
+          <Name>Avancer avec les troupes.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2331,9 +2330,9 @@ Good luck!"
         <yMax>1075</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy grins widely: "Smart thinking, O my brother. 
+      <Text>Andy sourit largement: "Pensée intelligente, ô mon frère.
 
-Trust me, I'll think of something. In the meantime, see if you can find information about Elizabeth."</Text>
+Croyez-moi, je vais penser à une solution. Entre-temps, voyez si vous pouvez trouver des informations sur Elizabeth."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2379,7 +2378,7 @@ Trust me, I'll think of something. In the meantime, see if you can find informat
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Go with the troops.</Name>
+          <Name>Avancer avec les troupes.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2415,13 +2414,13 @@ Trust me, I'll think of something. In the meantime, see if you can find informat
         <yMax>563</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You are seperated from the rest of your crew and are taken inside an elevator.
+      <Text>Vous êtes séparé du reste de votre équipage qui sont bloqués dans un ascenseur.
 
-Eventually, it delivers you to a luxurious room where you are greeted by a man with an air of authority. He appears mostly made out of metal as well.
+Finalement, il vous amènent dans une salle luxueuse où vous êtes accueilli par un homme avec un air autoritaire. Il semble surtout fait de métal.
 
-"Greetings. We welcome you. We are T.O.R.V.A.K.
+Nous vous accueillons. Nous sommes les T.O.R.V.A.K.
 
-We are intrigued by your willingness to surrender. Upon inspection of your vehicles, we determined they were sufficiently combat-ready."
+Nous sommes intrigués par votre volonté de vous rendre. Lors de l'inspection de vos véhicules, nous avons déterminé qu'ils étaient suffisamment armés pour le combat."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -2509,7 +2508,7 @@ We are intrigued by your willingness to surrender. Upon inspection of your vehic
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Explain about Elizabeth.</Name>
+          <Name>Parler d'Elizabeth.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -2596,7 +2595,7 @@ We are intrigued by your willingness to surrender. Upon inspection of your vehic
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Weary of combat.</Name>
+          <Name>Fatigué de combattre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2634,9 +2633,9 @@ We are intrigued by your willingness to surrender. Upon inspection of your vehic
       <Name>New dialog</Name>
       <Text>"Elizabeth?
 
-We fear that she is crucial to our project.
+Nous craignons qu'elle soit cruciale pour notre projet.
 
-Your intention was to... free her whilst captured yourself?"</Text>
+Votre intention était de ... la libérer tout en vous faisant prendre?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2723,7 +2722,7 @@ Your intention was to... free her whilst captured yourself?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue.</Name>
+          <Name>Continuer.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2759,13 +2758,13 @@ Your intention was to... free her whilst captured yourself?"</Text>
         <yMax>518</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We understand.
+      <Text>"Nous comprenons.
 
-Fortunately, we have the solution for such fleshly concerns.
+Heureusement, nous avons la solution pour de telles préoccupations charnelles.
 
-When we have finalized the Milspec project, all the chosen ones shall never feel fatigue again.
+Lorsque nous aurons terminé le projet Milspec, tous les élus ne ressentiront plus jamais de fatigue.
 
-We have decided to offer you this chance."</Text>
+Nous avons décidé de vous offrir cette chance."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2852,7 +2851,7 @@ We have decided to offer you this chance."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2888,13 +2887,13 @@ We have decided to offer you this chance."</Text>
         <yMax>868</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The conversation is interrupted by a sudden explosion! When the smoke clears, you see Andy wielding two blasters, sporting a maniacal grin on his face.
+      <Text>La conversation est interrompue par une explosion soudaine! Quand la fumée disparaît, vous voyez Andy brandissant deux blasters, portant un sourire maniaque sur son visage.
 
-The man you were talking to has been blasted to bits.
+L'homme avec qui vous parliez a été détruit.
 
-"We got to move! I managed to find Elizabeth and your Main Convoy Vehicle. They're waiting for us now.
+"Nous sommes arrivés à nous échapper, j'ai réussi à trouver Elizabeth et le véhicule de voter convoi. Ils nous attendent à présent.
 
-We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have their hands full with all the prisoners I helped escape."
+Nous allons confisquer quelques véhicules de combat T.O.R.V.A.K., ils doivent être bien occupé avec tous les prisonniers que j'ai aidé à s'échapper."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -3025,7 +3024,7 @@ We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have th
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Get out!</Name>
+          <Name>Partir!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3061,13 +3060,13 @@ We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have th
         <yMax>509</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We believe that a unified faction would benefit all of Omek Prime.
+      <Text>"Nous croyons qu'une faction unifiée profiterait à tous les Omek Prime..
 
-This can not be achieved, however, when there are still fleshly concerns and people who stand in our way.
+Cela ne peut pas être réalisé, cependant, quand il ya encore des préoccupations charnelles et des personnes qui se dressent sur notre chemin..
 
-The first has ceased to be a problem, we can replace most of the human body with machines.
+Le premier a cessé d'être un problème, nous pouvons remplacer la plupart du corps humain par des machines..
 
-The second part,...."</Text>
+La seconde partie,...."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3154,7 +3153,7 @@ The second part,...."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3190,11 +3189,11 @@ The second part,...."</Text>
         <yMax>504</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"... only ceased to be a problem until just now.
+      <Text>"... ont cessé d'être un problème à votre arrivée.
 
-We believe that you have the capabilities to lead our forces to war, and destroy those who stand in the way of our supremacy on Omek Prime.
+Nous croyons que vous avez les capacités de conduire nos forces à la guerre, et de détruire ceux qui s'opposent à notre suprématie sur Omek Prime..
 
-Not simply the primitive Privateers and Raiders, of course, but rather the Keepers."</Text>
+Pas simplement les primitifs Privateers et Raiders, bien sûr, mais plutôt les gardiens."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3281,7 +3280,7 @@ Not simply the primitive Privateers and Raiders, of course, but rather the Keepe
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3317,11 +3316,11 @@ Not simply the primitive Privateers and Raiders, of course, but rather the Keepe
         <yMax>522.910156</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"These self-appointed keepers believe Omek Prime is best off in a state of perpetual balance between the three factions.
+      <Text>"Ces gardiens auto-nommés croient qu'Omek Prime est mieux si un équilibre perpétuel est conservé entre les trois factions.
 
-They are misguided. They need to be destroyed.
+Ils se sont égarés. Ils doivent être détruits.
 
-We shall begin your training immediately."</Text>
+Nous commencerons immédiatement votre formation."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3367,7 +3366,7 @@ We shall begin your training immediately."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3403,9 +3402,9 @@ We shall begin your training immediately."</Text>
         <yMax>897</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You follow Andy through the facility, and arrive in the vehicle bay.
+      <Text>Vous suivez Andy à travers l'installation, et arrivez dans le garage des véhicules..
 
-Most of your crew has escaped and got your M.C.V. operational. Additionally, they've managed to acquire a T.O.R.V.A.K. vehicle.</Text>
+La plupart de votre équipage s'est échappé et a réparé votre M.C.V. En outre, ils ont réussi à acquérir un véhicule T.O.R.V.A.K.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3535,7 +3534,7 @@ Most of your crew has escaped and got your M.C.V. operational. Additionally, the
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Find more vehicles.</Name>
+          <Name>Trouver plus de véhicules.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -3581,7 +3580,7 @@ Most of your crew has escaped and got your M.C.V. operational. Additionally, the
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Head out!</Name>
+          <Name>Sortir!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3617,15 +3616,15 @@ Most of your crew has escaped and got your M.C.V. operational. Additionally, the
         <yMax>803</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Great, we got two! No time to keep dallying, however. We got to move!"
+      <Text>"Super, nous en avons deux! Pas le temps pour se mettre d'accord. Nous devons filer!
 
-You return to your MCV and rush out of the T.O.R.V.A.K. checkpoint.
+Vous revenez à votre MCV et vous précipitez hors du point de contrôle T.O.R.V.A.K.
 
-Andy is giddy with excitement, Elizabeth looks relieved.
+Andy est étourdi par l'excitation, Elizabeth semble soulagée.
 
-As you leave the T.O.R.V.A.K. facility far behind you, Andy turns to you and shakes your hand.
+Comme vous quittez le T.O.R.V.A.K. Andy se tourne vers vous et vous serre la main. 
 
-"That was great. Thanks for your help. Return the two of us to the Sasiak milkbar and I'll give you the Hyperdrive Stabilizers."</Text>
+"Merci beaucoup pour votre aide. Nous retournerons tous deux au bar à lait Sasiak et je vais vous donner l'Hyperdrive Stabilizers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3670,15 +3669,15 @@ As you leave the T.O.R.V.A.K. facility far behind you, Andy turns to you and sha
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You've freed Elizabeth from the T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth du point de contrôle T.O.R.V.A.K.
 
-Andy promised to give you the Hyperdrive Stabilizers if you return him to the Sasiak milkbar.</nodeDiscription>
+Andy a promis de vous donner l'Hyperdrive Stabilizers si vous le ramenez au bar à lait Sasiak.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3714,13 +3713,13 @@ Andy promised to give you the Hyperdrive Stabilizers if you return him to the Sa
         <yMax>954</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You return to your MCV and rush out of the T.O.R.V.A.K. checkpoint.
+      <Text>Vous revenez à votre MCV et vous précipitez hors du point de contrôle T.O.R.V.A.K.
 
-Andy is giddy with excitement, Elizabeth looks relieved.
+Andy est étourdi d'excitation, Elizabeth semble soulagée.
 
-As you leave the T.O.R.V.A.K. facility far behind you, Andy turns to you and shakes your hand.
+Comme vous quittez le T.O.R.V.A.K. Andy se tourne vers vous et vous serre la main.
 
-"That was great. Thanks for your help. Return the two of us to the Sasiak milkbar and I'll give you the Hyperdrive Stabilizers."</Text>
+"Merci beaucoup pour votre aide. Ramenez nous, tous les deux au bar dà lait Sasiak et je vais vous donner l'Hyperdrive Stabilizers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3765,15 +3764,15 @@ As you leave the T.O.R.V.A.K. facility far behind you, Andy turns to you and sha
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You've freed Elizabeth from the T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth du point de contrôle T.O.R.V.A.K.
 
-Andy promised to give you the Hyperdrive Stabilizers if you return him to the Sasiak milkbar.</nodeDiscription>
+Andy a promis de vous donner l'Hyperdrive Stabilizers si vous le ramenez au bar à lait Sasiak.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3809,11 +3808,11 @@ Andy promised to give you the Hyperdrive Stabilizers if you return him to the Sa
         <yMax>315</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Your optimism demonstrates the folly of the human race.
+      <Text>"Votre optimisme démontre la folie de la race humaine.
 
-We have long surpassed the detriments of the human body.
+Nous avons longtemps surpassé les désaventages du corps humain.
 
-Forget about Elizabeth, we have a proposition for you."</Text>
+Oubliez Elizabeth, nous avons une proposition pour vous."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3900,7 +3899,7 @@ Forget about Elizabeth, we have a proposition for you."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -3936,11 +3935,11 @@ Forget about Elizabeth, we have a proposition for you."</Text>
         <yMax>1102</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You and the rest of your crew are taken to a massive holding cell.
+      <Text>Vous et le reste de votre équipage sont emmenés dans une cellule de détention lourde.
 
-After asking around, you understand that these people have all recently arrived. Most of them being civilians who were kidnapped from their homes, or assaulted whilst driving around the wastelands.
+Après avoir demandé aux alentours, vous comprenez que ces gens sont tous récemment arrivés. La plupart d'entre eux étaient des civils qui ont été enlevés de leurs maisons, ou agressé tout en conduisant autour des terrains vagues.
 
-Apparently, every now and again a selection of prisoners is taken from here never to return again...</Text>
+Apparemment, de temps en temps une sélection de prisonniers est faite pour ne jamais revenir...</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -3986,7 +3985,7 @@ Apparently, every now and again a selection of prisoners is taken from here neve
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4022,11 +4021,11 @@ Apparently, every now and again a selection of prisoners is taken from here neve
         <yMax>1094</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Eventually, you manage to find the woman called Elizabeth. You explain how you got here.
+      <Text>Finalement, vous parvenez à trouver la femme appelée Elizabeth. Vous expliquez comment vous êtes arrivé ici.
 
-"You're telling me Andy is here? That's fantastic.
+"Tu me dis que Andy est là, c'est fantastique.
 
-I suspect it won't be long until...</Text>
+Je soupçonne que ce ne sera pas long avant ...</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4072,7 +4071,7 @@ I suspect it won't be long until...</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Continue...</Name>
+          <Name>Continuer...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4108,11 +4107,11 @@ I suspect it won't be long until...</Text>
         <yMax>1141</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The conversation is interrupted by a sudden explosion! When the smoke clears, you see Andy wielding two blasters, sporting a maniacal grin on his face.
+      <Text>La conversation est interrompue par une explosion soudaine! Quand la fumée disparaît, vous voyez Andy brandissant deux blasters, portant un sourire maniaque sur son visage.
 
-"Great! You found Elizabeth! We got to move! The MCV is waiting in the vehicle bay!
+"Super, tu as trouvé Elizabeth, on doit filer, le MCV attend dans le garage!
 
-We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have their hands full with their production line which I've 'accidentally' set on fire."
+Nous allons confisquer quelques véhicules de combat T.O.R.V.A.K., ils devraient avoir de quoi s'occuper avec le feu que j'ai "accidentellement" allumé sur leur ligne de production."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -4243,7 +4242,7 @@ We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have th
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Get out!</Name>
+          <Name>Sortir!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4279,13 +4278,13 @@ We'll confiscate some T.O.R.V.A.K. combat vehicles as we go, they should have th
         <yMax>206</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy's eyes widen with disbelief, before glaring at you furiously.
+      <Text>Les yeux d'Andy s'écarquillent d'incrédulité, avant de vous regarder furieusement.
 
-"Your knowledge of the woman Elizabeth means you are an immediate threat to our project.
+"Votre connaissance de la femme Elizabeth signifie que vous êtes une menace immédiate à notre projet.
 
-Prepare for annihilation."
+Préparez-vous à l'anéantissement.
 
-A huge number of vehicles appear from within the facility and approach your convoy!
+Un grand nombre de véhicules apparaissent à l'intérieur de l'installation et s'approchent de votre convoi!
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -4334,7 +4333,7 @@ A huge number of vehicles appear from within the facility and approach your conv
               <difficulty>3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Se préparer à combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4370,11 +4369,11 @@ A huge number of vehicles appear from within the facility and approach your conv
         <yMax>360</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We have determined that the probablity of your success is greater than eighty percent.
+      <Text>"Nous avons déterminé que la probabilité de votre réussite est supérieure à 80%.
+      
+Nous ne voulons pas nous battre.
 
-We do not wish to fight.
-
-We shall comply to your demands."</Text>
+Nous nous conformerons à vos demandes."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4420,7 +4419,7 @@ We shall comply to your demands."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Release the prisoners.</Name>
+          <Name>Libérer les prisonniers.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4456,11 +4455,11 @@ We shall comply to your demands."</Text>
         <yMax>512</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We are not intimidated by your idle threats.
+      <Text>"Nous ne sommes pas intimidés par vos vaines menaces.
 
-Prepare to be annihilated."
+Préparez-vous à être anéanti.
 
-Several T.O.R.V.A.K. vehicles appear from within the checkpoint and approach your convoy, weapons armed.</Text>
+Plusieurs véhicules T.O.R.V.A.K. apparaissent à l'intérieur du point de contrôle et s'approchent de votre convoi, armes chargées.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4508,7 +4507,7 @@ Several T.O.R.V.A.K. vehicles appear from within the checkpoint and approach you
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4544,13 +4543,13 @@ Several T.O.R.V.A.K. vehicles appear from within the checkpoint and approach you
         <yMax>710</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Parts and fuel? We have no demand for these goods.
+      <Text>"Des pièces et du carburant? Nous n'avons aucune demande pour ces produits.
 
-Surrender now, or prepare to be annihilated."
+Rendez-vous maintenant, ou préparez-vous à être anéanti.
 
-Andy scowls, then claims: "If they attack us, they'll have no reason to endanger their prisoners. That'll suit us fine.
+Andy grogne et dit: "S'ils nous attaquent, ne s'occuperons pas de leurs prisonniers.
 
-Surrendering would be a horrible idea, we'll be defenseless without your convoy."</Text>
+Se rendre serait une mauvaise idée, nous serons sans défense sans votre convoi."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4596,7 +4595,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Have them attack you.</Name>
+          <Name>Les laisser vous attaquer.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -4642,7 +4641,7 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Surrender.</Name>
+          <Name>Se rendre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4678,13 +4677,13 @@ Surrendering would be a horrible idea, we'll be defenseless without your convoy.
         <yMax>313</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"It shall be done."
+      <Text>"Cela doit être fait."
 
-After some time, a transport vehicle appears from within the checkpoint. It approaches your convoy.
+Après un certain temps, un véhicule de transport apparaît à l'intérieur du point de contrôle. Il s'approche de votre convoi.
 
-Upon arrival, a group of people emerge looking rather happy.
+À son arrivée, un groupe de personnes émergent semblant plutôt heureux.
 
-Andy notes that Elizabeth is amongst them.</Text>
+Andy note qu'Elizabeth est parmi eux.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4730,7 +4729,7 @@ Andy notes that Elizabeth is amongst them.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4768,11 +4767,11 @@ Andy notes that Elizabeth is amongst them.</Text>
       <Name>New dialog</Name>
       <Text>"Excellent.
 
-Return to the Sasiak milkbar, and I'll get you the Hyperdrive Stabilizers.
+Ramenez nous au bar à lait Sasiak, et je vous obtiendrai les Hyperdrive Stabilizers.
 
-I'll make sure these people are returned to their homes.
+Je ferai en sorte que ces gens soient renvoyés chez eux.
 
-Don't worry about the checkpoint, now that Elizabeth is safe I shall send my own goons after it to have it destroyed."</Text>
+Ne vous inquiétez pas pour le poste de contrôle, maintenant qu'Elisabeth est en sécurité, j'enverrai mes hommes pour le détruire."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -4817,15 +4816,15 @@ Don't worry about the checkpoint, now that Elizabeth is safe I shall send my own
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You have freed Elizabeth and other prisoners from the T.O.R.V.A.K. checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth et d'autres prisonniers du point de contrôle T.O.R.V.A.K.
 
-Andy wants you to return to the Sasiak milkbar so he can supply you with the Hyperdrive Stabiliziers. He'll take care of the former prisoners.</nodeDiscription>
+Andy veut que vous le rameniez au bar à lait Sasiak afin qu'il puisse vous fournir l'Hyperdrive Stabiliziers. Il prendra soin des anciens prisonniers.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Move out.</Name>
+          <Name>Partir.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4861,9 +4860,9 @@ Andy wants you to return to the Sasiak milkbar so he can supply you with the Hyp
         <yMax>1527</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That we are, O my brother.
+      <Text>"Ce que nous sommes, Ô mon frère.
 
-Return me and Elizabeth to the Sasiak milkbar, I shall supply you with the Hyperdrive Stabilizer there."
+Ramenez nous, Elizabeth et moi au bar à lait Sasiak, je vous fournirai l'Hyperdrive Stabilizer."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -4909,15 +4908,15 @@ Return me and Elizabeth to the Sasiak milkbar, I shall supply you with the Hyper
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You freed Elizabeth from the T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth du Point de contrôle T.O.R.V.A.K.
 
-Andy told you to return them to the Sasiak Milkbar, he will supply you with the Hyperdrive Stabilizers then.</nodeDiscription>
+Andy vous a dit de les ramener au bar à lait Sasiak, il vous fournira avec l'Hyperdrive Stabilizers.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -4953,13 +4952,13 @@ Andy told you to return them to the Sasiak Milkbar, he will supply you with the 
         <yMax>1682</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-There is a privateer base operation in this area which has eluded me for quite some time.
+Il y a une base d'opération privateer dans cette zone qui m'a échappé depuis un certain temps.
 
-However, I have received word of a small squad of vehicles that are a part of the base being operational nearby.
+Cependant, j'ai reçu un mot d'une petite escouade de véhicules qui font partie de la base à proximité.
 
-We should track them down and acquire the location of the base, so we can wipe it out."</Text>
+Nous devrions les traquer et les forcer à nous donner l'emplacement de la base, afin que nous puissions l'éradiquer."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -5004,14 +5003,14 @@ We should track them down and acquire the location of the base, so we can wipe i
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerStart2</nodeName>
-              <nodeDiscription>You have freed Elizabeth from the T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth du Point de contrôle T.O.R.V.A.K.
 
-Andy now wants you to track down a privateer base, he has the location of a small squad of privateer vehicles.</nodeDiscription>
+Andy veut maintenant que vous retrouviez une base de privateer, il a l'emplacement d'une petite escouade de véhicules corsaires.</nodeDiscription>
               <pos>Distance</pos>
               <distance>7</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go, then.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -5047,11 +5046,11 @@ Andy now wants you to track down a privateer base, he has the location of a smal
         <yMax>1803</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-A squad of murderous raiders have been active in the area, they have recently attacked the village of Whiteborough.
+Une équipe de raiders meurtriers ont été actifs dans la région, ils ont récemment attaqué le village de Whiteborough.
 
-We shall travel there and see if we can find any information regarding their wherabouts. They need to pay for their crimes."
+Nous irons là-bas et nous verrons si nous pouvons trouver des informations sur leur identité. Ils doivent payer pour leurs crimes."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -5097,14 +5096,14 @@ We shall travel there and see if we can find any information regarding their whe
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_RaiderStart2</nodeName>
-              <nodeDiscription>You have freed Elizabeth from the T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Vous avez libéré Elizabeth du Point de contrôle T.O.R.V.A.K.
 
-Andy now wants you to track down a squad of raiders. They have recently attacked the village of Whiteborough.</nodeDiscription>
+Andy veut maintenant que vous retrouviez une équipe de raiders. Ils ont récemment attaqué le village de Whiteborough.</nodeDiscription>
               <pos>Distance</pos>
               <distance>9</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go, then.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

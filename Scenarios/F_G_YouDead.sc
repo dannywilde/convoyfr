@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,11 +41,11 @@
         <yMax>437</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>Several vehicles approach your convoy, but stay out of reach of your weapons.
+      <Text>Plusieurs véhicules s'approchent de votre convoi, mais restent hors de porté de vos armes.
 
-Evidently they're aware of your fuel troubles, as they're setting up some longe range artillery!
+Ils sont évidemment consients de vos problèmes de carburant car ils ont installé de l'artillerie à longue portée!
 
-You try to start your engines with the last drops of fuel you have remaining to counterattack.</Text>
+Vous tentez désespérément de faire des démarrer vos moteurs avec les dernières gouttes de carburant qu'il vous reste pour contre-attaquer.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -221,9 +221,9 @@ You try to start your engines with the last drops of fuel you have remaining to 
         <yMax>861</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>All the attackers have been defeated. You manage to find [0#] in addition to [0$].
+      <Text>Tous les assaillants ont été éliminés. Vous parvenez à trouver [0#] ainsi que [0$].
 
-You make a mental note to keep a closer eye on your fuel count.</Text>
+Vous collez un post-it sur votre parre brise pour garder un oeil sur votre carburant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -479,9 +479,9 @@ You make a mental note to keep a closer eye on your fuel count.</Text>
         <yMax>413</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The first shells drop down on your convoy.
+      <Text>Les premiers obus tombent sur votre convoi.
 
-Your engines don't show any signs of life yet.</Text>
+Vos moteurs ne donnent plus aucun signe de vie.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -666,7 +666,7 @@ Your engines don't show any signs of life yet.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>C'mon c'mon c'mon!</Name>
+          <Name>Allez Allez Allezzzzzzz!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -702,7 +702,7 @@ Your engines don't show any signs of life yet.</Text>
         <yMax>643</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Amazingly, you manage to breathe some life into your engines and get ready to engage your foes!</Text>
+      <Text>Par miracle, vous arrivez à insuffler de la vie dans vos moteurs et à vous préparer à charger l'ennemi!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -750,7 +750,7 @@ Your engines don't show any signs of life yet.</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Let's do this!</Name>
+          <Name>On fait ça!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -786,7 +786,7 @@ Your engines don't show any signs of life yet.</Text>
         <yMax>310</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>More shells come falling down whilst you remain a sitting duck.</Text>
+      <Text>De plus en plus d'obus tombent alors que vous êtes une proie facile.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -971,7 +971,7 @@ Your engines don't show any signs of life yet.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Start those damn engines!</Name>
+          <Name>Démarrez ces saletés de moteurs!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1007,7 +1007,7 @@ Your engines don't show any signs of life yet.</Text>
         <yMax>221</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Explosions... explosions everywhere.</Text>
+      <Text>Des explosions... des explosions de toute part.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1102,7 +1102,7 @@ Your engines don't show any signs of life yet.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>START THOSE ENGINES!</Name>
+          <Name>DEMARREZ CES MOTEURS!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1138,7 +1138,7 @@ Your engines don't show any signs of life yet.</Text>
         <yMax>122</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>KABOOM!</Text>
+      <Text>BIG BOOM BADABOUM!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1224,9 +1224,9 @@ Your engines don't show any signs of life yet.</Text>
         <yMax>73</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The shells keep falling and start taking out your MCV.
+      <Text>Les obus continuent de tomber et commencent à détruire votre MCV.
 
-In your final moments, you curse being felled by a lack of fuel.</Text>
+Dans vos derniers moments, vous maudirez le fait d'avoir été abattu par manque de carburant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>

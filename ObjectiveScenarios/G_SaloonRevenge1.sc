@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,9 +41,8 @@
         <yMax>677</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You've succesfully tracked down the large woman and comedian who have wronged you back at the saloon.
-
-It does not look like they have noticed your approach.</Text>
+      <Text>Vous avez suivi avec succès la grosse femme et le comédien qui vous ont fait du tort au saloon.
+Ils ne semblent pas qu'ils vous aient remarqué.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -134,7 +133,7 @@ It does not look like they have noticed your approach.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Slaughter them all!</Name>
+          <Name>Abattez-les tous!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -180,7 +179,7 @@ It does not look like they have noticed your approach.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio them.</Name>
+          <Name>Les contacter par Radio.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -226,7 +225,7 @@ It does not look like they have noticed your approach.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave them be.</Name>
+          <Name>Les laisser en vie.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -262,9 +261,9 @@ It does not look like they have noticed your approach.</Text>
         <yMax>1175</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>Your lips curl into a smirk of satisfaction as you observe the battlefield. None of them survived.
+      <Text>Vos lèvres esquissent un sourire de satisfaction quand vous observez le champ de bataille. Aucun d'entre eux n'a survécu.
 
-After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
+Après avoir inspecté les épaves, vous parvenez à récupérer [0$] et [0#].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -441,7 +440,7 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
               <fuelAmount>35</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Revenge is sweet.</Name>
+          <Name>La vengeance est douce.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -477,7 +476,7 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
         <yMax>317</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Before you have a chance to wipe them out without any retribution they manage to notice your approach and prepare to put up a fight.</Text>
+      <Text>Avant d'avoir eu une chance de les tuer sans aucun échange de tir, ils parviennent à remarquer votre approche et se préparent à combattre.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -525,7 +524,7 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
               <difficulty>-3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Have at 'em!</Name>
+          <Name>Les Tuer!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -561,11 +560,11 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
         <yMax>484</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>They remain unaware until the first of your firepower descends on them.
+      <Text>Ils l'ignorent jusqu'à reçevoir le premier tir de votre puissance de feu.
 
-Your lips curl into a smirk of satisfaction as you listen to the screams and explosions.
+Vos lèvres forment un sourir de satisfaction en écoutant les cris et les explosions.
 
-After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
+Après avoir inspecté les épaves, vous parvenez à récupérer [0$] et [0#].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -742,7 +741,7 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
               <fuelAmount>35</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Revenge is sweet.</Name>
+          <Name>La vengeance est douce.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -778,11 +777,11 @@ After inspecting the wrecks you manage to recover [0$] and [0#].</Text>
         <yMax>686</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After a short while you hear the large woman respond in a panicked voice:
+      <Text>Après un court instant, vous entendez la grande femme répondre d'une voix paniquée:
 
-"Yo... you found us? 
+"Vo ... vous nous avez trouvés?
 
-We surrender! They made me do it. No hard feelings, surely? We can be civil about this."</Text>
+Nous nous rendons! Ils m'ont forcé à le faire. Sans rancune? Nous devons réagir en gents civilisés."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -830,7 +829,7 @@ We surrender! They made me do it. No hard feelings, surely? We can be civil abou
               <difficulty>-3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>"No surrender, die for your crimes!"</Name>
+          <Name>"Aucune rédition, mourez pour vos crimes!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -917,7 +916,7 @@ We surrender! They made me do it. No hard feelings, surely? We can be civil abou
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Give us everything you've got."</Name>
+          <Name>"Donnez-nous tout ce que vous avez."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -953,7 +952,7 @@ We surrender! They made me do it. No hard feelings, surely? We can be civil abou
         <yMax>895</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After a change of heart you decide to let them be.</Text>
+      <Text>Après avoir pesé le pour et le contre, vous décidez de les laisser vivre.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -999,7 +998,7 @@ We surrender! They made me do it. No hard feelings, surely? We can be civil abou
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Let's go, before I get mad again.</Name>
+          <Name>Partons avant que je me fâche de nouveau.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1037,9 +1036,9 @@ We surrender! They made me do it. No hard feelings, surely? We can be civil abou
       <Name>New dialog</Name>
       <Text>"Oh...  oh...
 
-There's nothing left. Sorry! Don't kill us! Please!
+Il ne reste rien. Pardon! Ne nous tuez pas! S'il vous plaît!
 
-I can join you, fight for you! I promise I will be good!"</Text>
+Je peux vous rejoindre, me battre pour vous! Je promets que je serai bon!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1085,7 +1084,7 @@ I can join you, fight for you! I promise I will be good!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Very well."</Name>
+          <Name>"Très bien."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1133,7 +1132,7 @@ I can join you, fight for you! I promise I will be good!"</Text>
               <difficulty>-3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>"Never, DIE!"</Name>
+          <Name>"Jamais, MEURT!"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1169,9 +1168,9 @@ I can join you, fight for you! I promise I will be good!"</Text>
         <yMax>646</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Oh... oh yes of course.
+      <Text>"Oh... oh oui bien sûr.
 
-All we have left is [0$]. Then we'll be off the hook, right? Right?!"</Text>
+ Prenez [0$], c'est tout ce qui nous reste. Nous ne seront plus inquiétés, pas vrai ? Pas vrai?!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1305,7 +1304,7 @@ All we have left is [0$]. Then we'll be off the hook, right? Right?!"</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Take it.</Name>
+          <Name>Tout prendre.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1353,7 +1352,7 @@ All we have left is [0$]. Then we'll be off the hook, right? Right?!"</Text>
               <difficulty>-3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>"Never, DIE!"</Name>
+          <Name>"Jamais, MEURT!"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1389,11 +1388,11 @@ All we have left is [0$]. Then we'll be off the hook, right? Right?!"</Text>
         <yMax>584</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Keeping your weapons primed you make the exchange.
+      <Text>Vous gardez vos armes prêtes, vous faites l'échange.
 
-The large woman is a nervous wreck of fear as she asks:
+La grande femme est une épave nerveuse de peur quand elle demande:
 
-"So, that'll be it then, right? No hard feelings?"</Text>
+"Alors, ça sera tout, pas vrai?? Sans rancune"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1439,7 +1438,7 @@ The large woman is a nervous wreck of fear as she asks:
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Leave!"</Name>
+          <Name>"Partir!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1489,7 +1488,7 @@ The large woman is a nervous wreck of fear as she asks:
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>"This is the point where you die."</Name>
+          <Name>"Nous sommes arrivé au moment où vous mourrez."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1525,7 +1524,7 @@ The large woman is a nervous wreck of fear as she asks:
         <yMax>501</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Satisfied with your revenge, you leave the woman behind.</Text>
+      <Text>Satisfait de votre revanche, vous laissez la femme derrière.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1571,7 +1570,7 @@ The large woman is a nervous wreck of fear as she asks:
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Roll out.</Name>
+          <Name>Sortir.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1607,11 +1606,11 @@ The large woman is a nervous wreck of fear as she asks:
         <yMax>686</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Your lips curl into a smirk of satisfaction as you listen to the screams and explosions.
+      <Text>Vos lèvres esquissent un sourir de satisfaction en écoutant les cris et les explosions.
 
-Upon inspecting the wrecks, you find an additional [0$] and [0#]. 
+Après avoir inspecté les épaves, vous trouvez [0$] et [0#] supplémentaires.
 
-Looks like she was trying to hold out again.</Text>
+On dirait qu'elle essaie de tenir malgré tout.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1788,7 +1787,7 @@ Looks like she was trying to hold out again.</Text>
               <fuelAmount>21</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Get out of here.</Name>
+          <Name>Sortir d'ici.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1824,7 +1823,7 @@ Looks like she was trying to hold out again.</Text>
         <yMax>853</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Judging from the utter fear in the woman's eyes, you have serious doubts she'll double cross you.</Text>
+      <Text>A en juger par la peur dans les yeux de la femme, vous avez des doutes sérieux qu'elle essaye de vous doubler.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2018,7 +2017,7 @@ Looks like she was trying to hold out again.</Text>
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

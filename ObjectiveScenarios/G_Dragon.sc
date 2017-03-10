@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>397.955078</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>An enormous roar shakes you up as you near the supposed "Dragon Cave".</Text>
+      <Text>Un rugissement énorme vous secoue alors que vous êtes proche de la supposée "Cave du Dragon".</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -123,7 +123,7 @@
         <yMax>669</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>With a final explosion the Dragon is slain.
+      <Text>Avec une explosion finale le Dragon est tué.
 
 [0loot]
 
@@ -174,7 +174,7 @@ The Knight approaches your convoy and thanks you for your assistance.</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Now what?</Name>
+          <Name>Et maintenant ?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -210,11 +210,11 @@ The Knight approaches your convoy and thanks you for your assistance.</Text>
         <yMax>334</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Two ominous red lights appear in the distance.
+      <Text>Deux lumières rouges sinistres apparaissent au loin.
 
-The Knight of the Order of the Wheel runs out of your MCV, lance and shield at the ready and starts charging towards it.
+Le Chevalier de l'Ordre de la Roue sort de votre MCV, lance et bouclier à la main et commence à charger vers elles.
 
-"The day of your reckoning is nigh!"</Text>
+"Le jour de votre défaite est proche!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -260,7 +260,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Right...</Name>
+          <Name>Très bien...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -296,7 +296,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
         <yMax>302</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The red lights come closer and... it actually is a dragon.</Text>
+      <Text>Les lumières rouges se rapprochent et ... c'est en fait un dragon.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -356,7 +356,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
               </conovyCar>
             </ButtonAction>
           </Actions>
-          <Name>ATTACK!</Name>
+          <Name>ATTAQUER!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -402,7 +402,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>FLEE!</Name>
+          <Name>FUIR!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -438,7 +438,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
         <yMax>425</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You get the hell away from there, leaving the knight alone with his quest!</Text>
+      <Text>Vous fuyez très loin d'ici, laissant le chevalier seul avec sa quête!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -484,7 +484,7 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Keep driving!</Name>
+          <Name>Continuer de conduire!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -520,9 +520,9 @@ The Knight of the Order of the Wheel runs out of your MCV, lance and shield at t
         <yMax>651</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The Knight looks thoughtful, then explains he had never really thought about what to do after his quest had finished.
+      <Text>Le chevalier semble pensif, puis explique qu'il n'avait jamais vraiment pensé à quoi faire après la fin de sa quête.
 
-Since you've been noble enough to aid his quest, he offers his services to your convoy.</Text>
+Puisque que vous avez été assez noble pour l'aider dans sa quête, il offre ses services à votre convoi.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -568,7 +568,7 @@ Since you've been noble enough to aid his quest, he offers his services to your 
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Very well!</Name>
+          <Name>Très bien!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -614,7 +614,7 @@ Since you've been noble enough to aid his quest, he offers his services to your 
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>No thanks.</Name>
+          <Name>Non merci.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -650,9 +650,9 @@ Since you've been noble enough to aid his quest, he offers his services to your 
         <yMax>711</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Alas, then I shall find my own way and look for new quests!"
+      <Text>"Tant pis, alors je trouverai mon propre chemin et je chercherai de nouvelles quêtes!"
 
-The Knight turns his back on your and starts walking away.</Text>
+Le Chevalier vous tourne le dos et commence à marcher en direction du soleil couchant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -698,7 +698,7 @@ The Knight turns his back on your and starts walking away.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Good luck.</Name>
+          <Name>Bonne chance.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -734,7 +734,7 @@ The Knight turns his back on your and starts walking away.</Text>
         <yMax>579</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Give me a moment, I shall construct my own vehicle from the remains of this Dragon".</Text>
+      <Text>"Donnez-moi un instant, je construirai mon propre véhicule à partir des restes de ce Dragon".</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -832,7 +832,7 @@ The Knight turns his back on your and starts walking away.</Text>
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Great!</Name>
+          <Name>Extra!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

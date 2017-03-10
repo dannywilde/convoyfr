@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>472</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the KJL Production facility and are swiftly contacted on your radio.</Text>
+      <Text>Vous arrivez à l'usine de production KJL et êtes rapidement contactés sur votre radio.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -87,7 +87,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Respond.</Name>
+          <Name>Répondre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -170,7 +170,7 @@
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Take loot</Name>
+          <Name>Prendre le butin</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -206,11 +206,11 @@
         <yMax>517</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We have been anticipating your arrival, thank you kindly for delivering these parts for us.
+      <Text>"Nous avons anticipé votre arrivée, merci de nous avoir livré ces pièces.
 
-Soon we shall be able to construct additional KJL Fighters and our caravans will remain safe and sound.
+Bientôt nous serons en mesure de construire des Combattants KJL supplémentaires et nos caravanes seront saines et sauves.
 
-What is it you desire as a reward?"</Text>
+Qu'est-ce que vous désirez comme récompense?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -256,7 +256,7 @@ What is it you desire as a reward?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Take the vehicle.</Name>
+          <Name>Prendre le véhicule.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -512,9 +512,9 @@ What is it you desire as a reward?"</Text>
         <yMax>539</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Additionally, we'll reward you some fuel to make up for what you've spent getting here.
+      <Text>"En bonus, nous vous récompenserons d'un peu de carburant pour compenser ce que vous avez dépensé pour arriver ici.
 
-We believe [0#] should be sufficient."</Text>
+Nous croyons que [0#] devrait être suffisant."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -691,7 +691,7 @@ We believe [0#] should be sufficient."</Text>
               <fuelAmount>32</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Thanks!</Name>
+          <Name>Merci !</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -727,9 +727,9 @@ We believe [0#] should be sufficient."</Text>
         <yMax>320</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That can be arranged. We trust the KJL Fighter should keep you safe to the best of its abilities.
+      <Text>"Cela peut être arrangé. Nous espérons que le Combatant KJL devrait vous garder en sécurité, il est au meilleur de ses capacités.
 
-We currently construct them with one of four starting weapons, which one has your preference?"</Text>
+Nous les construisons actuellement avec une des quatre armes de départ, l'une d'elle a t'elle votre préférence?"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -865,7 +865,7 @@ We currently construct them with one of four starting weapons, which one has you
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Autocannon.</Name>
+          <Name>Cannon Automatique.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -933,7 +933,7 @@ We currently construct them with one of four starting weapons, which one has you
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Beam laser.</Name>
+          <Name>Rayon laser.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1037,9 +1037,9 @@ We currently construct them with one of four starting weapons, which one has you
         <yMax>520</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That should conclude our business.
+      <Text>"Cela devrait conclure nos affaires.
 
-Thanks again for your assistance, good luck in your future endeavors."</Text>
+Merci encore pour votre aide, bonne chance dans vos projets futurs."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1085,7 +1085,7 @@ Thanks again for your assistance, good luck in your future endeavors."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Goodbye!</Name>
+          <Name>Adieu!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -25,9 +25,9 @@
         <yMax>347</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You've caught up to the raiders responsible for the destruction of Whiteborough!
+      <Text>Vous avez rattrapé les raiders responsables de la destruction de Whiteborough!
 
-Andy's eyes light up. "Slaughter them!"</Text>
+Les yeux d'Andy s'illuminent. - Abattez-les!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -59,7 +59,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Attack!</Name>
+          <Name>Attaquez!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -79,7 +79,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
         <yMax>693</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>With the last raider vehicle destroyed, you hope this will bring peace to the deceased citizens of Whiteborough.
+      <Text>Avec le dernier véhicule raider détruit, vous espérez que les corps des citoyens décédés de Whiteborough reposerons en paix.
 
 [0loot]</Text>
       <DialogButtons>
@@ -112,7 +112,7 @@ Andy's eyes light up. "Slaughter them!"</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Are we done, Andy?</Name>
+          <Name>On a fini, Andy?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -132,9 +132,9 @@ Andy's eyes light up. "Slaughter them!"</Text>
         <yMax>562</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That we are, O my brother.
+      <Text>"Nous y voila, Ô mon frère.
 
-Return me to the Sasiak milkbar, and I shall supply you with your precious Hyperdrive Stabilizers."</Text>
+Ramenez moi au bar à lait Sasiak, je vous fournirai votre précieux Hyperdrive Stabilizers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -163,15 +163,15 @@ Return me to the Sasiak milkbar, and I shall supply you with your precious Hyper
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You have brought the raiders responsible for the carnage at Whiteborough to justice.
+              <nodeDiscription>Vous avez trainé les raiders responsables du massacre de Whiteborough devant la justice..
 
-Andy has promised to give you the Hyperdrive Stabilizers after you've returned him to the Sasiak milkbar.</nodeDiscription>
+Andy a promis de vous donner le Hyperdrive Stabilizers dès que vous l'aurez ramené au bar à lait Sasiak.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
             </ButtonAction>
           </Actions>
-          <Name>To the milkbar!</Name>
+          <Name>Direction le bar à lait!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>276</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>Upon reaching these coordinates, Ashley assures you she'll be right back.</Text>
+      <Text>En arrivant à ces coordonnées, Ashley vous assure qu'elle reviendra.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -128,7 +128,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Right.</Name>
+          <Name>Parfait.</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -167,11 +167,11 @@
       <Name>Loot dialog</Name>
       <Text>[0loot]
 
-The lone vehicle they were attacking before your intervened races up to your convoy and comes to a screeching halt.
+Le seul véhicule qu'ils attaquaient avant votre arrivée s'approche de votre convoi et s'immobilise.
 
-"Aren't you a life saver! That bastard tried to double cross me.
+"Vous êtes mon sauveur ! Ce salaud a essayé de me foncer dedans.
 
-Shall we leave this place?"</Text>
+Nous devrions quitter ce lieu"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -218,7 +218,7 @@ Shall we leave this place?"</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Let's.</Name>
+          <Name>En avant.</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -255,7 +255,7 @@ Shall we leave this place?"</Text>
         <yMax>400</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After quite some time, you start to suspect something might be wrong.</Text>
+      <Text>Après un certain temps, vous commencez à soupçonner que quelque chose sonne faux.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -342,7 +342,7 @@ Shall we leave this place?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Look for Ashley.</Name>
+          <Name>Cherchez Ashley.</Name>
           <convertedName />
         </DialogButton>
         <DialogButton>
@@ -389,7 +389,7 @@ Shall we leave this place?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Damn her! Leave this place.</Name>
+          <Name>Putain! Quitter cet endroit.</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -426,9 +426,9 @@ Shall we leave this place?"</Text>
         <yMax>124</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After quite some time, a vehicle races up to your convoy and comes to a screeching halt.
+      <Text>Après un bon moment, un véhicule approche de votre convoi et s'arrête brusquement.
 
-"Right! Got it all out of the way. Let's go!"</Text>
+"Parfait! Il est hors de notre chemin. En route!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -34408,7 +34408,7 @@ Shall we leave this place?"</Text>
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Welcome aboard!</Name>
+          <Name>Bienvenue à bord!</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -34445,7 +34445,7 @@ Shall we leave this place?"</Text>
         <yMax>515</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Guess you can't trust a treasure hunter.</Text>
+      <Text>Je Devine que vous ne pouvez pas faire confiance à un chasseur de trésor.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -34491,7 +34491,7 @@ Shall we leave this place?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Onwards!</Name>
+          <Name>En avant!</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -34528,7 +34528,7 @@ Shall we leave this place?"</Text>
         <yMax>472</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After searching for a bit, you hear the obvious sounds of combat!</Text>
+      <Text>Après avoir cherché un peu, vous entendez les sons évidents d'un combat!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -34576,7 +34576,7 @@ Shall we leave this place?"</Text>
               <difficulty>1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Move to intervene!</Name>
+          <Name>Passer à l'offensive!</Name>
           <convertedName />
         </DialogButton>
         <DialogButton>
@@ -34623,7 +34623,7 @@ Shall we leave this place?"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave it be.</Name>
+          <Name>Le laisser.</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -34660,9 +34660,9 @@ Shall we leave this place?"</Text>
         <yMax>297</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You don't find any trace of Ashley nor her supposed contractor.
+      <Text>Vous ne trouvez aucune trace d'Ashley ni de son supposé entrepreneur.
 
-It seems she has given you the slip. Guess you can't trust a treasure hunter.</Text>
+Il semble qu'elle vous ai laissé en caleçon. Vous devinez que vous ne pouvez pas faire confiance à un chasseur de trésor.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -34708,7 +34708,7 @@ It seems she has given you the slip. Guess you can't trust a treasure hunter.</T
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Damn...</Name>
+          <Name>Bon sang...</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -34745,7 +34745,7 @@ It seems she has given you the slip. Guess you can't trust a treasure hunter.</T
         <yMax>617</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You have no time for whatever trouble Ashley got herself in.</Text>
+      <Text>Vous n'avez pas le temps pour tous les problèmes qu'a Ashley .</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -34791,7 +34791,7 @@ It seems she has given you the slip. Guess you can't trust a treasure hunter.</T
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Onwards!</Name>
+          <Name>En avant!</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>
@@ -34828,7 +34828,7 @@ It seems she has given you the slip. Guess you can't trust a treasure hunter.</T
         <yMax>642</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Great! Let's go!"</Text>
+      <Text>"Génial! Allons-y!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -67792,7 +67792,7 @@ It seems she has given you the slip. Guess you can't trust a treasure hunter.</T
               </randomCars>
             </ButtonAction>
           </Actions>
-          <Name>Welcome aboard.</Name>
+          <Name>Bienvenue à bord.</Name>
           <convertedName />
         </DialogButton>
       </DialogButtons>

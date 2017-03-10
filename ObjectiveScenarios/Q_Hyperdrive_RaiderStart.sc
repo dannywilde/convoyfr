@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,9 +41,9 @@
         <yMax>421</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>You arrive at the village of Whiteborough, according to Andy this was the last place the squad of raiders was spotted.
+      <Text>Vous arrivez au village de Whiteborough, selon Andy, c'était le dernier endroit où l'escouade de raiders a été repéré.
 
-The fact they've been here is evident from the carnage left behind.</Text>
+Le fait qu'ils ont été ici est évident au vu du carnage laissé derrière eux.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -173,7 +173,7 @@ The fact they've been here is evident from the carnage left behind.</Text>
               <AmountHP>230</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Head into town.</Name>
+          <Name>Entrez en ville.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -303,7 +303,7 @@ The fact they've been here is evident from the carnage left behind.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>Scan the surroundings.</Name>
+          <Name>Scruter les alentours.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -339,13 +339,13 @@ The fact they've been here is evident from the carnage left behind.</Text>
         <yMax>1319</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>All of the raider vehicles have been destroyed.
+      <Text>Tous les véhicules de raiders ont été détruits.
 
 [0loot]
 
-Hopefully the victims of Whiteborough can find some peace now.
+Espérons que les victimes de Whiteborough pourront à présent profiter de la paix retrouvée.
 
-Andy looks grim.</Text>
+Andy semble triste.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -476,7 +476,7 @@ Andy looks grim.</Text>
               <Amount>0</Amount>
             </ButtonAction>
           </Actions>
-          <Name>Are we done?</Name>
+          <Name>Sommes-nous faits ?</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -512,11 +512,11 @@ Andy looks grim.</Text>
         <yMax>225</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You drive up the main road of Whiteborough.
+      <Text>Vous remontez la route principale de Whiteborough.
 
-Most of the buildings have been shot to hell, corpses litter the streets and the air smells putrid.
+La plupart des bâtiments ont été détruits, des cadavres jonchent les rues et l'air a des odeurs putrides.
 
-Andy scowls and mutters: "Damn bastards... they deserve to pay for this."</Text>
+Andy fronça les sourcils et murmure: "Putains de bâtards ... ils méritent de payer pour ça."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -644,7 +644,7 @@ Andy scowls and mutters: "Damn bastards... they deserve to pay for this."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Look for survivors.</Name>
+          <Name>Rechercher des survivants.</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -731,7 +731,7 @@ Andy scowls and mutters: "Damn bastards... they deserve to pay for this."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Search for tracks.</Name>
+          <Name>Recherches de pistes.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -767,11 +767,11 @@ Andy scowls and mutters: "Damn bastards... they deserve to pay for this."</Text>
         <yMax>304</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>As you prepare to drive up the main road, you are suddenly surrounded by several blood-stained vehicles.
+      <Text>Lorsque vous vous préparez à conduire sur la route principale, vous êtes soudain entouré de plusieurs véhicules maculés de sang.
 
-It would appear the raiders never left!
+Il semblerait que les raiders ne soient jamais partis!
 
-Despite the surprise, you manage to manoeuvre in such a way that you don't suffer any disadvantages in the following combat.</Text>
+Malgré la surprise, vous parvenez à manœuvrer de telle manière de ne pas être à votre désaventage dans le combat suivant.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -819,7 +819,7 @@ Despite the surprise, you manage to manoeuvre in such a way that you don't suffe
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Preparez vous au combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -855,11 +855,11 @@ Despite the surprise, you manage to manoeuvre in such a way that you don't suffe
         <yMax>417</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>As you prepare to drive up the main road, you are suddenly surrounded by several blood-stained vehicles.
+      <Text>Lorsque vous vous préparez à conduire sur la route principale, vous êtes soudain entouré de plusieurs véhicules maculés de sang.
 
-It would appear the raiders never left!
+Il semblerait que les raiders ne soient jamais partis!
 
-They open fire, damaging one of your vehicles before you have a chance to retalliate.</Text>
+Ils ouvrent le feu, endommageant un de vos véhicules avant que vous ayez une chance de retraite..</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -907,7 +907,7 @@ They open fire, damaging one of your vehicles before you have a chance to retall
               <difficulty>1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Préparez vous au combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -943,9 +943,9 @@ They open fire, damaging one of your vehicles before you have a chance to retall
         <yMax>568</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You don't pick up any signals from other vehicles.
+      <Text>Vous ne captez pas les signaux d'autres véhicules.
 
-The raiders must be long gone.</Text>
+Les raiders ont du partir depuis longtemps.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -991,7 +991,7 @@ The raiders must be long gone.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Head into town.</Name>
+          <Name>Entrez en ville.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1027,9 +1027,9 @@ The raiders must be long gone.</Text>
         <yMax>758</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>The scanner picks up signals from a group of vehicles leaving this general area!
+      <Text>Le scanner récupère les signaux d'un groupe de véhicules quittant cette zone!
 
-They could be the raiders you're looking for.</Text>
+Ils pourraient être les raiders que vous recherchez.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1118,7 +1118,7 @@ They could be the raiders you're looking for.</Text>
               <AmountHP>0</AmountHP>
             </ButtonAction>
           </Actions>
-          <Name>After them!</Name>
+          <Name>A leur poursuite!</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1205,7 +1205,7 @@ They could be the raiders you're looking for.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Radio them.</Name>
+          <Name>Les contacter par radio.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1241,9 +1241,9 @@ They could be the raiders you're looking for.</Text>
         <yMax>909</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>As you start scanning the area, you pick up a variety of signals surrounding your position.
+      <Text>Lorsque vous commencez à scanner la zone, vous captez une variété de signaux entourant votre position.
 
-It would appear the raiders are still here, and they are attacking you right now!</Text>
+Il semblerait que les raiders soient toujours là, et ils vous attaquent maintenant!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1291,7 +1291,7 @@ It would appear the raiders are still here, and they are attacking you right now
               <difficulty>1</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Préparez vous au combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1327,11 +1327,11 @@ It would appear the raiders are still here, and they are attacking you right now
         <yMax>717</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After your attempted contact, the vehicles appear to turn and approach your position.
+      <Text>Après votre tentative de contact, les véhicules semblent tourner et s'approcher de votre position.
 
-"We don't talk with meat! Prepare to die!"
+«Nous ne parlons pas avec de la viande, préparez-vous à mourir!
 
-You wonder about the paradoxal nature of that statement, before priming your weapons.</Text>
+Vous vous interrogez sur le caractère paradoxal de cette déclaration, avant de charger vos armes.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1379,7 +1379,7 @@ You wonder about the paradoxal nature of that statement, before priming your wea
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Fight!</Name>
+          <Name>Combat!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1415,9 +1415,9 @@ You wonder about the paradoxal nature of that statement, before priming your wea
         <yMax>488</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You chase after the raiders, who are easily overtaken.
+      <Text>Vous poursuivez les raiders, qui sont facilement rattrappés.
 
-They turn around to fight you.</Text>
+Ils vous font face pour combattre.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1465,7 +1465,7 @@ They turn around to fight you.</Text>
               <difficulty>0</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Ready weapons!</Name>
+          <Name>Armes prêtes!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1501,9 +1501,9 @@ They turn around to fight you.</Text>
         <yMax>555</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>As you chase after the presumed raiders, your scanner suddenly picks up a lot more signals surrounding you!
+      <Text>Pendant que vous poursuivez les raiders présumés, votre scanner affiche soudainement beaucoup plus de signaux qui vous entourent!
 
-It turns out the raiders were baiting you right into an ambush, making the following combat significantly harder.
+Il s'avère que les raiders ont servi d'appât pour vous amener droit dans une embuscade, rendant le combat suivant considérablement plus difficile.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1552,7 +1552,7 @@ It turns out the raiders were baiting you right into an ambush, making the follo
               <difficulty>2</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Attack!</Name>
+          <Name>Attaquer!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1588,9 +1588,9 @@ It turns out the raiders were baiting you right into an ambush, making the follo
         <yMax>840</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Andy stops you, exclaiming: "No! These raiders are filthy pigs who do not deserve to be treated like human beings.
+      <Text>Andy vous arrête, en criant: «Non, ces raiders sont des salauds qui ne méritent pas d'être traités comme des êtres humains.
 
-There shall be no conversation, only death!"</Text>
+Il n'y aura pas de conversation, seulement la mort!"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1677,7 +1677,7 @@ There shall be no conversation, only death!"</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Chase the raiders!</Name>
+          <Name>Poursuivez les raiders!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1713,9 +1713,9 @@ There shall be no conversation, only death!"</Text>
         <yMax>-257</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You find a heavily wounded man, presumably left for dead.
+      <Text>Vous trouvez un homme gravement blessé, vraisemblablement laissé pour mort.
 
-Despite the best efforts of your medical bay, he succumbs to his wounds... but not before stammering: "They went.... east..."</Text>
+Malgré les meilleurs efforts de votre équipe médicale, il succombe à ses blessures ... mais pas avant d'avoir balbutié: «Ils sont allés ... à l'est ..."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1760,14 +1760,14 @@ Despite the best efforts of your medical bay, he succumbs to his wounds... but n
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_RaiderChase</nodeName>
-              <nodeDiscription>You found a dying man in Whiteborough, who told you the direction the raiders went.
+              <nodeDiscription>Vous avez trouvé un homme mourant à Whiteborough, qui vous a dit la direction des raiders.
 
-Chase after them to bring them to justice.</nodeDiscription>
+Poursuivez-les pour les traduire en justice.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>After them!</Name>
+          <Name>A leur poursuite!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1803,9 +1803,9 @@ Chase after them to bring them to justice.</nodeDiscription>
         <yMax>45</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>Despite your best efforts, you can't find any survivors. 
+      <Text>Malgré tous vos efforts, vous ne trouvez pas de survivants.
 
-The raiders didn't leave any.
+Les raiders n'ont laissé personne.
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -1893,7 +1893,7 @@ The raiders didn't leave any.
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Search for tracks.</Name>
+          <Name>Rechercher des pistes.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1929,9 +1929,9 @@ The raiders didn't leave any.
         <yMax>151</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After considering the tracks left behind, it seems apparent where the raiders went.
+      <Text>Après avoir considéré les traces laissées derrière eux, la direction que les raiders ont prise semble évidente.
 
-Andy looks thoughtful, then adds: "It can't be long... if we chase after them now, we're sure to catch up to them."</Text>
+Andy regarde pensif, puis ajoute: "Il ne peuvent pas être loin ... si nous les poursuivons maintenant, nous sommes sûrs de les rattraper."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1976,14 +1976,14 @@ Andy looks thoughtful, then adds: "It can't be long... if we chase after them no
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_RaiderChase</nodeName>
-              <nodeDiscription>After investigating the tracks left behind in Whiteborough, you determined the raiders must be around this general area.
+              <nodeDiscription>Après avoir enquêté sur les traces laissées à Whiteborough, vous avez déterminé que les raiders doivent être autour de cette zone.
 
-Chase after them to bring them to justice.</nodeDiscription>
+Poursuivez-les pour les traduire en justice.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go!</Name>
+          <Name>En route!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2018,12 +2018,12 @@ Chase after them to bring them to justice.</nodeDiscription>
         <xMax>438</xMax>
         <yMax>292</yMax>
       </GraphRect>
-      <Name>New dialog</Name>
-      <Text>As you prepare to search for tracks, Andy puts his hand on your shoulder and says:
+      <Name>Nouveua dialogue</Name>
+      <Text>Alors vous vous préparez à chercher des pistes, Andy met sa main sur votre épaule et dit:
 
-"Hold up, do you hear that? Vehicles... they're still near."
+«Tenez, entendez-vous ça? Les véhicules ... ils sont tout proche.
 
-You spot dust-clouds in the distance.</Text>
+Vous apercevez des nuages de poussière au loin.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2110,7 +2110,7 @@ You spot dust-clouds in the distance.</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>After them!</Name>
+          <Name>A leur poursuite!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2146,9 +2146,9 @@ You spot dust-clouds in the distance.</Text>
         <yMax>-118</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>You find a heavily wounded woman, presumably left for dead.
+      <Text>Vous trouvez une femme gravement blessée, vraisemblablement laissée pour mort.
 
-Despite the best efforts of your medical bay, she succumbs to his wounds... but not before stammering: "They went... that... way..."</Text>
+En dépit des meilleurs efforts de votre équipe médicale, elle succombe à ses blessures ... mais pas avant d'avoir balbutié en vous montrant une direction du doigt: "Ils sont allés ... ce ... chemin ..."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2193,14 +2193,14 @@ Despite the best efforts of your medical bay, she succumbs to his wounds... but 
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_RaiderChase</nodeName>
-              <nodeDiscription>You found a dying woman in Whiteborough, who told you the direction the raiders went.
+              <nodeDiscription>Vous avez trouvé une femme mourante à Whiteborough, qui vous a dit la direction prise par les raiders.
 
-Chase after them to bring them to justice.</nodeDiscription>
+Poursuivez-les pour les traduire en justice.</nodeDiscription>
               <pos>Distance</pos>
               <distance>4</distance>
             </ButtonAction>
           </Actions>
-          <Name>After them!</Name>
+          <Name>A leur poursuite!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2236,13 +2236,13 @@ Chase after them to bring them to justice.</nodeDiscription>
         <yMax>1121</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-There is a privateer base active in the nearby area which has eluded me thusfar.
+      Il ya une base de privateers dans la région voisine qui m'a échappé jusqu'ici.
 
-This will change. I received word of a small squad of privateers part of that base.
+      Cela va changer. J'ai reçu un mot d'une petite escouade de privateers en provenance de cette base.
 
-We will find them and we will acquire the location of their base."</Text>
+      Nous allons les trouver et nous allons découvrir l'emplacement de leur base"</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2287,14 +2287,14 @@ We will find them and we will acquire the location of their base."</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_PrivateerStart2</nodeName>
-              <nodeDiscription>After having brought the raiders responsible for the destruction of Whiteborough to justice, Andy has pointed you towards a squad of privateers.
+              <nodeDiscription>Après avoir traduit les raiders responsables de la destruction de Whiteborough en justice, Andy vous a dirigé vers une escouade de privateers.
 
-Chase them down and acquire the location of the privateer base.</nodeDiscription>
+Poursuivez-les et obtenez l'emplacement de la base des privateers.</nodeDiscription>
               <pos>Distance</pos>
               <distance>9</distance>
             </ButtonAction>
           </Actions>
-          <Name>Let's go.</Name>
+          <Name>En route.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2330,11 +2330,11 @@ Chase them down and acquire the location of the privateer base.</nodeDiscription
         <yMax>1272</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"That we are, O my brother.
+      <Text>"C'est ce que nous sommes, Ô mon frère.
 
-Whilst there is always more justice to be done, for now our hands are tied.
+Bien qu'il y ai toujours plus de justice à rétablir, pour l'instant nos mains sont liées.
 
-Return me to the Sasiak milkbar and I'll supply you with your desired Hyperdrive Stabilizers."</Text>
+Ramenez-moi au bar à lait Sasiak et je vous fournirai votre précieux Hyperdrive Stabilizers."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2379,9 +2379,9 @@ Return me to the Sasiak milkbar and I'll supply you with your desired Hyperdrive
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_Reward</nodeName>
-              <nodeDiscription>You have brought the raiders responsible for the carnage at Whiteborough to justice.
+              <nodeDiscription>Vous avez amené les raiders responsables du massacre de Whiteborough devant la justice.
 
-Andy has promised to give you the Hyperdrive Stabilizers after you've returned him to the Sasiak milkbar.</nodeDiscription>
+Andy a promis de vous donner les Stabilisateurs Hyperdrive dès que vous l'aurez ramené au bar à lait Sasiak.</nodeDiscription>
               <pos>SameAs</pos>
               <posSameAs>Q_M_S_Hyperdrive</posSameAs>
               <distance>0</distance>
@@ -2423,13 +2423,13 @@ Andy has promised to give you the Hyperdrive Stabilizers after you've returned h
         <yMax>1436</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Afraid not, O my brother.
+      <Text>"Malheureusement non, Ô mon frère.
 
-There is a T.O.R.V.A.K. Checkpoint not too far from here, which is rumoured to perform experiments on the local population.
+Il y a un poitn de contrôle T.O.R.V.A.K. pas si loin d'ici, qui est supposé effectuer des expériences sur la population locale.
 
-That isn't particularly surprising, considering it is T.O.R.V.A.K. we are talking about. This time, however, it is personal.
+Cela n'a rien de particulièrement suprenant, étant donné que c'est des T.O.R.V.A.K. qu'on parle. Cette fois, c'est personnel.
 
-They kidnapped a personal relation of mine."
+Ils ont enlevé une de mes relations personnelles."
 </Text>
       <DialogButtons>
         <DialogButton>
@@ -2475,9 +2475,9 @@ They kidnapped a personal relation of mine."
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>Q_Hyperdrive_TorvakStart2</nodeName>
-              <nodeDiscription>After having brought the raiders responsible for the destruction of Whiteborough to justice, Andy has pointed you towards a T.O.R.V.A.K. Checkpoint.
+              <nodeDiscription>Après avoir amené les raiders responsables de la destruction de Whiteborough à la justice, Andy vous a dirigé vers un point de contrôle T.O.R.V.A.K..
 
-Head over and see if you can discover more about Andy's personal relation.</nodeDiscription>
+Dirigez-vous sur lui et voyez si vous pouvez en découvrir plus sur la relation personnelle d'Andy.</nodeDiscription>
               <pos>Distance</pos>
               <distance>9</distance>
             </ButtonAction>
