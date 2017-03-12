@@ -1727,11 +1727,11 @@ Quittez la zone maintenant."</Text>
         <yMax>651.910156</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Une trahison après notre signe de bonne volonté?
+      <Text>"Une trahison après notre signe de bonne volonté ?"
 
 Comme on pouvait s'y attendre, vous avez perturbé l'équilibre délicat entre les factions dès que votre vaisseau spatial a atterri sur Omek Prime.
 
-"Nous aurons le plaisir de vous d&étruire".
+"Nous aurons le plaisir de vous détruire".
 
 Un grand nombre de véhicules high-tech apparaissent apparemment de nulle part, vous soupçonnez qu'ils utilisent une technologie furtive.
 
@@ -1864,7 +1864,7 @@ Ils se déplacent vers vous de façon agressive.</Text>
       <Name>New dialog</Name>
       <Text>"Après examen, nous avons une question ue vous pourriez nous régler.
 
-T.O.R.V.A.K. A établi un point de contrôle pas trop loin d'ici, nous craignons que leur technologie puisse menacer la sécurité de nos coordonnées.
+T.O.R.V.A.K. a établi un point de contrôle pas trop loin d'ici, nous craignons que leur technologie puisse menacer la sécurité de nos coordonnées.
 
 Les Attaquer nous-mêmes susciterait une enquête, mais vous êtes connu pour perturber l'équilibre sur Omek Prime.
 
