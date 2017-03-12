@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <objectiveNumber>0</objectiveNumber>
   <scenarioType>Ambush</scenarioType>
@@ -41,7 +41,7 @@
         <yMax>338</yMax>
       </GraphRect>
       <Name>Start dialog</Name>
-      <Text>As you approach the coordinates to Shurel you are being contacted on the radio.</Text>
+      <Text>Alors que vous approchez des coordonnées de Shurel, vous êtes contacté par radio.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -87,7 +87,7 @@
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Respond.</Name>
+          <Name>Répondre.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -123,9 +123,9 @@
         <yMax>1148</yMax>
       </GraphRect>
       <Name>Loot dialog</Name>
-      <Text>You've succesfully managed to destroy all the high tech vehicles protecting Shurel.
+      <Text>Vous avez réussi à détruire tous les véhicules de haute technologie protégeant Shurel.
 
-Scrapping the vehicles nets you [0$] and [0#]!</Text>
+Démonter les véhicules vous rapporte [0$] et [0#]!</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -259,7 +259,7 @@ Scrapping the vehicles nets you [0$] and [0#]!</Text>
               <fuelAmount>31</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>Investigate Shurel.</Name>
+          <Name>Enquêter à Shurel.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -295,9 +295,9 @@ Scrapping the vehicles nets you [0$] and [0#]!</Text>
         <yMax>510.955078</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"You are not in need of protection and represent a threat to the safety of the people of Shurel.
+      <Text>"Vous n'avez pas besoin de protection et représentez une menace pour la sécurité des habitants de Shurel.
 
-Explain your purpose here."</Text>
+Expliquez votre but."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -343,7 +343,7 @@ Explain your purpose here."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Who is this?"</Name>
+          <Name>"Qui est-ce ?"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -430,7 +430,7 @@ Explain your purpose here."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We helped a family."</Name>
+          <Name>"Nous avons aidé une famille."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -476,7 +476,7 @@ Explain your purpose here."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We're here to kill you."</Name>
+          <Name>"Nous sommes ici pour vous tuer."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -512,11 +512,11 @@ Explain your purpose here."</Text>
         <yMax>200</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We are the safekeepers of Shurel.
+      <Text>"Nous sommes les gardiens de Shurel.
 
-Since the arrival of your spaceship Mercury the problems on Omek Prime have greatly increased.
+Depuis l'arrivée de votre vaisseau spatial, le Mercury, les problèmes sur Omek Prime ont considérablement augmenté.
 
-Please state your business."</Text>
+Veuillez déclarer votre entreprise."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -603,7 +603,7 @@ Please state your business."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We can help you."</Name>
+          <Name>"Nous pouvons vous aider."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -690,7 +690,7 @@ Please state your business."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We helped a family."</Name>
+          <Name>"Nous avons aidé une famille."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -736,7 +736,7 @@ Please state your business."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We're here to kill you."</Name>
+          <Name>"Nous sommes ici pour vous tuer."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -772,11 +772,11 @@ Please state your business."</Text>
         <yMax>351</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"We have received word of your actions and they are appreciated.
+      <Text>"Nous avons eu vent de vos actions et elles sont appréciées.
 
-Regardless, Shurel's safety is threatened by your presence so we can not allow you to proceed any further.
+Quoi qu'il en soit, la sécurité de Shurel est menacée par votre présence, nous ne pouvons pas vous permettre d'aller plus loin.
 
-As a token of gratitude, we can send out a single transport unit with some parts."</Text>
+En signe de gratitude, nous pouvons envoyer une seule unité de transport avec quelques pièces détachées."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -822,7 +822,7 @@ As a token of gratitude, we can send out a single transport unit with some parts
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Great!"</Name>
+          <Name>"Extra!"</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -858,13 +858,13 @@ As a token of gratitude, we can send out a single transport unit with some parts
         <yMax>785</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"As was to be expected, you disturbed the delicate balance between the factions as soon as your spaceship landed on Omek Prime.
+      <Text>"Comme on pouvait s'y attendre, vous avez perturbé l'équilibre délicat entre les factions dès que votre vaisseau spatial a atterri sur Omek Prime.
 
-It will be our pleasure to take you out."
+Nous aurons le plaisir de vous détruire.
 
-A large number of high-tech vehicles seemingly appear out of nowhere, you suspect they're using stealth technology.
+Un grand nombre de véhicules high-tech apparaissent apparemment de nulle part, vous soupçonnez qu'ils utilisent une technologie furtive.
 
-They move towards you aggressively.</Text>
+Ils se déplacent vers vous de façon agressive.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -955,7 +955,7 @@ They move towards you aggressively.</Text>
               <difficulty>3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Prepare to fight!</Name>
+          <Name>Préparez-vous à combattre!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -991,9 +991,9 @@ They move towards you aggressively.</Text>
         <yMax>587</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"There have been no recent arrivals. As such your statement can not be verified.
+      <Text>"Il n'y a pas eu d'arrivées récentes. En conséquence de quoi votre déclaration ne peut pas être vérifiée.
 
-Please leave this area or we are forced to take offensive actions."</Text>
+S'il vous plaît quittez cette zone ou nous serons forcés de prendre contre vous des mesures offensives."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1080,7 +1080,7 @@ Please leave this area or we are forced to take offensive actions."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We can help!"</Name>
+          <Name>"On peut aider!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1126,7 +1126,7 @@ Please leave this area or we are forced to take offensive actions."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Bring it on!"</Name>
+          <Name>"Apportez-le!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1172,7 +1172,7 @@ Please leave this area or we are forced to take offensive actions."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave the area.</Name>
+          <Name>Quitter la zone.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1208,7 +1208,7 @@ Please leave this area or we are forced to take offensive actions."</Text>
         <yMax>354</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After some time, an unmanned transport vehicle approaches your convoy and delivers [0$].</Text>
+      <Text>Après un certain temps, un véhicule de transport sans pilote approche de votre convoi et livre [0$].</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1385,7 +1385,7 @@ Please leave this area or we are forced to take offensive actions."</Text>
               <fuelAmount>0</fuelAmount>
             </ButtonAction>
           </Actions>
-          <Name>"Thanks."</Name>
+          <Name>"Merci."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1421,9 +1421,9 @@ Please leave this area or we are forced to take offensive actions."</Text>
         <yMax>438</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Once again, you have our thanks for helping the innocent.
+      <Text>"Encore une fois, vous avez nos remerciements pour avoir aidé les innocents.
 
-Now, please leave the area."</Text>
+Maintenant, s'il vous plaît quitter la zone."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1469,7 +1469,7 @@ Now, please leave the area."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"We can help you!"</Name>
+          <Name>"Nous pouvons vous aider!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1515,7 +1515,7 @@ Now, please leave the area."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"Prepare to die!"</Name>
+          <Name>"Préparez-vous à mourir!"</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1561,7 +1561,7 @@ Now, please leave the area."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave the area.</Name>
+          <Name>Quitter la zone.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1597,9 +1597,9 @@ Now, please leave the area."</Text>
         <yMax>-24</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Shurel does not require any assistance.
+      <Text>"Shurel n'a pas besoin de votre aide.
 
-Leave the area now."</Text>
+Quittez la zone maintenant."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1645,7 +1645,7 @@ Leave the area now."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"In that case, prepare to die."</Name>
+          <Name>"Dans ce cas, préparez-vous à mourir."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1691,7 +1691,7 @@ Leave the area now."</Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave the area.</Name>
+          <Name>Quitter la zone.</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1727,15 +1727,15 @@ Leave the area now."</Text>
         <yMax>651.910156</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Betrayal after our token of goodwill?
+      <Text>"Une trahison après notre signe de bonne volonté?
 
-As was to be expected, you disturbed the delicate balance between the factions as soon as your spaceship landed on Omek Prime.
+Comme on pouvait s'y attendre, vous avez perturbé l'équilibre délicat entre les factions dès que votre vaisseau spatial a atterri sur Omek Prime.
 
-It will be our pleasure to take you out."
+"Nous aurons le plaisir de vous d&étruire".
 
-A large number of high-tech vehicles seemingly appear out of nowhere, you suspect they're using stealth technology.
+Un grand nombre de véhicules high-tech apparaissent apparemment de nulle part, vous soupçonnez qu'ils utilisent une technologie furtive.
 
-They move towards you aggressively.</Text>
+Ils se déplacent vers vous de façon agressive.</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1826,7 +1826,7 @@ They move towards you aggressively.</Text>
               <difficulty>3</difficulty>
             </ButtonAction>
           </Actions>
-          <Name>Ready weapons!</Name>
+          <Name>Armes prètes!</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -1862,13 +1862,13 @@ They move towards you aggressively.</Text>
         <yMax>203</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>"Upon consideration we do have a matter you could assist with.
+      <Text>"Après examen, nous avons une question ue vous pourriez nous régler.
 
-T.O.R.V.A.K. has established a checkpoint not too far from here, we fear their technology might threaten the security of our location.
+T.O.R.V.A.K. A établi un point de contrôle pas trop loin d'ici, nous craignons que leur technologie puisse menacer la sécurité de nos coordonnées.
 
-Attacking them ourselves would arouse an investigation, but you've been known to disturb the balance on Omek Prime.
+Les Attaquer nous-mêmes susciterait une enquête, mais vous êtes connu pour perturber l'équilibre sur Omek Prime.
 
-Defeat the T.O.R.V.A.K. forces for us and we will reward you greatly."</Text>
+Eliminez les forces T.O.R.V.A.K. pour nous et nous vous récompenserons grassement."</Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -1913,14 +1913,14 @@ Defeat the T.O.R.V.A.K. forces for us and we will reward you greatly."</Text>
               <Close>false</Close>
               <Enabled>true</Enabled>
               <nodeName>G_Shurel2</nodeName>
-              <nodeDiscription>Fearing being discovered, the safe haven of Shurel has asked you to defeat a nearby T.O.R.V.A.K. checkpoint.
+              <nodeDiscription>Craignant d'être découvert, le refuge de Shurel vous a demandé de battre un point de contrôle T.O.R.V.A.K.
 
-They promised to reward you greatly.</nodeDiscription>
+Ils ont promis de vous récompenser grassement.</nodeDiscription>
               <pos>Distance</pos>
               <distance>9</distance>
             </ButtonAction>
           </Actions>
-          <Name>"Very well."</Name>
+          <Name>"Très bien."</Name>
         </DialogButton>
         <DialogButton>
           <Actions>
@@ -1966,7 +1966,7 @@ They promised to reward you greatly.</nodeDiscription>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>"No thanks, goodbye."</Name>
+          <Name>"Non merci, adieu."</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
@@ -2002,11 +2002,11 @@ They promised to reward you greatly.</nodeDiscription>
         <yMax>1109</yMax>
       </GraphRect>
       <Name>New dialog</Name>
-      <Text>After a thorough search you discover the entrance to an underground facility.
+      <Text>Après une recherche approfondie, vous découvrez l'entrée d'une installation souterraine.
 
-It appears to have gone in total lockdown after your actions. The blast doors have been sealed and you estimate it would take several weeks to cut through them.
+Elle semble avoir été en isolement total depuis vos actions. Les portes blindées ont été scellées et vous estimez qu'il faudrait plusieurs semaines pour les ouvrir.
 
-Attempts to radio the facility prove fruitless. </Text>
+Les tentatives de communication par radio vers l'installation s'avèrent infructueuses. </Text>
       <DialogButtons>
         <DialogButton>
           <Actions>
@@ -2052,7 +2052,7 @@ Attempts to radio the facility prove fruitless. </Text>
               <Enabled>true</Enabled>
             </ButtonAction>
           </Actions>
-          <Name>Leave...</Name>
+          <Name>Partir...</Name>
         </DialogButton>
       </DialogButtons>
     </Dialog>
